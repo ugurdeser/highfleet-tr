@@ -1,0 +1,73 @@
+702	<SCR=STOP><MUSIC=STOP>Bir an önce bir {glossary=tarhandım,GLOSS_TARKHAN}, ama artık onların gözünde bütün {glossary=Romani İmparatorluğu,GLOSS_IMPIRE}'nun timsaliydim.
+703	<NPC=PETR><SIDE=1><SHADOW=1><SCR=STOP><BLUR=0>Büyük Dük, {glossary=Hiva,GLOSS_KHIVA} taarruzunda bize katılacak gemileri seçmelisiniz.
+704	<ANS=Bana bir fikir verebilir misin?>
+705	<NPC=PETR><SCR=STOP>Kırmızıları alın. Onlar yük beygiridir. Bir de yanlarına bir iki tanker.
+706	<SCR=CONTINUE><SCR=SKIP|ISAIAH_0_22>Gemiler indikten sonra şehrin bütün halkı seni karşılamaya geliyor. İnsanlar sevinçle bağırıyor, çiçekler ve hediyeler taşıyorlar. Lord Vali'nin hükmünden nefret ettikleri belli.
+707	<SCR=CONTINUE>{glossary=Şeyhten,GLOSS_DOYEN} bir haberci geldi. Şeyhin bizi en kısa zamanda görmek istediğini, ama kendisinin gelemeyecek kadar yaşlı olduğunu söylüyor.
+708	<NPC=PETR><SIDE=1><SCR=CONTINUE>Gemilerimizden ayrılmak riskli olabilir Büyük Dük.
+709	<NPC=FASIL><SIDE=-1>Reddederseniz halk gücenir.
+710	<ANS=Daveti geri çevir.|EXIT>
+711	<ANS={glossary=Şeyhi,GLOSS_DOYEN} ziyaret et.|ISAIAH_0_5>
+712	Sana söyledikleri doğruymuş: <SCR=CONTINUE>{glossary=şeyh,GLOSS_DOYEN} gerçekten de bitkin bir ihtiyar. Vardığında onu, yalnızca ocağın aydınlattığı karanlık bir odada yatakta buluyorsun.
+713	Hoş geldin sözleriyle hiç vakit kaybetmiyor. Şeyh ölmek üzere olduğunu, ama Yüce Allah'ın ona evlat nasip etmediğini söylüyor. Bu yüzden en büyük hazinesini sana bırakmak istiyor.
+714	<ANS=Ne hazinesi?|ISAIAH_0_7>
+715	<SCR=CONTINUE>{glossary=Şeyhin,GLOSS_DOYEN} başucundaki bir adam sana küçük bir kutu uzatıyor.
+716	<SCR=ISAIAH|0><MUSIC=Yeshoua><ANS=Bu nedir Pyotr İgnatyeviç?|ISAIAH_0_9>
+717	<SCR=ISAIAH_OFF><NPC=PETR><SIDE=1>Vay, daha önce hiç görmediniz mi? Bu bir {glossary=koda,GLOSS_QODA}, Dük.<ANS=Sahte olmadığından emin misin?|ISAIAH_0_10>
+718	<NPC=PETR><SIDE=1><SCR=CONTINUE>Ben uzman değilim, ama Gerat {glossary=kodalarının,GLOSS_QODA} hakiki olduğunu duydum.
+719	<NPC=PETR><SIDE=1><SCR=CONTINUE>Gerat {glossary=kodalarının,GLOSS_QODA} bir kehanet içerdiğini söylerler.
+720	<SCR=ISAIAH|0><CORNER_SPEAK=-1><SCR=CONTINUE>Dünyanın Kurtarıcısı'na dair bir kehanet.
+721	<CORNER_SPEAK=-1>Ama ne yazık ki onları çevirmek için yapılan bütün girişimler boşa çıktı.<ANS="Kulum muzaffer olacak; kalkacak; yükselecek; yerini yücelerde alacak!"|ISAIAH_0_14>
+722	<SCR=ISAIAH_OFF><NPC=PETR><SIDE=1>Büyük Dük hazretleri? Bunu okudunuz mu? Ama nasıl?!<ANS=Kendin bak - yazı gün gibi ortada.|ISAIAH_0_15>
+723	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Pyotr elindeki kâğıt parçasına şaşkın bir bakış atıyor.
+724	<SCR=ISAIAH|0><CORNER_SPEAK=-1>Anlamıyorum! Bunu nasıl okuyabiliyorsunuz?! Ne yazıyor Dük?!<ANS=Bir kuldan bahsediyor. Devamı da var: "Kulum muzaffer olacak. O...|ISAIAH_0_17>
+725	<ANS=...şekli bozulmuş mu?|ISAIAH_0_18>
+726	<ANS=...nice milleti hayrete düşürecek."|ISAIAH_0_19>
+727	<SCR=ISAIAH_OFF><SCR=CONTINUE>{glossary=Şeyh,GLOSS_DOYEN} birden haykırıyor: "Doğru! Hepsi doğru!" İhtiyarın çığlığı bir hırıltıya dönüşüyor: "Kulum muzaffer olacak! Kulum muzaffer olacak!"
+728	<SCR=CONTINUE>{glossary=Şeyh,GLOSS_DOYEN} heyecandan soluk soluğa öksürmeye başlıyor, gözleri fal taşı gibi açılıyor. İhtiyarın ailesi başucuna koşuyor. Bizden çıkmamız isteniyor.
+729	<SCR=CONTINUE>Herkes bu olay karşısında donup kalmış; biz de öyle.
+730	<NPC=PETR><SIDE=1>{glossary=Kodayı,GLOSS_QODA} nasıl okudunuz Dük?
+731	<ANS={glossary=Ailem,GLOSS_SAYADI} bu dilin bilgisini muhafaza etti.|ISAIAH_0_RES_1_1|LEVEL_ROMANI=1>
+732	<ANS=Bilmiyorum Pyotr. İstersen buna mucize de.|ISAIAH_0_RES_2_1|LEVEL_FAITH=1>
+733	<SCR=CHECK_JOINED|FASIL|ISAIAH_0_RES_1_2><SCR=CONTINUE|ISAIAH_0_RES_1_2|FASIL=1><NPC=FASIL><SIDE=1>Etkilendim Dük! Babanızın {glossary=hanedanı,GLOSS_SAYADI} gerçekten de bütün Elaat'ın en büyük soyu!
+734	<SCR=CHECK_JOINED|DAUD|EXIT><SCR=STOP|DAUD=1><NPC=DAUD><SIDE=1>Bravo Dük! Yerlilerin üzerinde epey bir tesir bıraktınız!
+735	<SCR=CHECK_JOINED|PETR|ISAIAH_0_RES_2_2><SCR=CONTINUE|ISAIAH_0_RES_2_2|PETR=1><NPC=PETR><SIDE=1>Beni hayrete düşürmekten hiç vazgeçmiyorsunuz Dük!
+736	<SCR=CHECK_JOINED|HARISHID|EXIT><SCR=STOP|HARISHID=1><NPC=HARISHID><SIDE=0>Prens {glossary=Sayadi,GLOSS_SAYADI} Gerat'ın {glossary=kodasını,GLOSS_QODA} mı okudu? Ne tuhaf ve acayip bir gün!
+737	<NPC=FASIL><SIDE=-1><SCR=CONTINUE><SCR=SKIP|ISAIAH_1_27><MUSIC=Duduk_4_ever>Sizinle bir şey konuşmak istiyorum Büyük Dük.
+738	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Bildiğiniz gibi, yaşlı {glossary=şeyhle,GLOSS_DOYEN} yaşanan olay tebaam üzerinde epey tesir bıraktı. Hakkınızda söylentiler var Dük. Peygamber olduğunuzu söylüyorlar.
+739	<NPC=FASIL><SIDE=-1>{glossary=Kodalar,GLOSS_QODA} bizzat {glossary=Aziz Lyn,GLOSS_LEEN} tarafından {glossary=Gerat kralına,GLOSS_ELAOU} verilmiş bir armağandı. Hanedanın kraliyet mirasına şahitlik ederler. İhtiyar size büyük bir şeref bahşetti.
+740	<ANS=Onun Gerat kralının soyundan geldiğini mi ima ediyorsunuz?|ISAIAH_1_4>
+741	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Evet. İnanılmaz gelse de... (Fazıl birden düşüncelere dalmış görünüyor.) Ama onun soyu tükendi.
+742	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Tabii benim soyumda da kutsal kitabın kendi parçamız var. Ve size yardım etmek istiyorum Dük.
+743	<NPC=FASIL><SIDE=-1>Size kendi {glossary=kodamı,GLOSS_QODA} göstereceğim. Yazanı okuyabilirseniz, bunu her yere yayarız. {glossary=Elaimler,GLOSS_ELAIM} arasındaki nüfuzunuz iki katına çıkar!
+744	<ANS=Ve şüphesiz kendi kodanızın ne dediğini merak ediyorsunuz, öyle mi?|ISAIAH_1_7_1|FASIL=1>
+745	<ANS="Okuyabilirsem" mi? Peygamber olduğumdan şüpheniz mi var?|ISAIAH_1_7_2|FAITH=1>
+746	<NPC=FASIL><SIDE=-1>(Fazıl gülümsüyor.) Göklerin bizi bir araya getirmesi tesadüf değil.<SCR=CONTINUE|ISAIAH_1_8>
+747	<NPC=FASIL><SIDE=-1><NOSPEAK>Fazıl karşılık olarak saygıyla eğiliyor, ama hiçbir şey söylemiyor.<SCR=CONTINUE|ISAIAH_1_8>
+748	<NPC=FASIL><SIDE=-1><SCR=CONTINUE><NOSPEAK>Sana, yaşlı şeyhin verdiğine benzer küçük bir kutu uzatıyor.
+749	<SCR=ISAIAH|1><MUSIC=Yeshoua><ANS=Getirdiğimiz habere iman eden kimdir...|ISAIAH_1_10>
+750	<ANS=Allah'ın kulu, kurak toprakta biten bir fidandır; onda göze hoş görünen hiçbir şey yoktur..|ISAIAH_1_11>
+751	<ANS=Herkesçe reddedilmiş, ıstırabı ve acıyı bilir...|ISAIAH_1_12>
+752	<ANS=Hepimizce hor görülmüş.|ISAIAH_1_13>
+753	<SCR=ISAIAH_OFF><NPC=FASIL><SIDE=-1>Yazanı gerçekten okudunuz mu? Bu bir şaka değil, öyle mi?
+754	<ANS=Her şeyi doğru okudum.|ISAIAH_1_14>
+755	<NPC=FASIL><SIDE=-1><SCR=CONTINUE><NOSPEAK>Fazıl gözle görülür bir hoşnutsuzlukla arkasını dönüyor.
+756	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>İtiraf etmeliyim Dük, ben kodanın yalnızca ilk üç kelimesinin anlamını biliyorum. "Getirdiğimiz habere iman eden..." Onları hemen okudunuz. Size inanıyorum.
+757	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Ama gerisi... böyle bir adam nasıl Kurtarıcı olabilir?
+758	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Bize bilge ve güçlü bir önderin kehaneti lazım. Bizi gerçekten kurtarabilecek olanın.
+759	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Koda, başkasını bırakın kendini bile kurtaramayan bir adamı tarif ediyor...
+760	<NPC=FASIL><SIDE=-1>Herkesçe hor görülmüş, ıstırabı ve acıyı bilen... bu sözler iyi bir insanı tarif edebilir, ama böyle biri halkın önderi nasıl olur?
+761	<ANS=Gerçekten nasıl? Ben de anlamıyorum.|ISAIAH_1_20_1|FASIL=1>
+762	<ANS=İşler nadiren göründükleri gibidir.|ISAIAH_1_20_2>
+763	<NPC=FASIL><SIDE=-1>Neyse, pek de önemi yok.<SCR=CONTINUE|ISAIAH_1_21>
+764	<NPC=FASIL><SIDE=-1>Boş verin Dük! Şimdilik bırakalım.<SCR=CONTINUE|ISAIAH_1_21>
+765	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Bana okuduğunuz hoşuma gitmedi. Tebaamın herhâlde daha az hoşuna gidecek.
+766	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{glossary=Elaimler,GLOSS_ELAIM} zaferlerinizden etkilendi, kutsal kitabın dilini bilmeniz de sizi onlara sevdirdi.
+767	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Sizi bu kehanette tarif edilen Kurtarıcı'nın ta kendisi görmeye başlayabilirler.
+768	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Sizden bir ricam var. Halka kodanın ne dediğini anlatırken şunu söyleyin: "O soylu bir sülaleden gelir; nereye gitse başarı ardından gelir..." Bunu yaparsanız son adamına kadar peşinizden gelirler.
+769	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{glossary=Gerat,GLOSS_GERAT} üzerinde başka hiçbir hükümdarın erişemeyeceği bir güce sahip olursunuz!
+770	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Ve o zaman hepimizi kurtarabilirsiniz.
+771	<SCR=CONTINUE>Ertesi gün Prens Fazıl, Büyük Dük'ün {glossary=Elaou,GLOSS_ELAOU} {glossary=kodasını,GLOSS_QODA} çözdüğünü ve içindeki kehaneti okumak istediğini ilan etti.
+772	<BACKGROUND=background_crowd_01>{glossary=Kodayı,GLOSS_QODA} dinlemek için bir insan denizi toplanmış. Sayamayacağın kadar çok yüz var ve hepsi sana bakıyor.
+773	<ANS="Allah'ın huzurunda kurak topraktan bir fidan gibi, bir kök gibi bitmiştir; yüzünde hiçbir ihtişam yoktur..."|ISAIAH_1_POOR|LEVEL_WEALTH=-1>
+774	<ANS="Kulum bir kralın hanesinde doğar; yapmaya kalkıştığı her işte muvaffak olur..."|ISAIAH_1_WEALTH|LEVEL_WEALTH=1>

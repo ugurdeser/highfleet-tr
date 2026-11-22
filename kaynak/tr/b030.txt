@@ -1,0 +1,58 @@
+3318	SAATTE RÖNTGEN
+3319	AÇ KAPA
+3320	OTURUM SÜRESİ
+3321	KAPALI AÇIK
+3322	YER
+3323	TEMAS
+3324	KERTERİZ
+3325	SEKTÖR TARAMASI
+3326	IR TARAMA
+3327	TEMAS
+3328	İZ
+3329	13 Bakın, kulum hikmetle davranacak; yükseltilecek, kaldırılacak ve pek yüceltilecek.
+3330	14 Nasıl ki birçokları onu görünce dehşete kapıldı - görünüşü herhangi bir insanınkinin ötesinde bozulmuş, sureti insan benzerliğinin ötesinde çirkinleşmişti -
+3331	15 öylece o da nice milleti serpecek ve krallar onun önünde ağızlarını kapayacak. Zira kendilerine anlatılmayanı görecekler, işitmediklerini anlayacaklar.
+3332	TERFİ SEÇ
+3333	SERVET
+3334	İMAN
+3335	GERAT
+3336	ROMANİ
+3337	KORKU
+3338	ÖZEL MÜHİMMAT KAYDIM
+3339	ÇAP
+3340	TİP
+3341	ADET
+3342	YAKIT
+3343	YAKIT AL
+3344	MUHAREBE DÜZENİ
+3345	SÜRÜKLE BIRAK
+3346	Muharebeden önce gemilerinin sırasını değiştirebilirsin. Savaşan gemileri öne, hasarlı ve destek gemilerini korumak için sona koy.
+3347	GANİMET GEMİ
+3348	NAKLİYE
+3349	Refakatini imha edersen nakliye gemisi teslim olur. İyi fiyata satılabilmesi için nakliyeye zarar vermemeye çalış.
+3350	TELSİZ SİNYALİ
+3351	İNİŞ
+3352	HAREKET
+3353	DÖNDÜR
+3354	Gemiyi iniş noktasına zarar vermeden usulca indir.
+3355	KIRILGAN ELEKTRONİK TEÇHİZAT
+3356	SEFER
+3357	ALARM
+3358	TEHLİKE YAKIN
+3359	HAREKET
+3360	YANGIN HÂLİNDE ACİL EYLEM PLANI
+3361	DÜĞMEYE BAS
+3362	FSS modülleri takılı ve doluysa yangın söndürme otomatik gerçekleşir.
+3363	DOLU YANGIN KORUMA MODÜLLERİ
+3364	Burada çalışır durumdaki FSS modüllerinin sayısı gösterilir.
+3365	YAKIT SICAKLIĞI
+3366	Yakıt sisteminde bir tutuşma sesli alarmı çalıştırır.
+3367	FARE DÜĞMESİNE BAS
+3368	HASAR:
+3369	SARFİYAT:
+3370	RADYASYON:
+3371	 uSv/s
+3372	İnsanlar senden daha çok korkuyor
+3373	İnsanlar senden daha az korkuyor
+3374	Oyun kolu (BETA)
+3375	boş

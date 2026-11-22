@@ -1,0 +1,76 @@
+499	Ama hayretimize, rampadan inen ilk kişi altın maske takmış uzun boylu bir Elaim'di. Arkasında korkunç yanıklar ve dehşet verici yaralar taşıyan uçsuz bucaksız bir kalabalık vardı; hepsi başkentten gelen Romanilerdi. Korkunç haberi nihayet onlardan duyduk.
+500	İmparatorluğun başkenti dört gün önce nükleer saldırıya uğramıştı. Sayadi Kalesi bir anda yanıp kül olmuş, için için yanan radyoaktif bir çöle dönmüştü. İmparatorluk Donanması'ndan geriye kalanlar darmadağın haldeydi ve Cemaat'in ilerleyen kuvvetlerini umutsuzca püskürtmeye çalışıyordu.
+501	Söyleyecek söz bulamadık. Ne yapacağımızı bilmiyorduk. Çoğumuz, savaşın çoktan kaybedilmiş sayıldığını bile bile başkente gidip muharebeye katılmak istiyordu.
+502	Kamaramda bir haberci tarafından uyandırıldım. "Amiral hazretleri! Büyük Dük sizi köprüüstüne çağırıyor." Gemide bir terslik vardı.
+503	Dümen dairesindeki mürettebat tedirgin ve şaşkın görünüyordu; gözleri boş, düşüncelere dalmıştı. Oysa o tamamen sakindi - odanın geri kalanıyla arasındaki bu keskin tezat bana tuhaf biçimde büyüleyici geldi.
+504	Ama lombozdan dışarı bakınca telaşlarının sebebini gördüm. Saate göre güneşin doğmuş olması gerekiyordu, ama camın ardındaki dünya zifiri karanlıktı. Gemilerin projektörleri çılgınca dolanıyor, insan yapımı ışığın o dar huzmeleriyle her şeyi yutan karanlığı yarmak için beyhude bir çabayla göğü ve yeri tarıyordu.
+505	<EVENT><MUSIC=Duduk_4_ever>Pompa motorlarının uğultusu birden kesiliyor. Gemi duruyor.<SCR=CONTINUE>
+506	<EVENT>Küçük bir subay grubu ve şahsi muhafızın eşliğinde rampadan inmeye hazırlanıyorsun. Dışarıda seni bekleyen belirsizlik içini huzursuzlukla dolduruyor.<SCR=CONTINUE>
+507	<EVENT>Rampanın dibinde küçük bir grup insan sabırla seni bekliyor. Başlarında, muhafızlarla çevrili vakur bir asilzade var.<SCR=CONTINUE>
+508	<NPC=FASIL><SIDE=1><BLUR_MIN=0.05><RAM=1>Demek... amiraller benimle konuşman için seni gönderdiler, öyle mi {glossary=Tarhan,GLOSS_TARKHAN}?
+509	<ANS=Doğrudur. {glossary=Gerat,GLOSS_GERAT}'ın kurtarılmasına katılımınızı görüşmeye geldim.|TUTORIAL_FASIL_6>
+510	<ANS=Adım Mark Sayadi - Büyük Dük {glossary=Sayadi,GLOSS_SAYADI}.|TUTORIAL_FASIL_DUKE_1|FASIL_ANYTIME=1>
+511	<NPC=FASIL><SCR=CONTINUE>Anlıyorum. Saygısızlığımı bağışlayın Büyük Dük. Daha önce sizinle tanışma şerefine nail olmamıştım.
+512	<NPC=FASIL>Zerre kadar önemi yok. Eminim Elaat'ın en eski hanedanlarının iki varisi konuşacak bir şeyler bulur. (Prens nezaketle başını sallıyor.)
+513	<ANS={glossary=Gerat,GLOSS_GERAT}'ın kurtarılmasına katılımınızı görüşmeye geldim.|TUTORIAL_FASIL_6>
+514	<NPC=FASIL>"Kurtarılması" mı? Yedi yılı aşkın süredir {glossary=Cemaat,GLOSS_GATHERING} ile savaşıyoruz ve ben hâlâ babamın tahtını geri alamadım. Şimdi de İmparatorluk Hazretleri'nin amiralleri onu tek haftada geri almaya kalkıyor!
+515	<ANS=Öyle. Ve başaracaklarına inanıyorum.|TUTORIAL_FASIL_7|FASIL_ANYTIME=-1>
+516	<ANS=Belki de başarırlar.|TUTORIAL_FASIL_7>
+517	<NPC=FASIL>Halkım {glossary=Cemaat,GLOSS_GATHERING} Donanması'nın gücüyle boy ölçüşemez. Onların her ağır kruvazörüne karşılık bizim tek bir korvetimiz var.
+518	<ANS=Halkınız bunca yıl yiğitçe savaştı.|TUTORIAL_FASIL_8|FASIL_ANYTIME=1>
+519	<ANS=Birinci ve İkinci İmparatorluk Filoları terazinin dengesini mutlaka bozacaktır.|TUTORIAL_FASIL_8>
+520	<NPC=FASIL>Öyle olsun; ama Yüce Allah'ın merhametiyle amiraller gemilerini {glossary=Hiva,GLOSS_KHIVA}'ya indirseler bile, sonra ne olacağını sanıyorsun?
+521	<ANS=Söylemek için henüz çok erken.|TUTORIAL_FASIL_10|FASIL_ANYTIME=-1>
+522	<ANS=Bu bana bağlı değil.|TUTORIAL_FASIL_9>
+523	<ANS=Gerat {glossary=Taç,GLOSS_IMPIRE}'ın hükmüne dönecek.|TUTORIAL_FASIL_9|FASIL_ANYTIME=1>
+524	<NPC=FASIL><SCR=CONTINUE>Hiç değilse dürüstsün.
+525	<NPC=FASIL><SCR=CONTINUE>Gerat'ın {glossary=Tarhanları,GLOSS_TARKHAN} ile görüşmene yardım edeceğim. Belki bazıları bu savaşta müttefikin olur.
+526	<NPC=FASIL>Kalhu {glossary=Tarhanı,GLOSS_TARKHAN} yakın dostumdur. Onunla anlaşabilirsen, layık bir müttefik olacağından eminim.
+527	<ANS=Şu anda tam da layık müttefiklere ihtiyacımız var.|TUTORIAL_FASIL_12>
+528	<NPC=FASIL>Böyle çalkantılı zamanlarda tanışmak zorunda kalmamız ne yazık, Dük.
+529	<ANS=Bunun sizi rahatsız edeceğini sanmazdım, Prens.|TUTORIAL_FASIL_13>
+530	<ANS=Donanma'nın çalkantıdan başka gördüğü olmadı ki.|TUTORIAL_FASIL_18>
+531	<NPC=FASIL>Ne demek istiyorsunuz Dük?
+532	<ANS=Elaimler, Romanilerin dertlerinden pek nadiren rahatsız olur.|TUTORIAL_FASIL_19|FASIL_ANYTIME=-1>
+533	<ANS=Bizim gibi adamlar için bu, büyük fırsatlar zamanı.|TUTORIAL_FASIL_14>
+534	<NPC=FASIL>"Bizim gibi adamlar" mı?
+535	<ANS=Krallıksız prensler için.|TUTORIAL_FASIL_15>
+536	<ANS=Her {glossary=Tarhan,GLOSS_TARKHAN} için savaş zamanı, değerini gösterme fırsatıdır.|TUTORIAL_FASIL_18>
+537	<NPC=FASIL><NOSPEAK>Fazıl durup sana dikkatle bakıyor.<SCR=CONTINUE>
+538	<NPC=FASIL>Sizinle tanışmaktan cidden memnun oldum, Büyük Dük.<SCR=CONTINUE|TUTORIAL_FASIL_17|FASIL_ANYTIME=1>
+539	Prens nazikçe eğilip selam veriyor ve arkasını dönüyor. Konuşma açıkça bitti.<SCR=STOP>
+540	<NPC=FASIL>Öyledir.<SCR=STOP>
+541	<NPC=FASIL>Babam {glossary=Romani İmparatoru,GLOSS_IMPIRE}'na biat etmişti. Anlaşılan bizi hor görüyorsunuz Dük.<SCR=STOP>
+542	<NPC=PETR><SIDE=1><SALUTE><SHADOW=1><SCR=CONTINUE>Uyanın {glossary=Tarhan,GLOSS_TARKHAN}! Eli şehri ufukta göründü.
+543	<NPC=PETR><SCR=CONTINUE>Uzun yolculuğumuz nihayet geride kaldı. Herkes iniş emrinizi vermenizi sabırsızlıkla bekliyor.
+544	<SCR=STOP>{font=dinpro_48_black}{align=2}SEYRÜSEFER@10{font=fixed_20}{align=0}Yeni bir hedef belirlemek için imleci ELİ üzerine götür ve {animation=RMB} bas.
+545	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_LOCATION=KALHU>Peki, şimdi Kalhu'ya mı gidiyoruz?
+546	<ANS=Öyle. Hazır olur olmaz yola çıkacağız.|EXIT>
+547	<ANS=Pyotr, {glossary=Davud,GLOSS_DAUD} prensle görüşmek için neden bizi seçti?|TUTORIAL_ELI_2>
+548	<NPC=PETR><SCR=CONTINUE>Prensin {glossary=Cemaat,GLOSS_GATHERING} ile savaşacak hiçbir şeyi kalmadı. Bu görüşmeler sadece bir formalite. Amirallere gelince, bir an önce Kuzey Gerat'a ulaşmak için can atıyorlar.
+549	<NPC=PETR><HANDSHOW_LOCATION=UR>Ama önce Ur'u almaları gerekecek...<ANS=Yani {glossary=Davud,GLOSS_DAUD} beni başından savmaya mı çalışıyordu diyorsun?|TUTORIAL_ELI_4>
+550	<NPC=PETR><SCR=STOP>Sefer daha yeni başladı Dük. Kendinizi kanıtlamak için bolca fırsatınız olacağına eminim.
+551	<NPC=PETR><SIDE=1><SHADOW=1>Yakıtı aldık, ama gemilerin ikmali bitene kadar biraz zaman geçecek.<ANS=Pekâlâ. Beklerim.|EXIT>
+552	<NPC=PETR><SIDE=1><HANDSHOW_GUI=MAP_LAND><SHADOW=1>Tarhan hazretleri, görünüşe göre yolculuğumuzun bir sonraki ayağı için yeterli yakıtımız yok. Şehre dönüp orada yakıt satın almamız gerekecek.<ANS=Ben icabına bakarım.|EXIT>
+553	Gemilerin yakıt ikmalini beklemelisin. Zamanı hızlandırmak için {animation=key_shift} basılı tut.<SCR=STOP>
+554	<NPC=PETR><SIDE=1><HANDSHOW_POS=960|540|1><SHADOW=1>Yangın sönmeden şehre inemeyiz.<ANS=Anlıyorum, beklemek zorundasınız.|EXIT>
+555	<NPC=PETR><SIDE=1><SALUTE><SHADOW=1>Gemilerin yakıt ikmali bitti. Uçmaya hazırız. Emirleriniz?
+556	<ANS=Kalkış emrini ver. Hedefimizi ben seçeceğim.|TUTORIAL_FLY_10>
+557	<ANS=Yakıt ne durumda Pyotr İgnatyeviç?|TUTORIAL_FLY_2>
+558	<ANS=Bu seferin tümü hakkında ne düşünüyorsun General?|TUTORIAL_FLY_3>
+559	<NPC=PETR>Gemide yaklaşık <MY_FUEL> sıvı metan var - aşağı yukarı <MY_RANGE> uçuşa yeter.
+560	<ANS=Kalkış emrini ver. Havalandığımızda hedefimizi ben seçerim.|TUTORIAL_FLY_10>
+561	<ANS=Bu seferin tümü hakkında ne düşünüyorsun General?|TUTORIAL_FLY_3>
+562	<NPC=PETR><MUSIC=Duduk_4_ever>Burada, Gerat'ın güneyinde, yerel düklerin komuta ettiği eski korvetlerden başka bir şeyleri yok. Ur mutlaka düşecek - sadece zaman meselesi.
+563	<ANS=Sana Ur'u sormadım General.|TUTORIAL_FLY_4>
+564	<NPC=PETR>Ben yalnızca Ekselanslarının yaveriyim. Emirleri sorgulamak bana düşmez.
+565	<ANS=Yine de, ne düşünüyorsun?|TUTORIAL_FLY_5>
+566	<NPC=PETR>Müsaadenizle Tarhan... sayımız az. Davud ile Skobelev filolarını birleştirse bile, korkarım Hiva'yı almaya yetmeyecek.
+567	<ANS=Yine de bu sefere katılmayı kabul ettin. Sen bir piyade generalisin, Donanma subayı değil. Neden gönüllü oldun?|TUTORIAL_FLY_6>
+568	<NPC=PETR>Siz ne düşünüyorsunuz Dük?
+569	<ANS=Bence en çok ihtiyaç duyulan yerde olmak isteyen yiğit bir subaysın.|TUTORIAL_FLY_7>
+570	<ANS=Çünkü Amiral {glossary=Davud,GLOSS_DAUD} senin dostun. Ona yardım etmek istedin.|TUTORIAL_FLY_7>
+571	<ANS=Bu yeni görevimde bana destek olmak için gönüllü olmuş olmalısın. Babam senden bana yardım etmeni istedi, değil mi?|TUTORIAL_FLY_7|PETR=1>
+572	<NPC=PETR><NOSPEAK>Pyotr İgnatyeviç yalnızca bir gülümsemeyle karşılık veriyor.
+573	<ANS=Pekâlâ. Kalkış emrini ver. Havalandığımızda hedefimizi ben seçerim.|TUTORIAL_FLY_10>
+574	<SCR=STOP>{font=dinpro_48_black}{align=2}UÇUŞ MENZİLİ@10{font=fixed_20}{align=0}Hedefi belirlemek için imleci mavi dairenin içindeki bir şehre götür ve {animation=RMB} bas.

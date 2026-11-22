@@ -1,0 +1,8 @@
+# Gemini API anahtarı: yalnızca örnek dosya (anahtar.ornek.txt) paylaşılıyor
+kaynak/otomatik/anahtar.txt
+
+__pycache__/
+*.pyc
+
+# Sürüm paketleri GitHub Releases'e yükleniyor, repoya değil
+*.zip

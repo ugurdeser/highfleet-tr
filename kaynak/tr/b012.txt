@@ -1,0 +1,107 @@
+1764	Sıkıntılı zamanlarda imanın öneminden.
+1765	İmanın ve beraberinde getirdiği hurafenin tehlikelerinden.
+1766	Gerat'ın her yerinde görülen adaletsizlikten.
+1767	Zayıfların güçlüyü yıpratmak için adalete nasıl sığındığından.
+1768	Hiva ile savaştan ve neden gerekli olduğundan.
+1769	Savaşı bitirmekten ve bunun neden şart olduğundan.
+1770	Gerat'ta galibi bekleyen anlatılmaz zenginliklerden.
+1771	Zenginlerin Gerat halkını nasıl ezdiğinden ve devrilmeleri gerektiğinden.
+1772	Halkın dertlerinden ve onlara nasıl yardım etmek istediğinden.
+1773	Bunun hayırseverlik zamanı olmadığından.
+1774	Devam etmek için SPACE tuşuna bas.
+1775	Girişi atlayıp oynanışı etkileyen seçimlere geçmek için ESC tuşuna bas.
+1776	Eğitimi atlamak için ESC tuşuna bas.
+1777	Tarhan, İmparatorluk Donanması'nın bir subayıdır. Tarhanlar bir filodaki harekât gruplarına komuta eder.
+1778	Gerat, Romani İmparatorluğu'nun kuzeyinde yer alan uçsuz bucaksız bir çöldür.
+1779	Elaimler bir çöl halkı, Gerat'ın yerlileridir. Gerat, Romani İmparatorluğu'nun parçası olmadan önce Elam krallığı bağımsızdı.
+1780	Romaniler Elaat'ın en kalabalık halkıdır. Gerat'taki birçok şehir, Helam İmparatorluğa katıldıktan sonra Romaniler tarafından kurulmuştur.
+1781	İşu, Romani dininin merkezî figürü ve Gerat'ta bir anlaşmazlık konusudur. Bazı Elaimler İşu'nun varlığını kabul ederken, bazıları onu tümden reddeder.
+1782	Donanma esasen askerî-siyasi bir kasttır; mensupları hava uçuşu ve muharebesinin gerektirdiği ani hareket değişimlerine dayanmaya ve hayatta kalmaya genetik olarak yatkındır. İnsan ya Donanma'ya doğar ya doğmaz; bu yüzden Donanma bugünkü irsî aristokrasiye dönüşmüştür.
+1783	Elam, 2. yüzyılın başlarında Romaniler tarafından ilhak edilene dek Gerat'ta bağımsız bir krallıktı. Gerat'ın Lord Valisi Birinci Komün sırasında isyana katıldı ve artık Romani İmparatorluğu'nun bu eyalet üzerinde hiçbir hükmü yok.
+1784	Romani İmparatorluğu bilinen dünyanın en büyük devletidir. 1. yüzyılda Donanma'nın en üst rütbelileri tarafından kurulmuştur. İmparatorluğu yönetmek üzere seçilen Dük Sayadi ilk irsî hükümdar oldu.
+1785	Sayadiler, Romani İmparatorluğu hükümdarlarının hanedanıdır; bilinen dünyanın en eski hanesi.
+1786	Elaoular, Elam krallığının hükümdarları ve Romani İmparatorluğu'nun tebaasıdır. Prens Elaou-Fazıl, Elaou hanedanının son temsilcisidir.
+1787	Büyük Hanedanlar Cemaati, İmparator'a karşı ayaklanmayı destekleyen Romani hanedanlarının meclisidir.
+1788	Şeyh, bir Gerat aşiret büyüğüdür. Birçok aşiret Büyük Hanedanlar Cemaati'ne katılmaya zorlandı; bu yüzden birçok şeyh fırsat verilirse Hiva'ya karşı savaşa seve seve katılır.
+1789	İmparator'a karşı isyan, İmparatorluğun eski bir subayı olan Hiva Lord Valisi ile başladı. Sayadilere karşı hoşnutsuzluk besleyen Büyük Hanedanlar Cemaati kısa sürede onun davasına katıldı.
+1790	Eski bir İmparatorluk memuru, şimdi Hiva'nın hükümdarı. İmparator'a karşı isyanı ateşleyen adam.
+1791	Hiva, Kuzey Gerat'ın başlıca şehridir. Romani İmparatoru'na karşı isyanı başlatan kişi bu şehrin Lord Valisi'ydi.
+1792	Amiral Skobelev, Sefer Donanması'nın İkinci Filosu'nun komutanıdır. Görevi başkentle irtibatı sağlamaktır. Ur'un ele geçirilmesinden sonra İkinci Filo, Hiva taarruzuna katılacaktır.
+1793	Amiral Davud Şerif Rahmatoviç, Sefer Donanması'nın Birinci Filosu'nun komutanıdır. Aynı zamanda senin doğrudan üstündür.
+1794	Koda, Felaket'ten sağ çıkan tek kutsal kitap olan Aziz Lyn Kitabı'nın bir parçasıdır. Kodaların çoğu kayboldu. Elaat'ın kadim aileleri ve hanedanları sağ kalan kodalarını korur ve el üstünde tutar.
+1795	Felaket çağında yaşamış efsanevi bir aziz. Son kutsal kitabın sahibi ve muhafızı; kitabı Elaat'ın gelecekteki hükümdarları arasında paylaştırdığı söylenir.
+1796	Gerat kralının eski muhafızları. Bazı Harişidler şimdi Lord Vali'ye hizmet ediyor; diğerleri Gerat'ın uçsuz bucaksız çölüne sığındı.
+1797	Takviye istemek yüksek komutanlığın saygısını yitirmene yol açar.
+1798	SES SEVİYESİ
+1799	SES EFEKTLERİ
+1800	MÜZİK
+1801	GAMA
+1802	FARE HASSAS.
+1803	TEKER HASSAS.
+1804	NİŞAN ALMA
+1805	BASİT ARTI
+1806	UZUN ARTI
+1807	TÜRKÇE
+1808	PENCERELİ
+1809	TAM EKRAN
+1810	KENARSIZ
+1811	GERME AÇIK
+1812	GERME KAPALI
+1813	TARAMA AÇIK
+1814	TARAMA KAPALI
+1815	PARAZİT YOK
+1816	PARAZİT AZ
+1817	PARAZİT ÇOK
+1818	GRAFİK DÜŞÜK
+1819	GRAFİK YÜKSEK
+1820	KONTROLLER
+1821	GERİ
+1822	İLERLEME
+1823	BONUS
+1824	YENİ OYUN
+1825	EĞİTİM
+1826	HİVA
+1827	@7ÖN SÖZ@AÇIK
+1828	@7ÖN SÖZ@KAPALI
+1829	///////////////////////////////////////////////////////////////////////////////////////////////////
+1830	MOTOR SIC.
+1831	GERAT HANLARI
+1832	ELAOU HANEDANI
+1833	GİZLİ HALK
+1834	İSİ AŞİRETİ
+1835	HARİŞİD MUHAFIZLARI
+1836	KORSAN AŞİRETLERİ
+1837	DUSTUM ŞÖVALYELERİ
+1838	RA HALKI
+1839	ÖZGÜRLER
+1840	DÖNEKLER
+1841	<MUSIC=Bois><SCR=CONTINUE><BLUR=2><BLUR_FOCUS=0.3-><BLUR_ZOOM=1.0><SCR=END_BRIEFING|0>Donanma subayları ve tarhanlar otuz dakika sonra sancak gemisinde toplanıyor.
+1842	<NPC=PETR><SHADOW=1><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|1>Geldiğiniz için teşekkürler beyler. Ne kadar yorgun olduğunuzu biliyorum.
+1843	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>Ama şu an içinde bulunduğumuz durum gerçekten vahim.
+1844	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>Hiva garnizon subayı, İmparatorluk başkentini harabeye çeviren silah hakkında bize istihbarat verdi.
+1845	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>Onu zorlamadık. Anlattı, çünkü Cemaat'in bu silahı Hiva'yı yok etmek için kullanmayı planladığına inanıyor.
+1846	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>Zavallı adam dehşet içindeydi. Buradaki herkesin büyük tehlikede olduğunu tekrar tekrar söyledi.
+1847	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|2>Bu yeni silah bir balistik füze.
+1848	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|3>Eşi benzeri olmayan bir yörünge düzeltme sistemi sayesinde 2.000 km uzaktaki hedefleri vurabiliyor.
+1849	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>Balistik füze olduğu için bu silah hareketli hedeflere karşı kullanılamaz.
+1850	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>Ne var ki sabit hedeflere karşı tam bir yıkım demektir.
+1851	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>Sürati hedefini on dakikayı biraz aşan bir sürede vurmaya yeter.
+1852	<CORNER_SPEAK=1><SCR=CONTINUE><SCR=END_BRIEFING|4>Bu füzeler Gerat'a özel yapım iki taşıyıcı kruvazörle getirilecek.
+1853	<CORNER_SPEAK=1><SCR=CONTINUE><SCR=END_BRIEFING|5>Her biri bu füzelerden on tanesine kadar taşıyabiliyor.
+1854	<CORNER_SPEAK=0><NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|6>Gemilerin muhtemel varış noktalarını haritada işaretledim.
+1855	<SCR=CHECK_JOINED|DAUD|ENDWAR_BRIEFING_17><NPC=DAUD><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|7>Hedeflerinin 2.000 km çapındaki herhangi bir yere inerlerse Hiva'ya saldırabilecekler.
+1856	<NPC=DAUD><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|8>Hiva'ya füze saldırısı düzenlemek için kullanılabilecek şehirlerin hepsi bunlar.
+1857	<NPC=DAUD><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE|ENDWAR_BRIEFING_SF_A_1><SCR=END_BRIEFING|9>Her iki taşıyıcıyı da haritada işaretli şehirlerden birine varmadan önce durdurursak, Hiva bu yeni silahtan emin olur.
+1858	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|7>Hedeflerinin 2.000 km çapındaki herhangi bir yere inerlerse Hiva'ya saldırabilecekler.
+1859	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|8>Hiva'ya füze saldırısı düzenlemek için kullanılabilecek şehirlerin hepsi bunlar.
+1860	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE|ENDWAR_BRIEFING_SF_A_1><SCR=END_BRIEFING|9>Her iki taşıyıcıyı da haritada işaretli şehirlerden birine varmadan önce durdurursak, Hiva bu yeni silahtan emin olur.
+1861	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>Ama hâlâ düşman taarruz gruplarıyla uğraşmamız gerek.
+1862	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE|ENDWAR_BRIEFING_RADAR_S_1><SCR=END_BRIEFING|10>Füzeleri yavaş, ama burayı radyoaktif bir kül yığınına çevirecek kadar çoklar.
+1863	<SCR=CHECK_JOINED|OMAR|ENDWAR_BRIEFING_RADAR_V_1><NPC=OMAR><SIDE=1><SCR=CONTINUE>Bu yeni füzeleri şehre ve gemilere isabet etmeden önleyemez miyiz? Güvenilir bir radarımız ve yeterince uçaksavar füzemiz olursa...
+1864	<NPC=PETR><SIDE=-1><SCR=CONTINUE>Ama hava savunma sistemi yüksek süratli bir balistik füzeyi önleyemez.
+1865	<NPC=OMAR><SIDE=1><SCR=CONTINUE>Peki ya A-100N kullansak?
+1866	<NPC=PETR><SIDE=-1><SCR=CONTINUE|ENDWAR_BRIEFING_MARK_1><SCR=END_BRIEFING|11>A-100N... teoride, yeterince erken tespit edersek bir balistik füzeyi havaya uçurabilir.
+1867	<SCR=CHECK_JOINED|FASIL|ENDWAR_BRIEFING_GERAT_O_1><NPC=FASIL><SIDE=1><SCR=CONTINUE>Bize güvenilir bir radar ve yeterince uçaksavar füzesi verin, şehir bu yeni füzelerden emin olsun.
+1868	<NPC=PETR><SIDE=-1><SCR=CONTINUE>Ama hava savunma sistemi yüksek süratli bir balistik füzeyi önleyemez.
+1869	<NPC=FASIL><SIDE=1><SCR=CONTINUE>Peki ya A-100N kullansak?
+1870	<NPC=PETR><SIDE=-1><SCR=CONTINUE|ENDWAR_BRIEFING_MARK_1><SCR=END_BRIEFING|11>A-100N... teoride, yeterince erken tespit edersek bir balistik füzeyi havaya uçurabilir.

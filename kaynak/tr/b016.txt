@@ -1,0 +1,66 @@
+1993	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KAYIP SİLAHLAR@10 {animation=event_lostarms} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Sancak gemisinin levazım subayı bir raporla geliyor: filondaki birkaç gemide fazlasıyla çok sayıda tabanca eksik.<SCR=CONTINUE>
+1994	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KAYIP SİLAHLAR@10 {animation=event_lostarms} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Subaylar silahların muharebede kaybolduğunu söylüyor, ama levazım subayı hırsızlıktan şüpheleniyor. Filoda birinin sistemli şekilde silah aşırdığını düşünüyor.
+1995	<ANS=Bu meselede subaylara güvenmeliyiz. Muharebenin ateşinde kaybolan her bir teçhizatın hesabını vermek beklenemez.|EVENT_STEALING_01_NO|RIGHT=-2>
+1996	<ANS=Soruşturmayı başlat.|EVENT_STEALING_01_YES|RIGHT=2>
+1997	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KAYIP SİLAHLAR@10 {animation=event_lostarms} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Subayların minnetle başlarını sallıyor. Herkes zaten yeterince meşgul - bir iç soruşturma istenmeyen bir oyalanma olurdu.<SCR=STOP|MORAL=1>
+1998	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KAYIP SİLAHLAR@10 {animation=event_lostarms} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Levazım subayı zafer kazanmış gibi gülümsüyor, ama çevrendeki herkes bitkin bir şekilde iç geçiriyor. Zaten yeterince meşguller ve kapsamlı bir soruşturma hayatlarını daha da zorlaştıracak.<SCR=STOP|MORAL=-1>
+1999	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}TAKDİS@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Aşağı inerken yerliler etrafını sarmaya başlıyor. O kadar çoklar ki muhafızların kalabalığı uzak tutmak için çevrende koruma kordonu oluşturmak zorunda kalıyor. Buna alışmaya başlıyorsun.<SCR=CONTINUE>
+2000	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}TAKDİS@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Elaimler seni sevinç çığlıklarıyla karşılıyor: "Ne mutlu gelene! Ne mutlu gelene!" Sana en yakın olanlar muhafızların omuzlarının üzerinden uzanıp giysine dokunmaya çalışıyor. "Tannaim, bereket getiren" - buradaki yerliler sana böyle diyor.
+2001	<ANS=İnsanların uzanıp sana dokunmasına izin ver.|EVENT_BLESSING_01_YES_1|FAITH=2>
+2002	<ANS=Kalabalıktan uzak dur.|EVENT_BLESSING_01_NO_1|FAITH=-2>
+2003	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}TAKDİS@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Seni kalabalıktan ayıran asker hattına yaklaşıyor ve yerliler dokunabilsin diye olabildiğince yakın duruyorsun. İnsanlar itişip kakışmaya başlıyor - hattı kırmaları bir an sürüyor. İnsan denizi seni hızla yutuveriyor.<SCR=CONTINUE>
+2004	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}TAKDİS@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Subaylar kalabalığı senden zar zor uzaklaştırıp hattı yeniden kuruyor. Muhafız komutanı küplere binmiş - öfkesini zor tutarak, tüm saygısıyla, bunu bir daha asla yapmamanı rica ediyor.<SCR=STOP|MORAL=-1>
+2005	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}TAKDİS@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Muhafızların böyle bir kalabalığı uzak tutması zaten epey zor. Muhafız komutanı gösterdiğin anlayış için sana yürekten teşekkür ediyor.<SCR=STOP|MORAL=1>
+2006	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}SAHİPSİZ İNSANLAR@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Subaylarının canını sıkacak şekilde, Elaim müttefiklerin muharebeden sonra köle almaktan geri durmuyor.<SCR=CONTINUE>
+2007	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}SAHİPSİZ İNSANLAR@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>"Bu insanların artık sahibi yok efendim," diye güvence veriyor savaşçılardan biri. "Eskiden mağlup ettiğiniz noyanlara aitlerdi, şimdi kanunen bize aitler."
+2008	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}SAHİPSİZ İNSANLAR@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}"Onları iyi paraya satabiliriz," diye sakince devam ediyor, "ve kârı bütün savaşçılar arasında eşit paylaşırız." "İlk pay sizin olur efendim! Yoksa birini kendinize mi alıkoymak istersiniz?"
+2009	<ANS=Birini kendime alıkoyacağım.|EVENT_SLAVERY_01_GET|GERAT=1|RIGHT=-2>
+2010	<ANS=Pekâlâ, nasıl isterseniz.|EXIT|WEALTH=2|RIGHT=-2|GERAT=1|GOLD=5000>
+2011	<ANS=Her türlü köle ticaretini yasaklıyorum! Esirleri serbest bırakın!|EVENT_SLAVERY_01_NO|WEALTH=-2|GERAT=-2|RIGHT=2>
+2012	Esirlerinden biri güzelliği ve zarif tavırlarıyla gözüne çarpıyor - zengin bir noyanın eski cariyesi olduğunun bütün belirtilerini taşıyor. Böylesine hoş bir mahluku hediye olarak almaktan her şeyh memnun olurdu.<SCR=STOP|GIFT=PRESENT_SLAVE>
+2013	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}SAHİPSİZ İNSANLAR@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Elaimler sağır edici bir sessizlikle karşılık veriyor. İsyana karşı kendini hazırlıyorsun... ama gergin an kısa sürede geçiyor ve Elaimler etrafa uğursuz bakışlar atarak uzaklaşıp söyleneni yapıyorlar.<SCR=STOP>
+2014	FAZLADAN TUR KAZANMAK İÇİN@HEDİYE VEREBİLİRSİN
+2015	TUR
+2016	SON@TUR
+2017	///////////////////////////////////////////////////////////////////////////////////////////////////
+2018	DESTEK@İSTE
+2019	DAHA HIZLI@ONARIM İSTE
+2020	PARA@İSTE
+2021	TAKVİYE@İSTE
+2022	TAKVİYE@İSTE
+2023	SIĞINAK@İSTE
+2024	ASKER@İSTE
+2025	İSTİHBARAT@İSTE
+2026	TERSANE: DAHA HIZLI@GEMİ ONARIMI
+2027	MUHABERE MERKEZİ:@DÜŞMAN İSTİHBARATI
+2028	YAKIT DEPOSU:@DAHA UCUZ YAKIT
+2029	YAKIT DEPOSU:@DAHA HIZLI İKMAL
+2030	TÜCCARLAR:@NADİR MODÜLLER
+2031	DONANMA KARARGÂHI
+2032	PARALI ASKERLER: TAKVİYE@SATIN AL
+2033	TAARRUZ GRUBU
+2034	FÜZE TAŞIYICILARI
+2035	UÇAK GEMİSİ GRUBU
+2036	NAKLİYE
+2037	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KAZA@10 {animation=event_doctor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<CONTAMINATION_SHIP>Gemideki aşırı radyasyonlu parçalar yüzünden birkaç mürettebat radyasyon zehirlenmesinden öldü.<SCR=STOP|CREW=-10|MORAL=-1>
+2038	REAKTÖRÜ ELE GEÇİR
+2039	TESPİT MENZİLİ
+2040	{font=dinpro_48_black}{align=2}SANCAK GEMİSİ@10{font=fixed_20}{align=0}Filonun bir sancak gemisine ihtiyacı var. Donanma Karargâhı'nı barındırabilecek en az bir gemin olmalı.@10 {align=0}{animation=hlp_flagship}<SCR=STOP>
+2041	<NPC=PETR><SIDE=-1><SHADOW=1><BLUR=0>Harekât hakkında sizi bilgilendirmemi ister misiniz Büyük Dük?<SCR=SKIP_TUTORIAL>
+2042	<ANS=Elbette Pyotr İgnatyeviç.|TUTORIAL_CAMPAIGN_CORE_1>
+2043	<SCR=TUTORIAL_CORE|0><NPC=PETR><SIDE=-1><SHADOW=1><BLUR=0>Pekâlâ. Hedefimiz Hiva reaktörünü ele geçirmek.<SCR=CONTINUE>
+2044	<SCR=TUTORIAL_CORE|1><NPC=PETR><SIDE=-1>Hiva şehri Gerat'ın kuzey uçlarında.<SCR=CONTINUE>
+2045	<SCR=TUTORIAL_CORE|2><NPC=PETR><SIDE=-1>Vali'nin kendi filosu tarafından korunuyor. Onları şehirden çıkarmamız gerek.<SCR=CONTINUE>
+2046	<NPC=PETR><SIDE=-1>Reaktörün tamamen sağlam kalması şart; bu da Hiva'ya nükleer saldırının söz konusu olmadığı anlamına geliyor.<SCR=CONTINUE>
+2047	<SCR=TUTORIAL_CORE|3><NPC=PETR><SIDE=-1>Ne var ki daha Hiva'ya varmadan bu harekâtın başarısını çok daha ciddi tehditler bekliyor.<SCR=CONTINUE>
+2048	<SCR=TUTORIAL_CORE|4><NPC=PETR><SIDE=-1>İstihbaratımıza göre Gerat'ta bir yerlerde nükleer silahlarla donatılmış beş Cemaat taarruz grubu var. Onlardan ne pahasına olursa olsun uzak durmanızı şiddetle tavsiye ederim.<SCR=CONTINUE>
+2049	<SCR=TUTORIAL_CORE|5><NPC=PETR><SIDE=-1>Taarruz grupları ortalama günde bir kez şehirden şehre hareket ediyor.<SCR=CONTINUE>
+2050	<SCR=TUTORIAL_CORE|6><NPC=PETR><SIDE=-1>Düşman bizi görür ve bunu bildirecek vakit bulursa...<SCR=CONTINUE>
+2051	<SCR=TUTORIAL_CORE|7><NPC=PETR><SIDE=-1>Taarruz grupları bize yaklaşıp füze atmaya çalışacak.<SCR=CONTINUE>
+2052	<NPC=PETR><SIDE=-1>Bu yüzden onlardan uzak durmalı ve hareketlerini sürekli takip etmeliyiz.<SCR=CONTINUE>
+2053	<SCR=TUTORIAL_CORE|8><NPC=PETR><SIDE=-1>Taarruz gruplarının hareketleri hakkında bilgi telsiz dinlemeyle elde edilebilir.<SCR=CONTINUE>
+2054	<SCR=TUTORIAL_CORE|9><NPC=PETR><SIDE=-1>Ya da troposferik saçılım muhabere istasyonlarından birini ele geçirerek.<SCR=CONTINUE>
+2055	<SCR=TUTORIAL_CORE|10><NPC=PETR><SIDE=-1>Gerat'ın uçsuz bucaksız büyüklüğü yüzünden düşman mesaj göndermek için bu istasyonları kullanmak zorunda kaldı.<SCR=CONTINUE>
+2056	<SCR=TUTORIAL_CORE|11><NPC=PETR><SIDE=-1>Böyle tek bir istasyon bile bize taarruz gruplarının yeri hakkında paha biçilmez istihbarat sağlayabilir.<SCR=CONTINUE>
+2057	<SCR=TUTORIAL_CORE|12><NPC=PETR><SIDE=-1>Uçak gemilerinin yeri hakkında da.<SCR=CONTINUE>
+2058	<SCR=TUTORIAL_CORE|13><NPC=PETR><SIDE=-1>Ve füze taşıyıcılarının.<SCR=CONTINUE>

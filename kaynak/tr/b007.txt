@@ -1,0 +1,81 @@
+969	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>İmparatorluk Hazretleri'nin şantaj kadar bayağı bir şeye tenezzül edeceğini hiç düşünmezdim.
+970	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE|MEETING_FIGHT>Bu işi eski usul, güzel bir topçu düellosuyla bitirelim, olur mu? Hiç değilse şerefli bir adam olarak hatırlanırsınız.
+971	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>Lord Vali durup gökyüzüne bakıyor.
+972	<NPC=GOVERNOR><SIDE=0><FADEAWAY=0>Görünürde tek bir yıldız yok.
+973	<ANS=Savaş için hiç uygun bir zaman değil.|MEETING_HIGHT_3>
+974	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Savaş için hiçbir zaman uygun değildir Dük.
+975	<SCR=CONTINUE|MEETING_FIGHT>Herkes gemisine dönüyor. Türbinler hayat bulurken uğulduyor.
+976	<SCR=CONTINUE|MEETING_KILL_2|BOY=1><EVENT><SOUND=manhit>Kılıcın Lord Vali'ye iniyor ve adam cansız hâlde yere yığılıyor.
+977	<SCR=CONTINUE>Muhafızlar hemen bedenleriyle sana siper oluyor. Bir çatışma başlıyor.
+978	<SCR=CONTINUE|MEETING_FIGHT>Herkes gemisine koşuyor.
+979	<NPC=GOVERNOR><SIDE=0><NOSPEAK><SCR=CONTINUE>Lord Vali şaşkınlıkla sana dönüyor.
+980	<NPC=GOVERNOR><SIDE=0><FADEAWAY=0>Ne...?
+981	<ANS=Beni buraya bu yüzden çağırdınız.|MEETING_PROPHET_3>
+982	<NPC=GOVERNOR><SIDE=0>
+983	<ANS=Hakkımda çok şey duydunuz ve bu sizi düşündürdü. Kendi gözlerinizle görmek istediniz.|MEETING_PROPHET_4>
+984	<NPC=GOVERNOR><SIDE=0>
+985	<ANS=Sıradan bir adamın asla gelmeyeceğini düşündünüz. Ama geleceği gerçekten görebilen biriysem, o zaman...|MEETING_PROPHET_5>
+986	<NPC=GOVERNOR><SIDE=0>
+987	<ANS=Ve ben gelince sadece korktunuz - bunun doğru olabileceğine inanmaktan korktunuz.|MEETING_PROPHET_6>
+988	<NPC=GOVERNOR><SIDE=0>
+989	<ANS=Ama doğru. Ben geleceği görebiliyorum.|MEETING_PROPHET_7>
+990	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>Lord Vali olduğu yerde donup kalmış, afallamış. Sonunda birkaç kelime edebiliyor...
+991	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE|HELLO_ROUND|DIPLOMACY_STARTS>Ne istiyorsunuz?
+992	<SCR=EXIT><SCR=GOVERNOR_FIGHT>
+993	<NPC=BOY><SIDE=0><NOSPEAK><SCR=CONTINUE><MUSIC=Bois>Sen ve Lord Vali askerî strateji konuşurken Alsahir birden karşınızda beliriyor. Gözlerinde öfke yanıyor.
+994	<NPC=BOY><SIDE=0><NOSPEAK>Kılıcını çekiyor ve hızla Lord Vali'ye doğru ilerliyor.
+995	<ANS=Muhafızlara çocuğu durdurmalarını emret.|ALSAHIR_REVENGE_STOP_1>
+996	<ANS=Onunla Lord Vali'nin arasına gir.|ALSAHIR_REVENGE_BLOCK_1>
+997	<ANS=Karışma.|ALSAHIR_REVENGE_LET_1>
+998	<SCR=CONTINUE>Subaylar çocuğun üzerine atılıyor. Alsahir'in adamları vakit kaybetmeden kılıçlarını çekiyor. Kamarayı bir çığlık uğultusu ve çelik sesleri dolduruyor.
+999	<SCR=CONTINUE>Sonra silah sesleri duyuyorsun. Nihayet, birkaç saniye sonra iş bitiyor.
+1000	<SCR=CHECK_JOINED|PETR|ALSAHIR_REVENGE_STOP_5><SCR=CONTINUE><NPC=PETR><SIDE=1><NOSPEAK>Pyotr İgnatyeviç eli kılıcına yapışmış hâlde yerden kalkmaya çabalıyor. Bir başkasının kanında kayıp yine düşüyor.
+1001	<NPC=PETR><SIDE=1><SCR=CONTINUE>Lanet olsun!
+1002	<SCR=CONTINUE>Kamarayı muhafızlar doldurdu. Çatışmada üç subay ve bir teknisyen can verdi.
+1003	<SCR=CONTINUE|LEVEL_GERAT=-1|DEATH=BOY>Alsahir ve adamları öldü.
+1004	<SCR=CHECK_JOINED|OMAR|ALSAHIR_REVENGE_STOP_8><NPC=OMAR><SIDE=1><SCR=CONTINUE|OMAR=-2>Bu tarifsiz bir zulüm Sayadi!
+1005	<SCR=CHECK_JOINED|FASIL|ALSAHIR_REVENGE_STOP_9><NPC=FASIL><SIDE=1><SCR=CONTINUE|FASIL=-2>Korkunç bir hata yaptınız Dük!
+1006	<SCR=CHECK_JOINED|AIRBORNE|ALSAHIR_REVENGE_STOP_10><NPC=AIRBORNE><SIDE=1><SCR=CONTINUE|AIRBORNE=1>Doğru olanı yaptınız. Ölmek zorunda kalan askerlere yazık oldu.
+1007	<SCR=CHECK_JOINED|VETERAN|ALSAHIR_REVENGE_STOP_11><NPC=VETERAN><SIDE=1><SCR=CONTINUE|VETERAN=1>Onu bu kadar kolay öldürebildiğiniz için şanslısınız Dük. Bu Alsahir göründüğünden çok daha tehlikeliydi. Onun gibi adamların Gerat'ta tartışılmaz bir otoritesi vardır.
+1008	<SCR=CHECK_JOINED|GOVERNOR|EXIT><NPC=GOVERNOR><SIDE=1><SCR=STOP|GOVERNOR=2>Teşekkür ederim Dük. Size büyük bir borcum var.
+1009	<NPC=BOY><SIDE=0>Sayadi, bunu nasıl yaparsın?! Bana söz vermiştin!
+1010	<ANS=Onu katletmene izin veremem. (Kılıcını çek)|ALSAHIR_REVENGE_STOP_1>
+1011	<ANS=Onun yerine benim canımı alabilirsin.|ALSAHIR_REVENGE_FORCE|PRECHECK_FORCE=-3|CHECK_FORCE=-3>
+1012	<NPC=BOY><SIDE=0><NOSPEAK><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_FAIL_1><EVENT>Yalnızca bir saniye düşünüyor, sonra sana vuruyor.
+1013	<SCR=CONTINUE><SOUND=bladaway><BLACKOUT>Birkaç saat sonra kendine geliyorsun.
+1014	<SCR=CHECK_JOINED|PETR|ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_1><NPC=PETR><SIDE=1><NOSPEAK><SCR=CONTINUE>Pyotr İgnatyeviç kesinlikle kıpırdamamanda ısrar ediyor. Şu anda bile hayatın büyük tehlikede. Alsahir'in kılıcı çeneni yarmış ve sağ kulağının altında derin bir yara bırakmış. Acı dayanılmaz.
+1015	<NPC=PETR><SIDE=1>Geminin cerrahı elinden geleni yapıyor, ama işi bitmeden gemi kalkamaz.<ANS=Peki Lord Vali?|ALSAHIR_REVENGE_FORCE_FAIL_4|WOUND=24>
+1016	<NPC=PETR><SIDE=1>Alsahir'in adamlarıyla bir çatışma oldu, ama Lord Vali'ye bir şey olmadı.<ANS=Ya çocuk?|ALSAHIR_REVENGE_FORCE_FAIL_5>
+1017	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Pyotr İgnatyeviç bir an duraksıyor.
+1018	<NPC=PETR><SIDE=1><SCR=STOP|DEATH=BOY>Muhafızlar tarafından vurularak öldürüldü.
+1019	Alsahir'in kılıcı çeneni yarmış ve sağ kulağının altında derin bir yara bırakmış. Acı dayanılmaz. Geminin cerrahı elinden geleni yapıyor, ama işi bitmeden gemi kalkamaz.<SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_2|WOUND=24>
+1020	Alsahir muhafızlar tarafından vurularak öldürüldü.<SCR=STOP|DEATH=BOY>
+1021	<SCR=CONTINUE>Lord Vali kendini korumak için elini kaldırıyor, ama Alsahir onu güçlü bir darbeyle deviriyor. Hiç duraksamadan yeniden vuruyor.
+1022	<SCR=CONTINUE|ALSAHIR_REVENGE_LET_3|DEATH=GOVERNOR><SOUND=manhit><EVENT>Lord Vali yere yığılıyor.
+1023	<SCR=CONTINUE>Herkes olduğu yere çakılmış. Lord Vali öldü. Alsahir kılıcını siliyor ve kınına geri sokuyor.
+1024	<SCR=CONTINUE|ALSAHIR_REVENGE_LET_5|BOY=1>Tek kelime etmeden arkasını dönüp gidiyor; adamları da ardından.
+1025	<SCR=CHECK_JOINED|OMAR|ALSAHIR_REVENGE_LET_6><NPC=OMAR><SIDE=1><SCR=CONTINUE|ALSAHIR_REVENGE_LET_6|OMAR=1>Bunun olması kaçınılmazdı.
+1026	<SCR=CHECK_JOINED|FASIL|EXIT><NPC=FASIL><SIDE=1><SCR=STOP|FASIL=1><NOSPEAK>Prens başını sallıyor.
+1027	<SCR=CONTINUE>İnanılmaz haberler kısa sürede bütün şehre yayılıyor.
+1028	<SCR=CHECK_JOINED|GOVERNOR|KHIVA_LANDING_NOGOVERNOR><SCR=CONTINUE|KHIVA_LANDING_3|MORAL=1>Lord Vali görevi bıraktı!
+1029	<SCR=CONTINUE|KHIVA_LANDING_3>Lord Vali muharebede can verdi!
+1030	<SCR=CHECK_JOINED|FASIL|KHIVA_LANDING_4><SCR=CONTINUE|KHIVA_LANDING_4|MORAL=1>Büyük Dük Sayadi şehre Elaou Prensi'nin refakatinde girdi!
+1031	<SCR=CHECK_JOINED|OMAR|KHIVA_LANDING_5><SCR=CONTINUE|KHIVA_LANDING_5|MORAL=1>Ve müttefiki, herkesin öldüğünü sandığı Ömer Han!
+1032	<SCR=CHECK_JOINED|BOY|KHIVA_LANDING_6><SCR=CONTINUE|KHIVA_LANDING_6|MORAL=1>Ve müttefiki, Gizli Halk'ın Alsahir'inden başkası değil!
+1033	<SCR=CHECK_JOINED|GIRL|KHIVA_LANDING_7><SCR=CONTINUE|KHIVA_LANDING_7|MORAL=1>Ve ayrıca yanlarında Düşes İsi de var.
+1034	<SCR=CONTINUE>Bütün şehir seni karşılamaya geliyor. Ne muhteşem bir manzara!
+1035	<SCR=CHECK_JOINED|GOVERNOR|KHIVA_LANDING_NOGOVERNOR_8><SCR=CONTINUE>Varır varmaz Lord Vali seni yeraltı depo tesisine götürüyor.
+1036	<SCR=CONTINUE|KHIVA_LANDING_9>Hükûmetten geriye kalanlar, yeni efendilerini memnun etmeye can atarak vakit kaybetmeden sana yeraltı depo tesisini gösteriyor.
+1037	<SCR=CONTINUE><MUSIC=Bois><BACKGROUND=undeground_02><ILLUSTRATION=-1><BLUR=0>Reaktörün heybetli kubbesinin yanında yeraltına inen bir geçit var. Bir merdivenden aşağı iniyorsun.
+1038	<SCR=CONTINUE><ILLUSTRATION=-1>Aşağıdaki depo alanı tek tip silindirlerle dolu. Yeraltı odasının her yerine, gözün alabildiğine istiflenmişler.
+1039	<SCR=CHECK_JOINED|DAUD|KHIVA_LANDING_13><NPC=DAUD><SIDE=-1><SCR=CONTINUE>Bu kapların her birinde bir plütonyum tertibatı mı var?
+1040	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Ne kadar da çoklar!
+1041	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Pyotr, füze parçalarının donuk ışıkta parıldadığı yana kaygılı bir bakış atıyor. Montaj vinçlerinin çelik örgülü kolları, karanlık tesisin derinliklerine uzanan tavanı gizliyor.
+1042	<NPC=PETR><SIDE=1><SCR=CONTINUE>Bunlarla gitmemize asla izin vermezler.
+1043	<NPC=PETR><SIDE=1><SCR=CONTINUE>Korkunç bir hata yaptım. Görüşme falan olmayacak.
+1044	<SCR=STOP>Pyotr haklıydı. Kısa süre sonra bir ültimatom geliyor.
+1045	ROMANİ SEFER DONANMASI KOMUTANINA@10ELAAT BÜYÜK HANEDANLAR CEMAATİ, BÜTÜN ROMANİ GEMİLERİNİ DERHAL HİVA'DAN ÇEKMENİZİ TALEP EDER.@10UYMANIZ İÇİN 8 SAATİNİZ VAR; AKSİ HÂLDE BÜYÜK HANEDANLARIN MÜŞTEREK DONANMASI ŞEHRİ NÜKLEER SALDIRIYLA YOK EDECEKTİR.
+1046	<NPC=PETR><SIDE=1><SCR=CONTINUE>Hiçbir şeyi esirgemeyecekler.
+1047	<NPC=PETR><SIDE=1>Ellerinde ne varsa üzerimize gönderecekler.
+1048	<ANS=Pyotr İgnatyeviç, acil toplantı çağrısı yap!|KHIVA_ULTIMATUM_3>
+1049	<SCR=TO_THE_MAP>.

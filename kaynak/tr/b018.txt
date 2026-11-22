@@ -1,0 +1,77 @@
+2118	GERATLI TARHANIN GEMİLERİ GÖRÜLDÜ
+2119	BÖLGEDEKİ TÜM HAREKÂTLARDA GÜVENLİK DEVRİYELERİNİ ARTIRMANIZ EMREDİLİR
+2120	BÖLGEDE SEYRETMEDE İHTİYATLI OLUN
+2121	BÖLGEDE SEYREDEN TÜM GEMİLER İÇİN SİLAHLI REFAKAT MECBURİDİR
+2122	BÖLGEDEKİ DOST GEMİLER İÇİN EK GÜVENLİK TALEP EDİLİR
+2123	ŞEHRİN KUZEYİNDE
+2124	ŞEHRİN KUZEYDOĞUSUNDA
+2125	ŞEHRİN DOĞUSUNDA
+2126	ŞEHRİN GÜNEYDOĞUSUNDA
+2127	ŞEHRİN GÜNEYİNDE
+2128	ŞEHRİN GÜNEYBATISINDA
+2129	ŞEHRİN BATISINDA
+2130	ŞEHRİN KUZEYBATISINDA
+2131	UZAK
+2132	(DÜŞMAN)
+2133	(GÜVENİLMEZ)
+2134	(BELİRSİZ)
+2135	(GÜVENİLİR)
+2136	(SADIK)
+2137	Adamlarının bakış açısı
+2138	Müttefiklerinin sadakati
+2139	Gemi mürettebatlarının sadakati
+2140	<MUSIC=Duduk_4_ever><NPC=PETR><SIDE=1><SHADOW=1>Bizi ne beklediğini kimse bilmiyor Dük. İşler sarpa sararsa, rica ederim...<SCR=CONTINUE>
+2141	<NPC=PETR>Rica ederim, Amiral'den takviye isteyin.
+2142	<ANS=Ve maskara mı olayım? Aklından bile geçirme General.|TUTORIAL_INTERCOM_3>
+2143	<ANS=Müsterih ol General, sırf yüzüm kızarmasın diye adamlarımı asla tehlikeye atmam.|TUTORIAL_INTERCOM_5>
+2144	<NPC=PETR><NOSPEAK>Pyotr İgnatyeviç kaşlarını çatıyor, aklındakini söylemek üzere, ama bir an sonra yine aynı ölçülü tonda devam ediyor.<SCR=CONTINUE|TUTORIAL_INTERCOM_4|PETR=-1>
+2145	<NPC=PETR><HANDSHOW_GUI=MAPMODE_INTERCOM><GLOW_GUI=MAPMODE_INTERCOM>Takviyeye ihtiyacınız olursa Amiral'e ulaşmak için dahilî muhabereyi kullanın.<SCR=STOP>
+2146	<NPC=PETR>Bunu duyduğuma sevindim Dük.<SCR=CONTINUE|TUTORIAL_INTERCOM_6|PETR=1>
+2147	<NPC=PETR><HANDSHOW_GUI=MAPMODE_INTERCOM><GLOW_GUI=MAPMODE_INTERCOM>Takviyeye ihtiyacınız olursa Amiral'e ulaşmak için dahilî muhabereyi kullanmanız yeter.<SCR=STOP>
+2148	<NPC=DAUD><SIDE=0><SHADOW=1><SCR=STOP|ASK_REINFORCE>Demek... yardıma ihtiyacınız var Dük? Pekâlâ - filonuza daha fazla gemi vereceğim.
+2149	<NPC=DAUD><SIDE=0><SHADOW=1><SCR=STOP|ASK_REINFORCE>Yine takviye istiyorsunuz demek? Belki de kabiliyetlerinizi fazla değerlendirdim Dük.
+2150	<NPC=DAUD><SIDE=0><SHADOW=1><SCR=STOP|ASK_REINFORCE>Pekâlâ. Daha fazla gemin olacak.
+2151	<NPC=PETR><SIDE=1><SHADOW=1>Büyük Dük hazretleri, burada fazla vakit geçirdik. Er ya da geç biri {glossary=Vali'ye,GLOSS_GOVERNOR} haber uçuracak.<SCR=STOP>
+2152	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_POS=1416|393|1>Büyük Dük! Bir troposferik saçılım muhabere istasyonu ele geçirdik. Onlar durumu fark edene kadar bize düşman hareketleri hakkında istihbarat sağlayacak.<SCR=STOP>
+2153	{font=dinpro_48_black}{align=2}UÇAKSAVAR FÜZE SİSTEMİ@10{font=fixed_20}{align=0}Gemiye, gelen füzeleri ve uçakları imha edebilen bir uçaksavar füze sistemi takıldı (<AAM_COUNT> HS füze).@10HS füze atmak için {animation=key_c} bas.<SCR=STOP>
+2154	{font=dinpro_48_black}{align=2}UÇAKSAVAR FÜZE SİSTEMİ@10{font=fixed_20}{align=0}Gemiye, gelen füzeleri ve uçakları imha edebilen bir uçaksavar füze sistemi takıldı (<AAM_COUNT> HS füzen var).@10HS füze atmak için {animation=key_c} bas.<SCR=STOP>
+2155	Başarılı! Bu konuşmayı artık bitirebilirsin.
+2156	Intrepid, Romani Donanması'nın temel taşlarından, denenmiş ve güvenilir bir topçu korvetidir. Zırh ile hareket kabiliyeti arasındaki mükemmel dengesi, üstün topçu kabiliyeti ve uygun fiyatıyla birleşince Intrepid, hava hâkimiyeti kurmak için en iyi seçeneklerden biri olur.
+2157	Seri atışlı 100mm topçu toplarıyla donatılmış, benzersiz bir hafif önleyici. Akademi'den yeni mezun olmuş nice acemi böyle bir gemiye verildi ve onlarca akranıyla birlikte can verdi. Ne var ki usta bir pilotun elinde Lightning harikalar yaratabilir.
+2158	Elektronik istihbarat teçhizatı taşımak için dönüştürülmüş hafif bir tanker; basit ama epey faydalı bir gemi. İnanılmaz menzili ve mükemmel sürati sayesinde hem uzun menzilli keşif unsuru hem de küçük bir görev grubu için tanker olarak eşit derecede işe yarar.
+2159	Bir taktik füze taşıyıcısı; güvenilir, sağlam zırhı paha biçilmez yükünü yakın mesafeli bir nükleer patlamadan koruyabilir. Bu geminin yanında durmak bile insanın içini ürpertir.
+2160	Komutanlıktaki bilhassa parlak bir zihnin tam teşekküllü bir bombardıman gemisi olarak tasarladığı ufak tefek bir korvet; tek marifeti alçak irtifadan hedeflere patlayıcı yük bırakmaktır. Yine de bu işe gayet uygundur ve Donanma'da kendine bir yer edinmiştir.
+2161	Donanma'nın belkemiği, dünya kadar eski olan Navarin, çok yönlülüğüyle subayların gözdesi, güvenilirliğiyle pilotların sevgilisidir. Yeni topçu topları, yeni motorlar, hatta daha fazla teçhizat - hepsini hiç zorlanmadan kaldırır. Onlarca yıllık kullanımdan sonra hâlâ hizmette olması şaşırtıcı değil.
+2162	Gerat şeyhleri bu küçük Romani hava savunma gemilerinden fazla pahalı ve bakımı zor diye nefret edebilir, ama onlar büyük bir savaş için yapıldılar.
+2163	Gerat'ta bulunması kesinlikle imkânsız, uzun menzilli bir hava savunma gemisi. Onu akıllıca kullan - önemli işler için tasarlandı.
+2164	Romani Donanması'nın en yeni fırkateyn hattından gelen bu gemi muharebede gerçek bir güç merkezidir. Bu gemilerle it dalaşına girerken azami dikkat tavsiye olunur.
+2165	Uzak karakollara hava desteği sağlamak için yapılmış sayısız gemiden biri; bugün Gerat'taki bütün uçak gemilerinin yarısını bunlar oluşturuyor. Sonuçta bu uçak taşıyan fırkateyn, uygun fiyatı iyi dengelenmiş özelliklerle birleştirir.
+2166	Donanma mühendislerince yenilenmiş, eskimiş tasarımlı bir füze korveti. Bütün iyileştirmelere rağmen hâlâ azami sürat ve ateş gücünden yoksundur. Taşıdığı altı füze bir muharebe kruvazöründe hatırı sayılır bir gedik açmaya yeter, ama tükendiklerinde çekilmek akıllıca olur.
+2167	Kormoran ve kardeşi Negev, Romani Donanması'nın iki başlıca hafif kruvazörüdür. Tamamen kendi başlarına harekât yapabilir ya da bir hava grubunun çekirdek unsuru olarak taktik bütünlük sağlayabilirler.
+2168	Wanderer! Bu yaşlı hanımla nice macera atlattık! Romani Donanması'nın bu tipik sefer fırkateyni, özellikle Elaat'ın uçsuz bucaksız enginlerini aşmak için tasarlandı. Uzun yol için yeterli yakıt ve gerekirse gök korsanlarını püskürtecek kadar silah taşıyan güvenilir bir gemi.
+2169	///////////////////////////////////////////////////////////////////////////////////////////////////
+2170	{font=dinpro_48_black}{align=2}FÜZELERE KARŞI SAVUNMA@10{font=fixed_20}{align=0}Taktik füze geliyor! Gemilerinden birine isabet etmeden önce uçaksavar ateşiyle imha etmeye çalış.@10Dost ateşi uyarısı - yanlışlıkla dost gemileri vurmamaya dikkat et!<SCR=STOP>
+2171	{font=dinpro_48_black}{align=2}UÇAKLARA KARŞI SAVUNMA@10{font=fixed_20}{align=0}Düşman uçakları geliyor! Füze saldırısı ya da bombardıman için yeterince yaklaşmadan önce uçakları imha etmeyi düşün.@10Dost ateşi uyarısı - yanlışlıkla dost gemileri vurmamaya dikkat et!<SCR=STOP>
+2172	<NPC=PETR><SIDE=1><SCR=CONTINUE><RAM=1><MUSIC=Bois>Mark, şu karanlık meselesi. İnsanlar korkuyor. Onları yatıştırmak için bir şey yapmalısınız.
+2173	<NPC=DAUD><SIDE=-1>Mürettebata hitap etmelisiniz Dük. Vazife çağırıyor.
+2174	<ANS=Önce sizi dinlemek isterim. Ne düşünüyorsunuz beyler?|NIGHTFALL_SPEECH_3>
+2175	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Bu ancak bir güneş tutulması olabilir. Mürettebata geçeceğini söyleyin.
+2176	<NPC=PETR><SIDE=1><SCR=CONTINUE>Güneydeki nükleer savaş bir kül bulutu kaldırmış olabilir.
+2177	<NPC=PETR><SIDE=1>Devasa bir kül bulutu.
+2178	<ANS=Herkesi topla. Adamlarla ben konuşacağım.|NIGHTFALL_SPEECH_6>
+2179	<BACKGROUND=background_crowd_01><AMBIENT=crowd_01>Yarım saat sonra kendini uğuldayan devasa bir kalabalığın karşısında buluyorsun.
+2180	<ANS=Subaylar ve mürettebat...|NIGHTFALL_SPEECH_ORDER|PRECHECK_RIGHT=1|CHECK_RIGHT=1>
+2181	<ANS=Kardeşlerim...|NIGHTFALL_SPEECH_FAITH|PRECHECK_FAITH=1|CHECK_FAITH=1>
+2182	<AMBIENT=crowd_calm_02>Emrindekiler kendinden emin askerî tonunla yatışıyor. Sessizlik çöküyor. Adamlar artık dinliyor.<SCR=MORAL|1>
+2183	<ANS=Bu dünyanın sonu.|NIGHTFALL_SPEECH_DARKNESS_1|PRECHECK_FAITH=2>
+2184	<ANS=Güneş, bilinmeyen bir gök cismi tarafından örtüldü.|NIGHTFALL_SPEECH_ECLIPSE_1|PRECHECK_GERAT=2>
+2185	<ANS=Güneydeki nükleer savaştan gelen toz ve kül bize ulaştı ve güneşi kararttı.|NIGHTFALL_SPEECH_DUST_1|PRECHECK_ROMANI=2>
+2186	Bu, Ur'daki büyük bir geçit töreni için uygun bir başlangıç olurdu, ama burada ve şimdi bu kalıp cümlelerin hiçbir gücü yok. Kalabalık seni pek dinlemiyor.<SCR=MORAL|-1>
+2187	<ANS=Bu dünyanın sonu.|NIGHTFALL_SPEECH_DARKNESS_1|PRECHECK_FAITH=2>
+2188	<ANS=Güneş, bilinmeyen bir gök cismi tarafından örtüldü.|NIGHTFALL_SPEECH_ECLIPSE_1|PRECHECK_GERAT=2>
+2189	<ANS=Güneydeki nükleer savaştan gelen toz ve kül bize ulaştı ve güneşi kararttı.|NIGHTFALL_SPEECH_DUST_1|PRECHECK_ROMANI=2>
+2190	<AMBIENT=crowd_calm_02>Sesin kalabalığın üzerinde hayırlı bir dua gibi yankılanıyor. Sessizlik çöküyor. Adamlar artık dinliyor.<SCR=MORAL|1>
+2191	<ANS=Bu dünyanın sonu.|NIGHTFALL_SPEECH_DARKNESS_1|PRECHECK_FAITH=2>
+2192	<ANS=Güneş, bilinmeyen bir gök cismi tarafından örtüldü.|NIGHTFALL_SPEECH_ECLIPSE_1|PRECHECK_GERAT=2>
+2193	<ANS=Güneydeki nükleer savaştan gelen toz ve kül bize ulaştı ve güneşi kararttı.|NIGHTFALL_SPEECH_DUST_1|PRECHECK_ROMANI=2>
+2194	Adamlar şaşkınlıkla başlarını kaldırıyor. Böyle başlamanı beklemiyorlardı.<SCR=MORAL|-1>

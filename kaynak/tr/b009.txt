@@ -1,0 +1,108 @@
+1151	<ANS=Ve ne kadar uğraşsam da, burada tek başıma oturup seninle neden konuştuğumu açıklayamıyorum.|ANT_16>
+1152	<ANS=(Karıncayı ez)|ANT_KILL_1>
+1153	<ANS=Sen haritamın üzerinde nasıl yürüyorsan, ben de dünyanın yüzünde öyle sürünüyorum. Kendimi ve sevdiğim herkesi kurtarmaya çalışarak...|ANT_17>
+1154	<ANS=(Karıncayı ez)|ANT_KILL_1>
+1155	<ANS=Ve bunca zamandır bir başkası da benimle konuşuyor.|ANT_18>
+1156	<ANS=(Karıncayı ez)|ANT_KILL_1>
+1157	<ANS=...|ANT_19>
+1158	<ANS=(Karıncayı ez)|ANT_KILL_1>
+1159	<ANS=(Karıncayı bir bardakla kapat ve yaverine gemiden uzaklaştırmasını söyle)|ANT_SAVE>
+1160	<ANS=(Karıncayı ez)|ANT_KILL_1>
+1161	<SCR=STOP|FEAR=-1>Genç subayların subay salonunda bunu konuşurken nasıl güleceklerini şimdiden gözünde canlandırabiliyorsun.
+1162	<SCR=CONTINUE><BACKGROUND=background_ant2>O narin küçük mahluk hiç direnmeden kirli bir kitin yumağına dönüşüyor.
+1163	<SCR=CONTINUE>Kısa bir an için, sırf haritanın üzerindeki yolculuğunu sürdürebilsin diye karıncayı diriltmeyi denemek geliyor içinden.
+1164	<ANS=(Parmaklarını sil)|EXIT>
+1165	Allah'ın lütfuyla BİZ, ROMANİLERİN İMPARATORU II. KERİM ŞAH, Horan Toprakları'nın Büyük Dükü, Sihem ve Gerat'ın Hükümdarı...
+1166	...Büyük Dük Mark Sayadi Salemski'ye lütufkârane DONANMA TARHANI unvanını bahşeder, böylece unvanına uygun sayıda İmparatorluk Donanması gemisine kendi takdiriyle komuta etme yetkisini kendisine verir.
+1167	Allah, kendisine emanet edilen kudreti Romanilerin hayrı ve şerefi için kullanma hikmetini ona nasip etsin.
+1168	Salem şehrinde, Hanedan'ın 214. yılının 9. ayında tanzim edilmiştir.
+1169	İmparatorluk Hazretleri'nin kendi el yazısıyla:
+1170	VERİLEN KOD ADI:
+1171	ERİŞİM SEVİYESİ:
+1172	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAP_ELINT_PNL>Tarhan hazretleri! Elektronik istihbaratımız yeni bir temas bildirdi.<ANS=DEVAM|EXIT>
+1173	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=IRST_SCOPE>Tarhan hazretleri! Temas! Sistemlerimiz bir ısı izi tespit etti!<ANS=DEVAM|EXIT>
+1174	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAP_RADAR_DISPLAY>Tarhan hazretleri! Radarda yeni hedef!<ANS=DEVAM|EXIT>
+1175	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=CONTACT_GUI>Dikkat! Hedef tespit edildi!<ANS=DEVAM|EXIT>
+1176	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_GUI=CONTACT_GUI>Dikkat! Hedef tespit edildi!<ANS=DEVAM|EXIT>
+1177	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=CONTACT_GUI>Füze geliyor Tarhan! Sıkı tutunun!<ANS=DEVAM|EXIT>
+1178	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_GUI=CONTACT_GUI>Füze geliyor Tarhan! Sıkı tutunun!<ANS=DEVAM|EXIT>
+1179	<NPC=HIRE><APPROVE><SCR=ADD_DIPLOMACY_JOIN>Selam üzerinize olsun efendim! Ben <HIRE_CHAR>, <CITY> şeyhi.
+1180	<ANS=Hiva'ya karşı savaşmak için müttefik arıyorum. Bize katılır mısınız?|HELLO_ROUND|DIPLOMACY_STARTS>
+1181	Bütün dikkatim sizde. Buyurun, söyleyin.
+1182	<MUSIC=Duduk_4_ever><SIDE=0><NPC=HIRE><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT>Geminin yanında duran insan grubuna yaklaşıyorsun.
+1183	<NPC=HIRE><APPROVE><SCR=HELLO_PRE>
+1184	<NPC=HIRE><APPROVE><SCR=ROUND|HELLO_ROUND>
+1185	<NPC=HIRE><APPROVE><SCR=ROUND_RES>
+1186	Güzel söylediniz, çok güzel! Hoş bir sohbet oldu Dük.
+1187	Pekâlâ Dük. Ama laf yeter.
+1188	Eee? Kararınız nedir? Bize katılacak mısınız?
+1189	<NPC=HIRE><APPROVE>Size seve seve katılırım Büyük Dük!<ANS=Diğer tarhanlarla görüşmek istiyorum. Onları nerede bulacağımı biliyor musunuz?|HELLO_INTEL_TARKHANS>
+1190	<NPC=HIRE><APPROVE>Size katılmayacağım. Ama elimden gelen her yardımı sunacağım.<ANS=Diğer tarhanlarla görüşmek istiyorum. Onları nerede bulacağımı biliyor musunuz?|HELLO_INTEL_TARKHANS>
+1191	<NPC=HIRE><APPROVE>Hayır Dük. Size katılmayacağız.<ANS=Diğer tarhanlarla görüşmek istiyorum. Onları nerede bulacağımı biliyor musunuz?|HELLO_INTEL_TARKHANS_LOOSE>
+1192	<NPC=HIRE><APPROVE><SCR=NPC_TAKEOFF>Size asla katılmayacağız. Adamlarınızı toplayıp gidin. Sizin gibilerden korkmuyoruz.<ANS=(Arkanı dön ve git)|EXIT>
+1193	<NPC=HIRE><APPROVE><SCR=INTEL_TARKHANS>
+1194	<ANS=Teşekkür ederim. Minnettarım.|EXIT|DIPDIALOG_WIN>
+1195	<NPC=HIRE><APPROVE><SCR=INTEL_TARKHANS><SCR=NPC_TAKEOFF>
+1196	<ANS=Teşekkür ederim. Minnettarım.|EXIT>
+1197	Hiva Devrimi'nden sonra bütün tarhanlar kanun kaçağı oldu.
+1198	Tarhanlar artık kanun kaçağı.
+1199	Emin değilim.
+1200	Hiva'daki savaştan sonra tarhanlar dağıldı.
+1201	Ama buranın {color=4294960128}kuzeyinde{color=4294305450} yaşayan bir tarhan olduğuna dair söylentiler duydum.
+1202	Ama buranın {color=4294960128}kuzeydoğusunda{color=4294305450} yaşayan bir tarhan olduğuna dair söylentiler duydum.
+1203	Ama buranın {color=4294960128}doğusunda{color=4294305450} yaşayan bir tarhan olduğuna dair söylentiler duydum.
+1204	Ama buranın {color=4294960128}güneydoğusunda{color=4294305450} yaşayan bir tarhan olduğuna dair söylentiler duydum.
+1205	Ama buranın {color=4294960128}güneyinde{color=4294305450} yaşayan bir tarhan olduğuna dair söylentiler duydum.
+1206	Ama buranın {color=4294960128}güneybatısında{color=4294305450} yaşayan bir tarhan olduğuna dair söylentiler duydum.
+1207	Ama buranın {color=4294960128}batısında{color=4294305450} yaşayan bir tarhan olduğuna dair söylentiler duydum.
+1208	Ama buranın {color=4294960128}kuzeybatısında{color=4294305450} yaşayan bir tarhan olduğuna dair söylentiler duydum.
+1209	Epey uzakta.
+1210	Buralarda tarhan falan yok Dük. Hiç duymadım.
+1211	Ve sanırım buranın {color=4294960128}kuzeyinde{color=4294305450} bir tane daha yaşıyor.
+1212	Ve galiba buranın {color=4294960128}kuzeydoğusunda{color=4294305450} bir tane daha yaşıyor.
+1213	Ve buranın {color=4294960128}doğusunda{color=4294305450} bir tane daha yaşadığını söylüyorlar.
+1214	Ve güya buranın {color=4294960128}güneydoğusunda{color=4294305450} bir tane daha yaşıyor.
+1215	Ve buranın {color=4294960128}güneyinde{color=4294305450} bir tane daha olabilir.
+1216	Ve buranın {color=4294960128}güneybatısında{color=4294305450} bir tane daha olabilir.
+1217	Ve buranın {color=4294960128}batısında{color=4294305450} bir tane daha yaşadığını söylüyorlar.
+1218	Ve güya buranın {color=4294960128}kuzeybatısında{color=4294305450} bir tane daha yaşıyor.
+1219	<NPC=LOCAL><APPROVE><SCR=HELLO_PRAISE>
+1220	Romanilere sadakatlerini öv.|HELLO_ROUND|ROMANI=1
+1221	Romanilerden nefret etmelerini öv.|HELLO_ROUND|ROMANI=-1
+1222	Gerat'a sadakatlerini öv.|HELLO_ROUND|GERAT=1
+1223	Elaimlerden nefret etmelerini öv.|HELLO_ROUND|GERAT=-1
+1224	İmanlarını öv.|HELLO_ROUND|FAITH=1
+1225	İman meselelerindeki şüpheciliklerini öv.|HELLO_ROUND|FAITH=-1
+1226	Güçlü adalet duygularını öv.|HELLO_ROUND|RIGHT=1
+1227	Yiğitliklerini öv.|HELLO_ROUND|FORCE=1
+1228	Barışçıl mizaçlarını öv.|HELLO_ROUND|FORCE=-1
+1229	Muazzam servetlerini öv.|HELLO_ROUND|WEALTH=1
+1230	Cömertliklerini öv.|HELLO_ROUND|WEALTH=-1
+1231	Merhametlerini öv.|HELLO_ROUND|KINDNESS=1
+1232	GEÇ|HELLO_ROUND
+1233	<NPC=LOCAL><SCR=HELLO_DOSSIER>
+1234	<NPC=LOCAL><APPROVE><NOSPEAK>Bu şeyhin epey yüreksiz biri olduğu bilinir.<ANS=DEVAM|HELLO_ROUND>
+1235	<NPC=LOCAL><APPROVE><NOSPEAK>Bu şeyhin kimseden korkmadığını söylerler.<ANS=DEVAM|HELLO_ROUND>
+1236	<NPC=LOCAL><APPROVE><NOSPEAK>Bu şeyhin Romanilere bağlı olduğu bilinir.<ANS=DEVAM|HELLO_ROUND>
+1237	<NPC=LOCAL><APPROVE><NOSPEAK>Bu şeyhin Romanilere kin beslediği bilinir.<ANS=DEVAM|HELLO_ROUND>
+1238	<NPC=LOCAL><APPROVE><NOSPEAK>Bu şeyhin Gerat'a bağlı olduğu söylenir.<ANS=DEVAM|HELLO_ROUND>
+1239	<NPC=LOCAL><APPROVE><NOSPEAK>Bu şeyhin Elaimlerden hoşlanmadığı bilinir.<ANS=DEVAM|HELLO_ROUND>
+1240	<NPC=LOCAL><APPROVE><NOSPEAK>Bu şeyh imanlı bir kişi olarak nam salmıştır.<ANS=DEVAM|HELLO_ROUND>
+1241	<NPC=LOCAL><APPROVE><NOSPEAK>Bu şeyh imanı reddeden bir mürted olarak bilinir.<ANS=DEVAM|HELLO_ROUND>
+1242	<NPC=LOCAL><APPROVE><NOSPEAK>Bu şeyhin dürüst ve adil olduğu bilinir.<ANS=DEVAM|HELLO_ROUND>
+1243	<NPC=LOCAL><APPROVE><NOSPEAK>Bu şeyh adaleti hiçe saymakla ve insanlara kötü davranmakla nam salmıştır.<ANS=DEVAM|HELLO_ROUND>
+1244	<NPC=HIRE><APPROVE><NOSPEAK>Bu şeyhin insanlardaki güce değer verdiğini söylerler.<ANS=DEVAM|HELLO_ROUND>
+1245	<NPC=LOCAL><APPROVE><NOSPEAK>Bu şeyh barışçıl mizacıyla bilinir.<ANS=DEVAM|HELLO_ROUND>
+1246	<NPC=LOCAL><APPROVE><NOSPEAK>Bu şeyhin açgözlülüğü meşhurdur.<ANS=DEVAM|HELLO_ROUND>
+1247	<NPC=LOCAL><APPROVE><NOSPEAK>Bu şeyhin cömertliğinin olağanüstü olduğu söylenir.<ANS=DEVAM|HELLO_ROUND>
+1248	<NPC=LOCAL><APPROVE><NOSPEAK>Bu şeyhin merhametinden sık sık söz edildiğini duyuyorsun.<ANS=DEVAM|HELLO_ROUND>
+1249	<NPC=LOCAL><APPROVE><NOSPEAK>Bu şeyh gaddar ve kötü bir kişi olarak dışlanır.<ANS=DEVAM|HELLO_ROUND>
+1250	<NPC=LOCAL><APPROVE><NOSPEAK>Yeni bir şey öğrenemiyorsun.<ANS=DEVAM|HELLO_ROUND>
+1251	Selamlar efendim!|HELLO_2|GREETING|FEAR=-1
+1252	{glossary=İşu,GLOSS_ISHU} adına, selam üzerinize olsun!|HELLO_2|GREETING|FAITH=1
+1253	{glossary=İmparatorluk,GLOSS_IMPIRE} adına sizi selamlıyorum!|HELLO_2|GREETING|ROMANI=1
+1254	{glossary=Gerat,GLOSS_GERAT}'a şan olsun, hoş geldiniz!|HELLO_2|GREETING|GERAT=1
+1255	Burada yetkili kim?|HELLO_2|GREETING|FEAR=1
+1256	<MUSIC=Duduk_4_ever><SCR=SET_HIRE|HARISHID><SCR=CONTINUE>Ve gerçekten de geminin yanında seni bekleyen bir heyet var.
+1257	<SIDE=0><NPC=HIRE><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT>Uzun boylu bir adam öne çıkıyor. Üzerinde bir {glossary=Harişid,GLOSS_HARISHIDS} zırhı var.
+1258	<MUSIC=Duduk_4_ever><SCR=CONTINUE>Sana yaklaşan tuhaf bir grubu görünce şaşırıyorsun - en az bir düzine adam, iyi silahlanmış ve taarruz zırhı kuşanmış.

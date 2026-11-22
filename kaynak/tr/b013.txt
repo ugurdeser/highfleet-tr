@@ -1,0 +1,48 @@
+1871	<SCR=END_BRIEFING|12>Pyotr susuyor ve sana bakıyor. Odadaki herkes sana dönüyor.<ANS=Bu yeni bilgiler ışığında her birimiz bir karar vermeli. Bu şehri terk etmekte ya da kalıp sonuna dek savaşmakta serbestsiniz.|ENDWAR_BRIEFING_MARK_2>
+1872	Sözlerin sağır edici sessizlikte yankılanıyor.<ANS=Ayrılmayı seçenlere söz veriyorum: yollarına çıkmayacağız.|ENDWAR_BRIEFING_LOYALTY_1>
+1873	<SCR=CHECK_STARS|OMAR|ENDWAR_BRIEFING_LOYALTY_2><NPC=OMAR><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|OMAR|FRACTION_KHANS>Gerekirse uğrunuza ölmeye hazırım Sayadi. Hanların donanması size katılacak.
+1874	<SCR=CHECK_STARS|FASIL|ENDWAR_BRIEFING_LOYALTY_3><NPC=FASIL><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|FASIL|FRACTION_ELAOU>Birlikte çok şey atlattık Büyük Dük. Elaou Hanedanı sizin yanınızda.
+1875	<SCR=CHECK_STARS|BOY|ENDWAR_BRIEFING_LOYALTY_4><NPC=BOY><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|BOY|FRACTION_HIDDEN>Gizli Halk davana katılacak, Sayadi'nin oğlu.
+1876	<SCR=CHECK_STARS|GIRL|ENDWAR_BRIEFING_LOYALTY_5><NPC=GIRL><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|GIRL|FRACTION_ISI>Aşiretim de size katılacak efendim.
+1877	<SCR=CHECK_STARS|HARISHID|ENDWAR_BRIEFING_LOYALTY_6><NPC=HARISHID><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|HARISHID|FRACTION_HARISHID>Gerat'ın muhafızları sizinle omuz omuza duracak Büyük Dük!
+1878	<SCR=CHECK_STARS|HISSID|ENDWAR_BRIEFING_LOYALTY_7><NPC=HISSID><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|HISSID|FRACTION_HISSID>Korsanlar da öyle.
+1879	<SCR=CHECK_STARS|KNIGHT|ENDWAR_BRIEFING_LOYALTY_8><NPC=KNIGHT><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|KNIGHT|FRACTION_KNIGHT>Dustum şövalyeleri sizinle savaşacak!
+1880	<SCR=CHECK_STARS|SCOUT|ENDWAR_BRIEFING_LOYALTY_9><NPC=SCOUT><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|SCOUT|FRACTION_SCOUT>Adamlarım da size destek olmaya hazır Büyük Dük.
+1881	<SCR=CHECK_STARS|AIRBORNE|ENDWAR_BRIEFING_LOYALTY_10><NPC=AIRBORNE><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|AIRBORNE|FRACTION_AIRBORNE>Bunu ne zamandır bekliyordum! O lanet çölde yaşlılıktan ölseydim yazık olurdu doğrusu...
+1882	<SCR=CHECK_STARS|VETERAN|ENDWAR_BRIEFING_END_1><NPC=VETERAN><SIDE=-1><SCR=CONTINUE|ENDWAR_BRIEFING_END_1><SCR=END_BRIEFING|13|VETERAN|FRACTION_VETERAN>Diğerleri gibi ben de canımı sizin ellerinize teslim ediyorum Dük.
+1883	<SCR=END_BRIEFING|14><BLUR=2><ANS=O hâlde Allah yardımcımız olsun beyler.|TOTAL_WAR_INFO>
+1884	HEDEF 1:@Füze taşıyıcılarını, Hiva'nın 2.000 km çapındaki herhangi bir şehre varmadan önce durdur. (2 kaldı.)
+1885	HEDEF 2:@Hiva'yı tehdit eden taarruz gruplarını imha et. (3 kaldı.)
+1886	MUHTEMEL ATIŞ NOKTASI
+1887	MUHTEMEL VARIŞ NOKTASI
+1888	<SCR=CHECK_JOINED|PETR|EXIT><NPC=PETR><SIDE=-1><SALUTE><SHADOW=1><SCR=CONTINUE>Tarhan hazretleri! <FOCUS_INCITY> şehrine varışımızla ilgili bir yayın yakaladık.
+1889	<NPC=PETR><SIDE=-1><SCR=STOP>Yerlilerden biri göndermiş olmalı. Artık düşman burada olduğumuzu biliyor.
+1890	<NPC=OMAR><SIDE=0>Gidiyorum Dük. Sizin tarafınızı tutmak bir hataydı.
+1891	<ANS=Elveda Ömer. Rüzgâr hep arkandan essin.|OMAR_GOODBUY_2>
+1892	<NPC=OMAR><SIDE=0>Size de Dük.<SCR=STOP>
+1893	<NPC=FASIL><SIDE=0>Bunu söylemek bana acı veriyor Dük, ama sizinle bir türlü anlaşamıyoruz. Yollarımızı ayırma vakti geldi.
+1894	<ANS=Anlıyorum Prens. Yolunuz açık olsun.|FASIL_GOODBUY_2>
+1895	<NPC=FASIL><SIDE=0>Talih size de gülsün Dük.<SCR=STOP>
+1896	<NPC=KNIGHT><SIDE=0>Bu kadarı yeter hazretleri! Ben gidiyorum. Yüce Allah yolunuzu açık etsin.
+1897	<ANS=Pekâlâ. Sana da yolun açık olsun Şuca.|EXIT>
+1898	<AMBIENT=crowd_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Filona refakat eden Elaimlerden biri seni teke tek dövüşe davet etti. Düello Hakkı olan Daavat'ı öne sürdü. Bir zamanlar rütbe yükseltmenin yolu olan Daavat artık bir onur meselesi. Birçok Geratlı bu kadim geleneği hâlâ sürdürüyor.
+1899	<ANS=Daveti kabul et. {color=4294910720}[YARALANMA İHTİMALİ %50]|EVENT_DAAVAT_2|GERAT=1|FORCE=1>
+1900	<ANS=Daveti reddet.|EVENT_DAAVAT_NOFIGHT|GERAT=-1|FORCE=-1>
+1901	<AMBIENT=swordfight_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Elaimler düello için seçilen toprak parçasını omuz omuza çevreliyor. Rakibin kısa sürede usta bir kılıç ustası olduğunu gösteriyor.<SCR=CONTINUE|EVENT_DAAVAT_RES|DICE=50>
+1902	<AMBIENT=STOP><SOUND=swordhit_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Ama sonra, şaşkınlığına, kılıcın hedefini buluyor. Kılıç rakibinin kalçasına derin bir yara açıyor ve adam yere yığılıyor.<SCR=CONTINUE|EVENT_DAAVAT_RES_1>
+1903	<AMBIENT=STOP><SOUND=swordhit_02><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Boğuşma sırasında kılıcı omzunu yarıyor. Pes ediyorsun.<SCR=STOP|WOUND=24>
+1904	<SOUND=crowd_medium_win_04><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Elaimler ve adamların coşku içinde.<SCR=CONTINUE|EVENT_DAAVAT_RES_2|MORAL=1>
+1905	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}En iyi Romani kılıç ustalarıyla geçen onca antrenman yılı nihayet meyvesini verdi.<SCR=STOP|FEAR=1>
+1906	<AMBIENT=STOP><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Rakibinin dudakları alaycı bir kıvrım alıyor. Topuğunun üzerinde dönüp gidiyor. Çevrendekiler hayal kırıklıklarını gizlemeye bile zahmet etmiyor.<SCR=STOP>
+1907	<AMBIENT=crowd_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}HAVLAYAN KÖPEK@10 {animation=event_execution} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Bir kılıç eri, bir adamı ensesinden tutup sana sürüklüyor. Adam, herkesin içinde adını karalama cüretini gösteren yerli bir falcı.<SCR=CONTINUE>
+1908	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}HAVLAYAN KÖPEK@10 {animation=event_execution} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}"Yüce Allah'ın kulunu sorgulayanlara hiçbir ceza ağır gelmez! Bu alçak ölmeyi hak ediyor!" diye haykırıyor asker. Çevrendeki Elaimler onaylayarak bağırıyor.
+1909	<ANS=Falcıyı idam ettir.|EVENT_EXECUTION_YES|KINDNESS=-1|GERAT=1>
+1910	<ANS=Falcıyı serbest bırak.|EVENT_EXECUTION_NO|KINDNESS=1|GERAT=-1>
+1911	<AMBIENT=STOP><SOUND=execution_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}HAVLAYAN KÖPEK@10 {animation=event_execution} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Askerin ustaca savurduğu tek bir kılıç darbesiyle falcının başı gövdesinden ayrılıyor. Cesedi kıpırtısız hâlde yere düşüyor.<SCR=STOP|FEAR=1|CRUELTY=1>
+1912	<AMBIENT=STOP><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}HAVLAYAN KÖPEK@10 {animation=event_execution} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Elaimler isteksizce boyun eğiyor; kendi aralarında Dük'ün yersiz merhametinin daha çok alay çekeceğini mırıldanıyorlar.<SCR=STOP|FEAR=-1>
+1913	<AMBIENT=crowd_calm_02><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}RAKİB@10 {animation=event_monk_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}İnanılmaz yırtık pırtık paçavralar giymiş gezgin bir derviş sana yaklaşıyor. Kendini beğenmiş bir edayla, Yüce Allah'ın duanı işittiğini ve onu sana gönderdiğini, zira kendisinin son derece salih bir din adamı olduğunu ilan ediyor.<SCR=CONTINUE>
+1914	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}RAKİB DERVİŞ@10 {animation=event_monk_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Perişan hâldeki adam, Yüce Allah'ın seni, yani Dük'ü, kendi hikmetli öğütleriyle mübarek kılmayı murat ettiğini, bu yüzden onu maiyetine almanı ve kendisi gibi dindar bir kişinin hak ettiği bütün yiyecek, içecek, barınak ve hürmeti sağlamanı istediğini iddia ediyor.<SCR=CONTINUE>
+1915	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}RAKİB DERVİŞ@10 {animation=event_monk_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Subayların bu tuhaf adama yarı şaşkın yarı öfkeli bakıyor. Elaimler ise belirgin biçimde ciddi görünüyor.
+1916	<ANS=Dervişi maiyetine al.|EVENT_MONK_01_YES_OM|GERAT=1|FAITH=1|ROMANI=-1>
+1917	<ANS=Ona gitmesini söyle.|EVENT_MONK_01_NO_AR|GERAT=-1|FAITH=-1|ROMANI=1>
+1918	<AMBIENT=STOP><TRG=MONK|1><SCR=CHECK_JOINED|OMAR|EVENT_MONK_01_YES_GL><SCR=CONTINUE|EVENT_MONK_01_YES_AR|OMAR=1><NPC=OMAR><SIDE=0>Fakire sadaka verdiğimizde aslında paramızı bizzat Allah'a ödünç vermiş oluruz! İsabetli bir seçim yaptınız efendim.

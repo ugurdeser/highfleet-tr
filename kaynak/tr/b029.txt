@@ -1,0 +1,218 @@
+3100	<NPC=HIRE><APPROVE>Hayır. Asla.<ANS=Bunu duyduğuma çok üzüldüm.|MEETING_FIGHT>
+3101	Son teknoloji, güçlü bir hava savunma gemisi; daha hafif ve hızlı gemilere karşı bile ayakta kalmaya yetecek ağır topçusu ve sağlam zırhı var. Yine de fazla rahat olma - bu araç bir it dalaşında feda edilemeyecek kadar pahalı.
+3102	Romani ağır kruvazör serisinin amiral gemisi modeli; büyük bir taarruz grubunun çekirdeği olarak tasarlandı. Eşsiz tek başına seyir kapasitesi ve İmparatorluk Donanması'nın en iyi silahlarıyla bu gemi tek başına bile korkunçtur.@10Kruvazör inşa edilir edilmez muharebeye gönderildi, bu yüzden taşıması tasarlanan hayati olmayan birçok sistem hâlâ eksik.
+3103	<SCR=CHECK_JOINED|DAUD|EXIT><NPC=DAUD><SIDE=-1>Hiva reaktörünün gerçekten kadim bir sığınak olduğunu mu düşünüyorsunuz Dük?
+3104	<ANS=Bundan eminim Amiral|NIGHTFEAR_SPEECH_REACTOR_2>
+3105	<ANS=Güneş ışığı olmadan, çalışır durumdaki bir nükleer reaktör hayatta kalmak için tek şansımız.|NIGHTFEAR_SPEECH_REACTOR_2>
+3106	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Şahor El-Farah, "Kara Boşluk Günü"...
+3107	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Biliyorsunuz Dük, güneş gidince hava bile fazlasıyla soğuyacak. Sonunda donacak.
+3108	<NPC=DAUD><SIDE=-1>Atmosferdeki bütün hava yoğunlaşıp gezegenin yüzeyinde bir kabuk oluşturacak. Boşlukta nasıl hayatta kalmayı planlıyorsunuz Dük hazretleri?
+3109	<ANS=Bana Hiva reaktörünün bir dağ kadar büyük olduğu söylendi. Bilgimiz ve maharetimiz atalarımızınkinin yanında sönük kalır. Onlara güvenmeliyiz.|EXIT>
+3110	<NPC=PETR>O zaman şehre saldırmak tamamen imkânsız olur.
+3111	<ANS=Pyotr, şu karanlık... Her gün biraz daha soğuduğunu sen de fark ettin, değil mi?|ENDRACE_SPEECH_6>
+3112	<NPC=PETR><SCR=CONTINUE>Fark etmekten fazlasını yaptım Dük hazretleri.
+3113	<NPC=PETR><SCR=CONTINUE>Her sabah termometreleri kontrol ediyorum... (Pyotr'un sesi kısılıyor.) Yani her gün saat altıda.
+3114	<NPC=PETR><SCR=CONTINUE>Her hâlükârda, bu böyle devam ederse...
+3115	<NPC=PETR><NOSPEAK><SCR=CONTINUE>Pyotr derin bir iç çekiyor, sonra söyleyecek söz bulamayıp başını sallıyor.
+3116	<NPC=PETR><SCR=STOP>Dürüst olayım Dük hazretleri - bütün bunlardan hâlâ hiçbir şey anlamıyorum.
+3117	<EVENT>Hiva reaktörü Cemaat kuvvetleri tarafından ele geçirildi ve yerle bir edildi.<SCR=CONTINUE>
+3118	<EVENT>Gerat halkı bu felaketten sağ çıkma umudunu tamamen yitirdi.<SCR=STOP>
+3119	{max=520}{font=dinpro_48_black}{align=2}TOPYEKÛN SAVAŞ@10{font=fixed_20}{align=0}Paranın artık bir anlamı yok. Yakıt, mühimmat ve onarım ücretsiz.@10Felaketin ışığında Gerat'ta birçok insan davana katılmak isteyecek.<SCR=STOP>
+3120	SAVAŞ SUÇU
+3121	EMİR
+3122	ÇARPMA
+3123	<NPC=PETR><SIDE=-1>Söylentiler var Büyük Dük... gemilerimizden birine bir düşman gemisine çarpma emri verdiğinizi söylüyorlar. Sonucunda geminin bütün mürettebatı can verdi.
+3124	<ANS=Bu söylentilerin hiçbir aslı yok General.|TUTORIAL_RAM_YES>
+3125	<ANS=Ne olmuş yani? O yiğit kadın ve erkekler ölümlerinin ardından terfi ettirilip İmparatorluğun kahramanları olarak anılacak.|TUTORIAL_RAM_NO_1>
+3126	<NPC=PETR><SCR=STOP>Öyle de olsa, bu söylentiler morale son derece zararlı.
+3127	<NPC=PETR><SCR=CONTINUE>Böyle emirler vermeye devam ederseniz adamlar zafere olan inancını tamamen yitirecek.
+3128	<NPC=PETR><SCR=CONTINUE>Bizim insanlarımızın ölme arzusu yok Mark.
+3129	<NPC=PETR><PETR=-1><SCR=STOP>İyi günler.
+3130	Yakın mesafe hava muharebesi için tasarlanmıştır.
+3131	Havadan yere bombardıman için tasarlanmıştır.
+3132	Hava hedeflerini önlemek için tasarlanmıştır.
+3133	Hava gruplarını düşman uçak ve füze saldırılarına karşı korumak için tasarlanmıştır.
+3134	Düşman kuvvetlerini hızla tespit etmek için tasarlanmıştır.
+3135	Taarruz gruplarının menzilini uzatmak için tasarlanmıştır.
+3136	Bu gemi bir uçak gemisidir; uçakları hazır bekler.
+3137	Bu gemi uzun menzilli konvansiyonel füze taşır.
+3138	Bu gemi uzun menzilli nükleer füze taşır.
+3139	KONTROLLER
+3140	SIFIRLA
+3141	YUKARI
+3142	AŞAĞI
+3143	SOL
+3144	SAĞ
+3145	SOLA YAT
+3146	SAĞA YAT
+3147	ART YAKICI
+3148	İNİŞ TAKIMI
+3149	TAHLİYE
+3150	ANA SİLAH ATEŞ
+3151	YARDIMCI ATEŞ
+3152	BOMBA NİŞANGÂHI
+3153	GEMİSAVAR FÜZE
+3154	UÇAKSAVAR FÜZE
+3155	UÇAK KALDIR
+3156	YEM FİŞEĞİ
+3157	MÜHİMMAT DEĞİŞTİR
+3158	YANGIN SÖNDÜRME
+3159	{max=520}{font=dinpro_48_black}{align=2}KOLAY ZORLUK SEVİYESİ@10{font=fixed_20}{align=0}Bütün incelikleri öğrenmek gibi bir arzun yoksa, kolay mod oyunun tadını daha çabuk çıkarmana yardım eder.@10İstediğin an kayıt, muharebede daha az hasar.<SCR=STOP>
+3160	{max=520}{font=dinpro_48_black}{align=2}NORMAL ZORLUK SEVİYESİ@10{font=fixed_20}{align=0}Oyundan azami verimi almak isteyen ve ustalaşmak için biraz zaman ayırmaya gönüllü oyuncular için uygundur.@10Kayıt yalnızca kontrol noktalarında. Sefer daha yumuşak başlar, ama bitirmek kolay olmayacak.<SCR=STOP>
+3161	{max=520}{font=dinpro_48_black}{align=2}ZOR ZORLUK SEVİYESİ@10{font=fixed_20}{align=0}Oyunu zaten bilenler için tasarlandı. Zor mod, oyuncuyu en baştan çatışmaların göbeğine atar.@10Şehirlerde büyük garnizonlar, güçlü taarruz grupları, zorlu onarımlar.<SCR=STOP>
+3162	Köprüüstü döndürülmüş
+3163	Gövde döndürülmüş
+3164	Yuva sayısı farklı
+3165	Yuva yok
+3166	Farklı nesne tipleri
+3167	Dahilî hata
+3168	Yuva dolu
+3169	Hatalı nesne
+3170	Nesne nesneye takılamıyor (takılan)
+3171	Nesne nesneye takılamıyor (hedef)
+3172	Nesne nesneye takılamıyor
+3173	Şu sürümle uyumlu
+3174	Çıkmak istediğine emin misin? Kaydedilmemiş ilerleme kaybolacak.
+3175	SEÇİLEN GEMİLER
+3176	MENZİL ŞARTLARI
+3177	HEDEFE ULAŞMAK İÇİN FİLONUN MENZİLİ EN AZ 2000 KM OLMALI
+3178	MENZİL
+3179	PARA
+3180	KOLAY
+3181	NORMAL
+3182	ZOR
+3183	BAŞLA
+3184	TERSANE
+3185	BAS
+3186	YANGIN SÖNDÜRME SİSTEMİNİ ÇALIŞTIRMAK İÇİN
+3187	FSS BLOKLARI
+3188	DEVAMI AŞAĞIDA
+3189	EMEĞİ GEÇENLER
+3190	GEMİ ROLLERİ
+3191	ROMANİ MUHAREBE GEMİSİ ROLLERİ
+3192	HAVA ÜSTÜNLÜĞÜ
+3193	TAARRUZ GEMİLERİ
+3194	ÖNLEYİCİ
+3195	HAVA SAVUNMA
+3196	TANKER
+3197	ERKEN İHBAR
+3198	UÇAK GEMİSİ
+3199	FÜZE GEMİSİ
+3200	NÜKLEER FÜZE GEMİSİ
+3201	SANCAK GEMİSİ
+3202	YARDIM İSTE
+3203	NİZAM
+3204	KIDEMLİ MAKİNİST
+3205	HASSA MUHAFIZI
+3206	KIDEMLİ TOPÇU
+3207	KIDEMLİ SIHHİYECİ
+3208	KIDEMLİ PİLOT
+3209	DAİMA HAZIR
+3210	TECRÜBELİ KOMUTAN
+3211	SAVAŞ YARALARI
+3212	MORAL
+3213	ECM YOK (Elektronik karşı tedbir)
+3214	YAKIT STOKU
+3215	TOPLAM YAKIT
+3216	PARA
+3217	YEDEK PARÇA
+3218	UÇAK GRUBU
+3219	YEŞAYA KİTABI
+3220	Allah'ın lütfuyla
+3221	BİZ, II. KERİM ŞAH,
+3222	ROMANİLERİN İMPARATORU,
+3223	Horan Toprakları'nın Büyük Dükü, Sihem ve Gerat'ın Hükümdarı.
+3224	Büyük Dük Mark Sayadi Salemski'ye lütufkârane DONANMA TARHANI unvanını bahşeder, böylece unvanına uygun sayıda İmparatorluk Donanması gemisine kendi takdiriyle komuta etme yetkisini kendisine verir.
+3225	Allah, kendisine emanet edilen kudreti Romanilerin hayrı ve şerefi için kullanma hikmetini ona nasip etsin.
+3226	Salem şehrinde, Hanedan'ın 214. yılının 9. ayında tanzim edilmiştir.
+3227	İmparatorluk Hazretleri'nin kendi el yazısıyla:
+3228	KAPTAN KAMARASINDAN ÇIK
+3229	FÜZE KUMANDASI
+3230	TİP VE ADET SEÇ
+3231	ATIŞ
+3232	MÜFREZE
+3233	MÜFREZE YAKIT STOKU
+3234	YAKIT İKMAL KUMANDASI
+3235	ANİ BASKIN İHTİMALİ
+3236	RADAR
+3237	IR (kızılötesi)
+3238	KISA
+3239	UZUN
+3240	ELINT YOK (elektronik istihbarat)
+3241	ELEKTRONİK İSTİHBARAT
+3242	KARIŞTIRICILAR
+3243	ÇOK HIZLI
+3244	DÜNYA GÖRÜŞÜ
+3245	DAHİLÎ MUHABERE
+3246	ALICI KILAVUZU
+3247	1. BANDI SEÇ
+3248	2. SİNYALİ AYARLA
+3249	3. YÖN BULUCUYU KULLAN
+3250	BANT SEÇ
+3251	AYAR
+3252	SİNYAL GÜCÜ
+3253	OTOMATİK DİNLEME
+3254	YAYININ BİR KISMI KAYBOLACAK!
+3255	GÜÇ
+3256	KERTERİZ
+3257	ŞİFRE ÇÖZÜCÜ
+3258	YÖN BULUCU KILAVUZU
+3259	4. SİNYAL GÜCÜNÜ AZAMİYE ÇIKARMAK İÇİN KERTERİZ AYAR TEKERİNİ ÇEVİR
+3260	5. KAYDET DÜĞMESİNE BAS
+3261	KAYDET
+3262	TELSİZ MEVKİİ
+3263	KOMUTA GEMİSİ İŞARETİ
+3264	SEFER
+3265	ÇARPIŞMA
+3266	İTKİ
+3267	SEYİR UÇUŞU
+3268	BEKLEME UÇUŞU
+3269	HAVADA DUR
+3270	TÜRBİN DEVRİ
+3271	KAPAĞI AÇ ŞEHRE GİR
+3272	ÖZEL MERMİ
+3273	ONARIM
+3274	GERİ AL
+3275	GEMİYİ SAT
+3276	PARA
+3277	TERSANEDE MEVCUT
+3278	GEMİ AMBARI
+3279	GENEL ALARM
+3280	GENEL ALARM EMRİNİ VERMEK İÇİN KOLU ÇEK
+3281	MUHAREBE PLANLAMASI
+3282	MÜTTEFİKLER
+3283	DÜŞMAN
+3284	1. GEMİLERİNİ DİZ
+3285	2. MUHAREBEYE GİR
+3286	KUVVET
+3287	HİKMET
+3288	MERHAMET
+3289	ŞİFRE ANAHTARI
+3290	TELSİZ ANAHTAR FORMU
+3291	UÇUŞ MENZİLİ
+3292	YAKIT İKMALİ
+3293	O eziyet edildi, acı çektirildi, yine de ağzını açmadı: kurbanlığa götürülen bir kuzu gibi, kırkıcıların önünde dilsiz duran bir koyun gibi, o da ağzını açmadı.
+3294	4 Şüphesiz bizim acılarımızı yüklendi, kederlerimizi taşıdı: oysa biz onu Allah tarafından vurulmuş, ezilmiş ve acı çektirilmiş saydık.
+3295	5 Oysa o bizim isyanlarımız yüzünden yaralandı, bizim günahlarımız yüzünden ezildi: esenliğimiz için gereken ceza ona yüklendi; ve onun yaralarıyla biz şifa bulduk.
+3296	6 Hepimiz koyun gibi yoldan sapmıştık; her birimiz kendi yolumuza dönmüştük; ve RAB hepimizin suçunu onun üzerine yükledi.
+3297	1 Getirdiğimiz habere kim inandı? Ve RAB'bin kudreti kime açıklandı?
+3298	2 Zira o, onun önünde körpe bir fidan gibi, kurak topraktan çıkan bir kök gibi boy verecek: ne bir şekli ne bir güzelliği var; onu gördüğümüzde arzu edeceğimiz bir güzelliği yok.
+3299	3 O insanlarca hor görüldü ve reddedildi; acılar adamı, kederi tanımış biri: sanki ondan yüzümüzü gizledik; hor görüldü ve biz onu bir hiç saydık.
+3300	ÇIKIŞ
+3301	YENİ OYUN
+3302	SEÇENEKLER
+3303	SALVO ATEŞİ
+3304	Tam dolmasını bekleyip öyle ateş et. Salvo ateşi düşmanı vurma ihtimalini artırır. Ayrıca doldurma sürerken manevraya odaklanabilirsin.
+3305	MÜHİMMAT KASETİ PENCERESİ
+3306	Kalan mühimmat miktarını kestirmek kolaydır.
+3307	HAZIR IŞIĞI
+3308	Mühimmat kaseti tam dolduğunda bu gösterge yeşil yanıp söner.
+3309	ART YAKICILAR
+3310	ART YAKMAYI ÇALIŞTIR
+3311	Savunma ya da taarruz manevraları yaparken itkiyi artır. Bu, güdümlü füzelerden kaçmanı ve rakiplerine karşı mevzi üstünlüğü kazanmanı sağlar.
+3312	Dikkat! Birkaç saniyeden uzun art yakma, aşırı ısınmaya ve ardından motorların acil durdurulmasına yol açar!
+3313	RADYOAKTİF!
+3314	BASİT!
+3315	HAREKET İÇİN
+3316	Savunma manevraları hayatidir; bu yüzden ateş hatlarından kaçmayı ve hedeflere teğet yaklaşmayı öğrenmek şarttır.
+3317	ATEŞ İÇİN

@@ -1,0 +1,47 @@
+2340	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KERVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}"İşvan'ın kervanında üç gündür ateşler yanıyor. O kadar çok ölü var ki... ahir zaman bu Büyük Noyan."
+2341	<ANS=Kervancılara tarhanları sor.|EVENT_CARAVAN_TARKHANS>
+2342	<ANS=Kervancılara Hiva konvoylarını sor.|EVENT_CARAVAN_CONVOYS>
+2343	<ANS=Kervancılara gizli şehirleri sor.|EVENT_CARAVAN_HIDDENS>
+2344	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}TAKİP@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Sen varır varmaz şehirden gemilerine doğru, başlarında yaşlı bir şeyhle bir kalabalık koşuyor. Çığlıklar ve feryatlar arasında sana daha dün şehirden ayrılan askerî bir konvoydan bahsediyor.
+2345	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}TAKİP@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Refakat birliğinin başı (Yüce Allah ona ebediyen lanet etsin!) birçok insanı rehin almış ve şehrin servetinin büyük kısmını çalmış. Şeyh o silahlı gemiyi kovalayıp alçakları cezalandırman için sana yalvarıyor ve rehineleri kurtarmanın ödülü olarak şehrin çalınan bütün servetini sana vaat ediyor.<ANS=Nereye gittiler?|EVENT_CHASE_3>
+2346	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}TAKİP@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=EVENT_CHASE_START>
+2347	Rehineler seni minnet ve övgüye boğuyor. Şeyh doğru söylemiş - geminin ambarı değerli yükle dolu. Bu konvoy yol boyunca birçok şehri soymuş olmalı.<SCR=STOP|GOLD=10000|GERAT=2|RIGHT=2>
+2348	Şeyh sana alçakların şu yöne gittiğini söylüyor:
+2349	. Ayrıca refakat gemisinin çağrı adını da veriyor: KARGA.
+2350	kuzey
+2351	kuzeydoğu
+2352	doğu
+2353	güneydoğu
+2354	güney
+2355	güneybatı
+2356	batı
+2357	kuzeybatı
+2358	<MUSIC=Bois><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}HOŞNUTSUZ SUBAYLAR@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Ur'da sana katılan Romani subayları her gün biraz daha somurtkan ve gergin. Filo senin komutana verildiğinde hepsi memnun olmamıştı ve şimdi o hoşnutsuz subaylar kararlarını açıkça sorguluyor.
+2359	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}HOŞNUTSUZ SUBAYLAR@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Sürekli iç çekişme mürettebatı yormuş ve bu bitkinliğin gücenmeye dönüştüğünü hissedebiliyorsun. Sonunda kıdemli subaylardan biri, makamın için fazla genç ve tecrübesiz olduğunu iddia ederek seni herkesin içinde kınama cüretini gösteriyor.
+2360	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}HOŞNUTSUZ SUBAYLAR@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Subay, bu filoyu yönetmen için seni tayin eden kim ise ağır bir hata yaptığını iddia ediyor. Bu umutsuz yürüyüşün son bulması ve gemilerin güneye dönüp Ur'a geri gitmesi gerektiğinde ısrar ediyor.
+2361	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}HOŞNUTSUZ SUBAYLAR@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Sonra da, daha vakit varken başkente dönmeliymişiz.
+2362	<ANS=Dilediğiniz buysa Yüzbaşı, sizi görevden alabilirim. Bir sonraki limanda filodan ayrılmakta serbestsiniz, oradan da istediğiniz gibi Ur'a dönebilirsiniz.|EVENT_DISCONTENT_01_RES|PRECHECK_FEAR=1|CHECK_FEAR=1>
+2363	<ANS=Donanma yüzbaşısı olarak yemin ettiniz. Ben tahtın meşru varisiyim ve babama ne olduğunu hepimiz öğrenene dek Romani Donanması'na komuta etmek benim, yalnızca benim vazifemdir.|EVENT_DISCONTENT_01_RES|PRECHECK_ROMANI=2|CHECK_ROMANI=2>
+2364	<ANS=Dilinize dikkat edin Yüzbaşı, yoksa yüksek komutanlığa karşı itaatsizliği kışkırtmaktan divanıharbe çıkarsınız.|EVENT_DISCONTENT_01_RES|PRECHECK_RIGHT=1|CHECK_RIGHT=1>
+2365	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}HOŞNUTSUZ SUBAYLAR@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=3>Asi subay susmaya karar veriyor. Bir daha sana karşı ağzını açmayacak - sözlerin en azından şimdilik gerginliği yatıştırmış görünüyor. Gemi güvenliğine bir süre subayı göz altında tutmalarını söylüyorsun.
+2366	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}HOŞNUTSUZ SUBAYLAR@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Yüzbaşı küstahlığında ısrar etmeye karar veriyor. "Böyle düşünen bir tek ben miyim sanıyorsunuz Dük? Gözünüzü açın, etrafınıza iyi bakın - bu filodaki subayların çoğu aynı şeyi düşünüyor!"
+2367	<ANS=Emirlerimden memnun olmayanlar filodan ayrılmakta serbesttir. Dönüş yolculuğu için size bir gemi vereceğiz.|EVENT_DISCONTENT_01_LEFT|SHIP_LEFT=WEAKEST>
+2368	<ANS=Yüzbaşıyı isyandan tutukla.|EVENT_DISCONTENT_01_AREST>
+2369	<SCR=STOP|MORAL=5>Açık iznin üzerine birkaç subay filodan ayrılıp Ur'a dönmeye hazırlanıyor. Neyse ki sayıları fazla değil; hoşnutsuz subaylar gidince filodaki gerginlik bir süreliğine yok oluyor.
+2370	<SCR=STOP|MORAL=-1>Güvenlik subayları küstah subayı uzun bir süre kalmak üzere hapishaneye götürüyor. Bu seferlik bir isyanı önlemeyi başardın, ama tutuklamadan sonra gerginlik daha da artıyor.
+2371	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}BİR ONUR MESELESİ@10 {animation=event_dishonor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_DISHONOR_OMAR>Şehirde konaklayan tüccarlar, adamlarını öfkeden titretecek bir haber getiriyor. <DISHONOR_CITY> şeyhi seni açıkça aşağılıyor, sana "Dilenciler Dükü" diyor ve şeyhlerden ne yardım ne de misafirperverlik hak ettiğini söylüyor.
+2372	<SCR=CHECK_JOINED|OMAR|EVENT_DISHONOR_FASIL><NPC=OMAR><SCR=STOP|LEVEL_FEAR=-1><DISHONOR_CITY> şeyhi adını karalayan uyuz bir köpektir naib. Elaimler akıllıdır, ama onu cezasız bırakırsan bazıları ona inanmaya başlayabilir.
+2373	<SCR=CHECK_JOINED|FASIL|EVENT_DISHONOR_FASIL><NPC=FASIL><SCR=STOP|LEVEL_FEAR=-1><DISHONOR_CITY> şehrine gemi gönderip o şeyhe bir ziyaret yapmalısınız. Onu cezasız bırakırsanız bazı Elaimler ona inanmaya başlayabilir.
+2374	ASİ ŞEYH
+2375	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}BİR ONUR MESELESİ@10 {animation=event_dishonor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=EVENT_DISHONOR>Asi şeyh sana iftira atarken çok cesur görünüyordu, ama şimdi esirin olunca bütün cesareti buhar oldu. Dehşetten titreyerek önünde diz çöküyor ve merhamet dileniyor.
+2376	<ANS=Şeyhi idam ettir ve malına el koy.|EXIT|FEAR=5|GERAT=1|KINDNESS=-1|GOLD=4000>
+2377	<ANS=Şeyhi sağ bırak ve ceza olarak malına el koy.|EXIT|FEAR=3|GERAT=-1|KINDNESS=1|GOLD=4000>
+2378	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}YENİ AD@10 {animation=event_name} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Elaimlerin sana "emir" ya da "naib" diye seslenmesini artık kanıksadın, ama son zamanlarda sık sık seni işaret edip "Emir El-Matar" dediklerini görüyorsun.<ANS=Emir El-Matar... bu ne demek Prens?|EVENT_NAME_2>
+2379	<NPC=FASIL><SCR=CONTINUE>Gelişinizin Gerat'a aralıksız yağmur getirdiğini söylüyorlar.
+2380	<NPC=FASIL><SCR=CONTINUE>Yağmur hayra alamettir. Yüce Allah'ın sizi Gerat'a bir sebeple gönderdiğini ve kadim vaatlerin gerçekleşmeye başladığını söylüyorlar.
+2381	<NPC=FASIL>Yerinizde olsam Dük hazretleri, bu unvanı yeni adım olarak kabul ederdim. Halkımın kalbini kazanmanıza yardım eder.
+2382	<ANS=Bu yeni adı benimse.|EXIT|LEVEL_GERAT=1|LEVEL_ROMANI=-1|LEVEL_FAITH=1>
+2383	<ANS=Adı reddet.|EXIT>
+2384	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}FELAKET@10 {animation=event_disaster} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Şehre vardığında tam merkezinde devasa, kapkara bir uçurumun ağzını açtığını görüyorsun - bir yakıt deposu patlamasının sonucu. Kraterin çevresindeki şehrin yarısı harabe hâlinde, enkazın altına gömülmüş sayısız ölüyle birlikte.
+2385	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}FELAKET@10 {animation=event_disaster} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Şeyh kurtarma çalışmalarına yardım etmen için sana yalvarıyor. Birçok insan diri diri gömüldü. Gemilerine ve makinelerine tam iki gün ihtiyacı var. "Kuzeydeki yakıt deposu gitti," diye yalvarıyor, "ama güneydeki depoda 6.000 ton metan kaldı. Zor günümüzde bize yardım etmeyi kabul ederseniz hepsi sizin olacak Büyük Dük."
+2386	<ANS=Burada iki gün kalırsam Hiva'ya mutlaka haber ulaşır.|EVENT_DISASTER_3>

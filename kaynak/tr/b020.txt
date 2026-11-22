@@ -1,0 +1,45 @@
+2247	<TRG=SPEECH_DARKNESS2|1>Ne düşündüklerini anlamanın yolu yok. Yapabileceğin tek şey konuşmayı sürdürmek.<ANS=Bana inanır ve bütün korkuyu reddederseniz, çok yakında Vali'yi devirip başkenti kendimize alacağız, zira kaderimiz budur. O zaman Gerat'taki her can bize katılmak isteyecek - hayır, Gerat'ın ötesindekiler bile! Elaat'ın bütün halklarının kralları kurtuluş dilenmek için Hiva'ya gelecek.|NIGHTFEAR_SPEECH_RES|CHECK_FAITH=3>
+2248	Senden yayılan bir şaşkınlık dalgasının göz denizine yayıldığını neredeyse görebiliyorsun. Kimse hitabına böyle başlamanı beklemiyordu.<ANS=Yüreğimizin derinliğinde hepimiz o korkunç hakikati seziyoruz: bildiğimiz dünya yakında yok olacak. Yerine yeni bir dünya doğacak. Ve bu dünya tek bir kanun tanıyacak: güçlü olan haklıdır.|NIGHTFEAR_SPEECH_FORCE_2>
+2249	Kalabalık sessizce dinliyor.<ANS=Bu dünyada ayakta kalacaksak güçlü, korkusuz ve kararlı olmalıyız. Bugün Vali'yi ezip Hiva'yı kendimize almak için gerekene sahibiz; yoksa yarın düşman donanması şehre varır ve hepimizi mahveder.|NIGHTFEAR_SPEECH_FORCE_3>
+2250	Ne düşündüklerini anlamanın yolu yok. Yapabileceğin tek şey konuşmayı sürdürmek.<ANS=Beni dinleyin, Romani oğulları, Gerat oğulları. Kendinizi hazırlayın, bütün gücünüzü toplayın ve hayatta kalmak için savaşmaya hazır olun. Var gücünüzle savaşın, yoksa hiçbir geleceğiniz olmayacak.|NIGHTFEAR_SPEECH_RES|CHECK_FORCE=3>
+2251	Senden yayılan bir şaşkınlık dalgasının göz denizine yayıldığını neredeyse görebiliyorsun. Kimse hitabına böyle başlamanı beklemiyordu.<ANS="Onlarla müzakere edersek taviz vermek zorunda kalırlar" diyorsunuz. Ama tam önümüzde duran, alınmayı bekleyen o büyük hazineyi görmüyorsunuz.|NIGHTFEAR_SPEECH_WEALTH_2>
+2252	Kalabalık sessizce dinliyor.<ANS=Artık biliyoruz ki güneş bir daha asla doğmayacak, dünya giderek daha da soğuyacak. Ve bu yeni dünyada Hiva'yı elinde tutan her şeyi elinde tutacak.|NIGHTFEAR_SPEECH_WEALTH_3>
+2253	Ne düşündüklerini anlamanın yolu yok. Yapabileceğin tek şey konuşmayı sürdürmek.<ANS=Hiva reaktörü, sayısı binleri bulan seçilmiş birkaç kişiye ışık ve sıcaklık sağlayacak. Hükümdarlar ve büyük savaşçılar kurtuluş şansı için yalvararak Hiva'nın kapısına gelecek. Gelecek budur. Ama siz "onlarla müzakere edersek barış isteyebiliriz" diyorsunuz. Delilik! Bu ömürde bir kez gelen bir fırsat! Vali'yi devireceğiz, Hiva'yı alacağız ve dünyaya hükmedeceğiz!|NIGHTFEAR_SPEECH_RES|CHECK_WEALTH=3>
+2254	<SCR=CONTINUE|NIGHTFEAR_SPEECH_RES_2><NOSPEAK>Bitirdiğinde önündeki insanlara bakıyorsun. Gözlerindeki dehşet tamamen kaybolmuş.
+2255	<SCR=CHECK_TRIGGER|SPEECH_DARKNESS2|NIGHTFEAR_SPEECH_RES_3><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_1|MORAL=3><NOSPEAK>Kalabalık konuşmandan etkilenmiş. Sözlerini hararetle tartışmalarını dinlerken konuşmanın işe yaradığından emin oluyorsun.
+2256	<SCR=CONTINUE|NIGHTFEAR_SPEECH_REACTOR_1|MORAL=3><NOSPEAK>Kalabalık konuşmandan etkilenmiş. Sözlerini hararetle tartışmalarını dinlerken konuşmanın işe yaradığından emin oluyorsun.
+2257	<SCR=CONTINUE|NIGHTFEAR_SPEECH_RES_FAIL_2><NOSPEAK>Bitirdiğinde kalabalığın üzerine ağır bir sessizlik çöküyor. Adamların sana inanmıyor.
+2258	<SCR=CONTINUE>Donanma subayları gözlerini kaçırıyor, asık suratla bakışlarınla karşılaşmaktan kaçınıyorlar.
+2259	<SCR=CHECK_TRIGGER|SPEECH_DARKNESS2|NIGHTFEAR_SPEECH_RES_FAIL_4><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_1|MORAL=-3><NOSPEAK>Olan oldu. Şimdi yapabileceğin tek şey mürettebata görev yerlerine dönüp en kötüsüne hazırlanmalarını söylemek.
+2260	<SCR=CONTINUE|NIGHTFEAR_SPEECH_REACTOR_1|MORAL=-3><NOSPEAK>Olan oldu. Şimdi yapabileceğin tek şey mürettebata görev yerlerine dönüp en kötüsüne hazırlanmalarını söylemek.
+2261	<SCR=CHECK_JOINED|DAUD|EXIT><NPC=DAUD><SIDE=-1><SCR=CONTINUE>Bu korkunç Pyotr. Gerçeklikle bütün bağını kopardı. Yaşayan bir kâbus. Buna son vermeliyiz.
+2262	<NPC=DAUD><SIDE=-1><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_3|DAUD=-1>Bu harekât tıkandı Pyotr. Yiğitçe bir çabaydı, ama artık geri dönme vakti. Kuzeye devam edersek ölürüz!
+2263	<SCR=CHECK_TRIGGER|SPEECH_DARKNESS|NIGHTFEAR_SPEECH_DAUD_4><NPC=PETR><SIDE=1><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_5>Etrafına bak Şerif. Gözlerini aç. Haklı olduğu apaçık ortada; güneş bir daha asla doğmayacak. Her gün biraz daha soğuyor. Yakında yağmur kara dönecek. Ya reaktör konusunda da haklıysa? Ya orası gerçekten kadim bir sığınaksa?
+2264	<NPC=PETR><SIDE=1><SCR=CONTINUE>Her gün biraz daha soğuyor. Yakında yağmur kara dönecek. Ya reaktör konusunda da haklıysa? Ya orası gerçekten kadim bir sığınaksa?
+2265	<NPC=PETR><SIDE=1><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_6|PETR=1>Kuzeye ilerledikçe ondan daha az şüphe ediyorum Şerif. Deli değil ve hepimizle oyun oynamıyor.
+2266	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Aklını mı kaçırdın Pyotr?! Cidden onun... olduğunu mu düşünüyorsun?
+2267	<NPC=DAUD><SIDE=-1><SCR=STOP>Bir peygamber?!
+2268	Çocuğun gözlerinde öfke parlıyor. Kılıcını havaya kaldırıyor, ama vuramıyor. Namlu havada donup kalıyor, gözle görülür şekilde titriyor.<SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_1>
+2269	<SOUND=sword_drop_01>Bir an geçiyor, kılıç elinden düşüp yere şangırdıyor. Başını kaldırdığında çocuğun yüzünden yaşların aktığını görüyorsun. Bakışlarınla karşılaşıyor, sonra hemen dönüp kapıdan dışarı fırlıyor.<SCR=CONTINUE>
+2270	<SCR=CHECK_JOINED|FASIL|ALSAHIR_REVENGE_FORCE_4><NPC=FASIL><SIDE=1><SCR=CONTINUE>Bir daha asla kimsenin ölümünü istemeyecek... (prens başını iki yana sallıyor)
+2271	<NPC=FASIL><SIDE=1><SCR=CONTINUE>Sizin ölümünüzü efendim... (diye devam ediyor, şimdi Vali'ye dönerek)
+2272	<SCR=CHECK_JOINED|GOVERNOR|ALSAHIR_REVENGE_FORCE_6><NPC=GOVERNOR><SIDE=0><NOSPEAK><SCR=CONTINUE>Lord Vali sersemlemiş hâlde sana bakıyor. Kelimeleri güçlükle bulup sonunda diyor ki...
+2273	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_6|GOVERNOR=2>Size ne kadar teşekkür etsem az Dük.
+2274	<SCR=CHECK_JOINED|AIRBORNE|ALSAHIR_REVENGE_FORCE_7><NPC=AIRBORNE><SIDE=1><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_7|AIRBORNE=1>Vay canına...
+2275	<SCR=CHECK_JOINED|VETERAN|ALSAHIR_REVENGE_FORCE_8><NPC=VETERAN><SIDE=-1><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_8|VETERAN=1>O yobazın sizi öldüreceğinden emindim.
+2276	<SCR=CHECK_JOINED|GIRL|ALSAHIR_REVENGE_FORCE_9><NPC=GIRL><SIDE=1><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_9|GIRL=1>Siz bir mucize adamısınız Dük.
+2277	<SCR=CHECK_JOINED|OMAR|EXIT><NPC=OMAR><SIDE=-1>Nice kılıç bunun gibi düşsün. <ANS=Âmin.|EXIT|OMAR=1>
+2278	<EVENT>Hiva reaktörü patlamada yok oldu. Şok dalgası vurduktan sonra reaktör, devasa kubbesinden geriye kalanların altında kaldı.<SCR=CONTINUE>
+2279	<EVENT>Gerat halkı felaketten sağ çıkma umudunu tamamen yitirdi.<SCR=STOP>
+2280	<MUSIC=Mellifluous><NPC=PETR><SIDE=0>İşte bu kadar Mark. Mürettebata harekâtımızın başarılı olduğunu bildireceğim.<SCR=CONTINUE>
+2281	<EVENT>"İşte bu kadar."<SCR=CONTINUE>
+2282	<EVENT>Koltuğuma yaslanıp gözlerimi kapadım. Çevremdeki tonlarca savaş makinesi nihayet susmuştu - ne bir tıkırtı, ne bir takırtı, ne de bir hışırtı. Jet motorlarının o bitmeyen uğultusu öyle uzak, öyle ırak geliyordu ki zar zor duyabiliyordum. <SCR=CONTINUE>
+2283	<EVENT>Pyotr'un ağır, ritmik sesi hoparlörlerden yükselip savaşın bittiğini duyururken yüzlerce insan muharebe mevkilerinde donup kalıyor.<ANS=Hiva'ya dönme vakti Pyotr İgnatyeviç. Onlara reaktörün çalışır durumda olduğunu ne kadar erken gösterirsek o kadar iyi.|ENDWAR_WIN_5>
+2284	<NPC=PETR>Sizden şahsi bir ricam var Büyük Dük.<SCR=CONTINUE>
+2285	<NPC=PETR>Hiva'daki reaktör kumanda odasında bir sütun var. Onu yıllar önce, Gerat'tan çekilmek zorunda kaldığımızda gördüm.<SCR=CONTINUE>
+2286	<NPC=PETR>Sütunda bir şeyler yazıyordu. Çok eski görünüyordu. Ve harfler, dil... bir {glossary=kodaya,GLOSS_QODA} çok benziyordu. Bunu çok net hatırlıyorum.<SCR=CONTINUE>
+2287	<NPC=PETR>Bir bakabilirseniz Dük, belki okuyabilirsiniz. İçimden bir ses önemli olabileceğini söylüyor.<SCR=CONTINUE>
+2288	<SCR=BACK_TO_KHIVA|ENDWAR_BACK_TO_KHIVA_1|ENDWAR_BACK_TO_KHIVA_2> <BACKGROUND=undeground_01><SCR=CONTINUE|ENDWAR_CREDITS>
+2289	Pyotr büyük bir güvenle reaktörün sonsuz koridor ve merdiven labirentinde gitgide derinlere yürüdü. Beni hedefimize götürürken bir iki kez kısa süre durdu. Nihayet vardığımızda kapıyı açtı ve kumanda odasına girmem için işaret etti. <SCR=CONTINUE>
+2290	İçeri girerken göz ucuyla elinin kapı koluna yapıştığını gördüm. Parmakları kontrolsüzce titriyordu. Pyotr İgnatyeviç besbelli endişeliydi. O sırada, filomuzdaki her asker gibi sadece bitkin olduğunu düşünmüştüm.<SCR=CONTINUE>
+2291	<BACKGROUND=undeground_02><ILLUSTRATION=-1><BLUR=0>Kapının ardında kusursuz daire biçiminde, şaşırtıcı derecede aydınlık ve tertemiz bir oda vardı. Diğer bütün odalar ve koridorlar tozla kaplıydı, ama burada tek bir zerre bile göremiyordum.<SCR=CONTINUE>

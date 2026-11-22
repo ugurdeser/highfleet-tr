@@ -1,0 +1,71 @@
+575	<NPC=PETR><SIDE=1><SHADOW=1>Tarhan hazretleri, ilerleyişimizi az önce {glossary=amirale,GLOSS_DAUD} bildirdim. Memnun.
+576	<ANS={glossary=Amiral,GLOSS_DAUD} bana hiçbir şeyden anlamayan bir çocuk muamelesi yapıyor. Efendisi İmparator'un oğlu olduğumu unutmuş gibi!|TUTORIAL_SHIMRI_2>
+577	<NPC=PETR><SIDE=1><SHADOW=1>Başkent çok uzakta. Dönene kadar komuta Amiral {glossary=Davud,GLOSS_DAUD}'da. Filoyu o yönetiyor ve siz Dük, onun filosunda bir {glossary=Tarhansınız,GLOSS_TARKHAN}.
+578	<ANS=Hazır olur olmaz yola çıkacağız.|EXIT>
+579	<NPC=PETR><SIDE=1><SALUTE><SHADOW=1>Filonun yakıt ikmali bitti. Gitmeye hazırız.
+580	<ANS=Güzel. Hedefi ben belirleyeceğim.|EXIT>
+581	<NPC=FASIL><SIDE=1>Ne muhteşem bir it dalaşıydı Dük!<ANS=Kalhu'daki düşman hava savunmasından haberiniz var mıydı Prens?|TUTORIAL_KALHU_2>
+582	<NPC=FASIL><SCR=CONTINUE>Hayır, yoktu.
+583	<NPC=FASIL><SCR=CONTINUE|HELLO_HARISHID_1>Tarhan sizi bekliyor Dük.
+584	<NPC=PETR><SHADOW=1><SIDE=1><SALUTE>{glossary=Davud,GLOSS_DAUD}'dan telsiz geliyor.<ANS=Nihayet!|EXIT>
+585	<NPC=PETR><SIDE=1>Görünüşe göre {glossary=Davud,GLOSS_DAUD} Melka'ya kuvvetlerinin büyük kısmıyla saldırmak istemiyor. Hazır bir hava savunmaları varsa diye bizi önden gönderiyor.
+586	<ANS=Yani işin göbeğine girme fırsatımız bu demek!|TUTORIAL_TO_MELKA_3>
+587	<NPC=PETR><SIDE=1>Peki, yakıt alıp Melka'ya mı hareket ediyoruz?
+588	<ANS=Doğrudur.|EXIT>
+589	<NPC=PETR><SIDE=-1><SALUTE><SHADOW=1>Nöbetçiler yaklaşan bir filo bildiriyor.
+590	<ANS=Anlaşıldı. Geliyorum.|TUTORIAL_DAUD_2>
+591	<NPC=DAUD><SIDE=1><RAM=1>Pyotr.@Büyük Dük.
+592	<ANS=Amiral.|TUTORIAL_DAUD_3>
+593	<NPC=DAUD><MUSIC=Duduk_4_ever><SCR=CONTINUE>Pekâlâ, sizi tebrik ederim beyler! Sefer şimdiye dek büyük bir başarı oldu.
+594	<NPC=PETR><SIDE=-1><SCR=CONTINUE>Ve eminim ki Amiral, bu başarıyı dükün kabiliyetlerine borçluyuz.
+595	<NPC=DAUD><SIDE=1><NOSPEAK><SCR=CONTINUE>Amiral tek kelime etmeden sana bakıyor.
+596	<NPC=DAUD>Prens Fazıl ile görüşmeniz nasıl geçti? Umarım emirlerinize harfiyen uymuşsunuzdur.
+597	<ANS=Doğrudur amiral.|TUTORIAL_DAUD_11|DAUD_ANYTIME=1>
+598	<ANS=Bence Prens'i hafife alıyorsunuz.|TUTORIAL_DAUD_7>
+599	<NPC=DAUD><NOSPEAK><SCR=CONTINUE>Sözlerin amirali hazırlıksız yakaladı.
+600	<NPC=DAUD>Bunu neden söylüyorsunuz Dük?
+601	<ANS={glossary=Elaimler,GLOSS_ELAIM} sarsılmaz ve gözü pek bir halktır. Ne yaparsa yapsın çoğu Prens'in ardından hevesle gidecektir.|TUTORIAL_DAUD_9|DAUD_ANYTIME=-1>
+602	<ANS=Prens yerel dükler arasında hâlâ büyük itibar sahibi. {glossary=Taç,GLOSS_SAYADI} için faydalı olabilir.|TUTORIAL_DAUD_10|DAUD_ANYTIME=1>
+603	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_12>{glossary=Elaou,GLOSS_ELAOU} hanedanı yedi yıldır eski tahtını geri alamadı. Korkarım {glossary=Elaimler,GLOSS_ELAIM} şanslarını kaybetti.
+604	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_12>Büyük Dük'e yakışır bir öngörü!
+605	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_13>Güzel! Bir sonraki hedefimiz Ur şehri. Orada {glossary=Skobelev'in,GLOSS_SCOBELEV} filosuyla birleşip Kuzey Gerat'a doğru ilerlemeye başlayacağız.
+606	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_13>Her hâlükârda bir sonraki hedefimiz Ur. Orada {glossary=Skobelev'in,GLOSS_SCOBELEV} filosuyla birleşip Kuzey Gerat'a doğru ilerlemeye başlayacağız.
+607	<NPC=DAUD>Cesaretinizi kanıtladınız Büyük Dük. Ur'u zorla ele geçirme görevini size emanet ediyorum. Diana kruvazörü ve birkaç Intrepid sınıfı fırkateyn emrinize verilecek.
+608	<ANS=Güveniniz için teşekkür ederim Amiral.|TUTORIAL_DAUD_15|JOIN=Nomad|JOIN=Intrepid|JOIN=Intrepid>
+609	<ANS=Sadece kruvazör yeterli olacaktır.|TUTORIAL_DAUD_14>
+610	<NPC=DAUD><NOSPEAK><SCR=CONTINUE|TUTORIAL_DAUD_15|DAUD_ANYTIME=1|JOIN=Nomad>Amiral hayretle sana bakıyor, sonra takdirle gülümsüyor.
+611	<NPC=DAUD><SCR=STOP>Güzel. O hâlde sizi daha fazla tutmayayım. Pyotr İgnatyeviç, Büyük Dük.
+612	<NPC=PETR><SHADOW=1><SIDE=-1><MUSIC=Dronish_descent><NOBOTTOM><HANDSHOW_GUI=MAPMODE_RADIO_HANDSET|1><BLUR_POS=0.2|0.3><GLOW_GUI=MAPMODE_RADIO_HANDSET><ACTIVE=MAPMODE_RADIO_HANDSET><FEAR><ALARM_MUTE=0>Tarhan hazretleri! Bir telsiz yayını yakaladık! Ahizeyi alın, çabuk! {animation=LMB}
+613	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_BAND3|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_BAND1|RADIO_BAND2|RADIO_BAND3><ACTIVE=RADIO_BAND1|RADIO_BAND2|RADIO_BAND3>Bandı seçin. {animation=LMB}
+614	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><BLUR_POS=0.2|0.3><ACTIVE=RADIO_SCAN><FEAR>Lütfen acele edin Tarhan! Fazla oyalanırsak biz onları bulamadan yayını keserler!
+615	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_SAVE|1><BLUR_POS=0.2|0.7><GLOW_GUI=RADIO_BEARING_METER|RADIO_SAVE><ACTIVE=RADIO_BEARING_SWITCH|RADIO_SAVE>Doğru yön bu diye eminseniz, hesaplarınızı kaydetmek için düğmeye basın.
+616	<NPC=PETR><BLUR_POS=0.5|0.5>Düşman taarruz grubundan bir yayın - ve şifresiz!<SCR=CONTINUE>
+617	<NPC=PETR>Artık {glossary=kerterizlerini,GLOSS_PELENG} ve hedeflerini biliyoruz!<SCR=CONTINUE>
+618	{font=dinpro_48_black}{align=2}TAARRUZ GRUPLARI@10{font=fixed_20}{align=0}Taarruz grupları, seni avlayan güçlü düşman gemi teşkilleridir. En doğrusu onlardan her zaman uzak durmaktır.<SCR=CONTINUE>
+619	<NPC=DAUD><SIDE=1>Nereye gidiyorlar?
+620	<ANS=HAMAT'a gidiyorlar.|TUTORIAL_RADIO_IN_11>
+621	<ANS=KUŞAN'a gidiyorlar.|TUTORIAL_RADIO_IN_12>
+622	<NPC=DAUD><SCR=TUTORIAL_RADIO_END|KUSHAN>Mükemmel. Onları atlatırız. Şimdi Dük, gemileri al ve KUŞAN üzerinden UR'a git.<ANS=Hazır olur olmaz kalkacağız Amiral.|EXIT>
+623	<NPC=DAUD><SCR=TUTORIAL_RADIO_END|HAMAT>Mükemmel. Onları atlatırız. Şimdi Dük, gemileri al ve HAMAT üzerinden UR'a git.<ANS=Hazır olur olmaz kalkacağız Amiral.|EXIT>
+624	<NPC=PETR><SHADOW=1><SIDE=1><SCR=TUTORIAL_SILENT_STRIKE|1><SCR=CONTINUE>
+625	Düşman taarruz grubunun hareketlerimizi asla öğrenmemesini sağlamalıyız. Yerimizi gizli tutmak için HAMAT'taki garnizonu, alarm veremeden imha etmeliyiz.
+626	Düşman taarruz grubunun hareketlerimizi asla öğrenmemesini sağlamalıyız. Yerimizi gizli tutmak için KUŞAN'daki garnizonu, alarm veremeden imha etmeliyiz.
+627	<NPC=PETR><SCR=CONTINUE>Kruvazörümüz çok yavaş - baskın için elverişli değil. Hızlı gemilerimizden bir grup oluşturup düşmana onlarla saldırmalıyız.
+628	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><NOBOTTOM><BLUR_FOCUS=0.12><BLUR_ZOOM=1.0><HANDSHOW_GUI=MAPMODE_MISSION_SILENT|1><SCR=CONTINUE>Burada, mevcut grupla ani bir baskının başarma ihtimalini görebilirsiniz.
+629	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><BLUR_FOCUS=0.2><BLUR_ZOOM=0.8><NOBOTTOM><HANDSHOW_GUI=MAPMODE_MISSION_SHIP|1><GLOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP>Filondaki en hızlı gemileri seç (HIZ değerlerine bakarak).
+630	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><NOBOTTOM><BLUR_FOCUS=0.2><BLUR_ZOOM=0.8><HANDSHOW_GUI=MAPMODE_MISSION_SHIP|1><GLOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP>Taarruz grubuna gemi ekle.
+631	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><NOBOTTOM><BLUR_FOCUS=0.2><BLUR_ZOOM=0.8><HANDSHOW_GUI=MAPMODE_MISSION_SILENT|1><GLOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP>Bu gemi çok yavaş. Düşmana pusu kurabilmesi zor. Onun yerine başka bir gemi seç.
+632	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|3><NOBOTTOM><ACTIVE=MAP_LOCATION><SCR=TUTORIAL_SILENT_STRIKE|7>
+633	Mükemmel! Grup hazır. Şimdi onu HAMAT'a gönder. (İmleci HAMAT üzerine götür ve {animation=LMB} bas.)
+634	Mükemmel! Grup hazır. Şimdi onu KUŞAN'a gönder. (İmleci KUŞAN üzerine götür ve {animation=LMB} bas.)
+635	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|0><BLUR_FOCUS=0.12><BLUR_ZOOM=1.0><SCR=STOP>Grup görevini tamamladığında filoya yeniden katılmasını emret.
+636	<NPC=PETR><SIDE=1><TRG=TUTORIAL_NEWS|0>Filoyla telsiz görüşmesini yeni bitirdik.
+637	<ANS=Başkentten haber var mı?|TUTORIAL_NEWS_2>
+638	<NPC=PETR>Pek yok. Durum hâlâ vahim. {glossary=Asiler,GLOSS_GATHERING} Kadim Sırtı'na iyice yerleşmiş. Onları oradan sökmemiz epey zaman alacak.
+639	<ANS=Peki herkesin konuştuğu şu reaktör? Gerçekten var mı?|TUTORIAL_NEWS_3>
+640	<NPC=PETR><SCR=CONTINUE>Herkesin konuştuğu...?
+641	<NPC=PETR><SCR=CONTINUE><NOSPEAK>Pyotr'un sesi kısılıyor. Birkaç saniye sessizce sana bakıyor.
+642	<NPC=PETR><SCR=STOP>Bunu amirale sorsanız daha iyi olur Büyük Dük.
+643	<NPC=FASIL><SIDE=1><SCR=CONTINUE>Tebrikler Dük! Ne şanlı bir zafer!
+644	<NPC=PETR><SIDE=-1>Aferin Mark! Artık bütün kara çalanlar ağzını kapamak zorunda kalacak. Yemin ederim, bugünkü başarıya Davud bile sevinecek!<ANS=Teşekkür ederim Pyotr İgnatyeviç.>
+645	<NPC=PETR><SIDE=-1>Amirale bildireyim mi?<ANS=Elbette! Ne bekliyoruz?>

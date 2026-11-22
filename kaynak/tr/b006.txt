@@ -1,0 +1,100 @@
+869	<ANS=Küçük kabın içine bak.|PROPHET_OMAR_12>
+870	<ANS=Küçük kabı şimdilik güvenlik amirine emanet et.|PROPHET_OMAR_END>
+871	<SCR=CONTINUE|PROPHET_OMAR_END>Kabın ta dibi tuhaf bir merhemle kaplı. Kokusu keskin ve ağır, ama epey hoş.
+872	<SCR=STOP><SCR=OMAR_OBJECTIVE>Demek buranın <DIRECTION_TARKHAN=OMAR> tarafındaki bir şehirde bir tarhan sığınak bulmuş. Onu arayıp bulmakta fayda var.
+873	kuzey
+874	kuzeydoğu
+875	doğu
+876	güneydoğu
+877	güney
+878	güneybatı
+879	batı
+880	kuzeybatı
+881	uzak
+882	<SCR=CONTINUE><MUSIC=Duduk_4_ever>Gemiden bir grup insan sana yaklaşıyor. Hepsi asker üniforması giymiş, ama silahlı görünmüyorlar.
+883	<NPC=HIRE><SIDE=0><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT|HELLO_INTRODUCE_OMAR>Uzun boylu bir {glossary=Elaim,GLOSS_ELAIM} diğerlerinin önünde yürüyor. Yüzü açık ve sırtından bir kılıcın kabzası görünüyor - hepsi soylu doğumlu bir adamın alametleri.
+884	<NPC=HIRE><APPROVE>Selam üzerine olsun, Sayadi'nin oğlu! Ben Ömer Han.
+885	<ANS=Hiva'ya karşı savaşmak için müttefik arıyorum. Bize katılır mısın?|HELLO_ROUND|DIPLOMACY_STARTS>
+886	<ANS=Önce sana vermem gereken bir şey var. (Küçük kabı Ömer'e ver)|HELLO_OMAR_3>
+887	<NPC=HIRE><SIDE=0><APPROVE><NOSPEAK><SCR=CONTINUE>Ömer kabı açarken elleri ihtiyatla hareket ediyor. Gözleri birden yuvalarında donup kalıyor.
+888	<NPC=HIRE><SIDE=0><APPROVE><NOSPEAK><SCR=CONTINUE|HELLO_OMAR_5|OMAR_ANYTIME=99>Sonunda başını kaldırıp sana bakıyor ve cevap veriyor. Sesi artık fark edilmeyecek kadar hafif titriyor. Fena hâlde heyecanlandığını sezinliyorsun.
+889	<NPC=HIRE><SIDE=0><APPROVE>Ne istiyorsunuz Büyük Dük?
+890	<ANS=Hiva'ya karşı savaşmak için müttefik arıyorum. Bize katılır mısın?|HELLO_OMAR_6>
+891	<NPC=HIRE><SIDE=0><APPROVE><NOSPEAK><SCR=CONTINUE>Ömer'in başka bir şey beklediği hissine kapılıyorsun. Hepsinin bu kadar olduğunu anlayınca cevap veriyor.
+892	<NPC=HIRE><SIDE=0><APPROVE>Bu bir şeref olur Büyük Dük.<ANS=Diğer tarhanlarla görüşmek istiyorum. Onları nerede bulacağımı biliyor musun?|HELLO_INTEL_TARKHANS>
+893	<SCR=CONTINUE><MUSIC=Duduk_4_ever>Gemiden, maiyetiyle birlikte pelerine sarınmış ufak tefek bir yabancı çıkıyor. Yabancının kemerindeki altın işlemeli kılıç orantısız derecede büyük görünüyor; öyle büyük ki yürüyüşünü zorlaştırıyor.
+894	<SCR=CONTINUE><SCR=CHECK_JOINED|OMAR|HELLO_BOY_11>Şaşkınlıkla, Ömer ile adamlarının yabancıyı görür görmez hürmetle eğildiğini fark ediyorsun.
+895	<NPC=OMAR><SIDE=1><SCR=CONTINUE>Alsahir.
+896	<NPC=BOY><SIDE=0><SCR=CONTINUE>Rasuf oğlu Ömer. Selam üzerine olsun.
+897	<NPC=OMAR><SIDE=1><SCR=CONTINUE>Burada ne işiniz var Alsahir? Muhterem babanız nasıl?
+898	<NPC=BOY><SIDE=0><SCR=CONTINUE>Lord Vali'nin hizmetindeki {glossary=Harişidler,GLOSS_HARISHIDS} babamı katletti. Üç gün önce onu bir gemiden aşağı attılar. Cesedi yere çarpıp parçalandı.
+899	<NPC=OMAR><SIDE=1><SCR=CONTINUE><NOSPEAK>Ömer ve adamları haber karşısında donup kalmış görünüyor.
+900	<NPC=OMAR><SIDE=1><SCR=CONTINUE>Yüce Allah bu cinayetin intikamını yedi kat alsın!
+901	<NPC=BOY><SIDE=0><SCR=CONTINUE>Öyle olsun.
+902	<NPC=BOY><SIDE=0><SCR=CONTINUE|HELLO_BOY_12><NOSPEAK>Çocuk sonra sana dönüyor.
+903	<NPC=BOY><SIDE=0><SCR=CONTINUE>Şaşkınlıkla, {glossary=Elaimlerin,GLOSS_ELAIM} yabancıyı görür görmez hürmetle eğildiğini fark ediyorsun.
+904	<NPC=BOY><SIDE=0>Selam üzerine olsun, Sayadi'nin Oğlu.
+905	<ANS=Selam senin de üzerine olsun, aziz...|HELLO_BOY_13>
+906	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>Duraksadığını görünce çocuk gülümsüyor.
+907	<NPC=BOY><SIDE=0><SCR=CONTINUE>Alsahir. Bana Alsahir de.
+908	<NPC=BOY><SIDE=0>Lord Vali'nin hizmetindeki {glossary=Harişidler,GLOSS_HARISHIDS} üç gün önce babamı katletti.
+909	<ANS=Başın sağ olsun Alsahir.|HELLO_BOY_END>
+910	<NPC=BOY><SIDE=0>Hiva'ya gidiyorsun, Sayadi'nin Oğlu. Sana katılmama izin ver.
+911	<ANS=Yanında savaşmaktan mutluluk duyarım Alsahir.|HELLO_BOY_END_OK|BOY_ANYTIME=99>
+912	<ANS=Her birimiz kendi yolunda yürümeli.|HELLO_BOY_END_NO_1>
+913	<ANS=Diğer tarhanlarla görüşmek istiyorum. Onları nerede bulacağımı biliyor musun?|HELLO_INTEL_TARKHANS>
+914	<NPC=BOY><SIDE=0><NOSPEAK><SCR=CONTINUE>Çocuk cevabını duyunca gözyaşlarını zor tutuyor. Tepkisini kimsenin görmemesi için elinden geleni yapıyor.
+915	<SCR=CONTINUE>Sana nezaketle eğilip selam veriyor, sonra arkasını dönüp gidiyor. Onu bir daha asla görmeyeceğinden eminsin.
+916	<SCR=STOP|GERAT=-1>Arkanda diğer {glossary=Elaimlerin,GLOSS_ELAIM} sana öfkeyle baktığını fark ediyorsun.
+917	<NPC=PETR><SIDE=1><SALUTE><MUSIC=Bois><SCR=CONTINUE>Kötü haber Büyük Dük.
+918	<NPC=PETR><SIDE=1><SCR=CONTINUE>Lord Vali'den bir yayın yakaladık. Bütün taarruz gruplarına Hiva'ya intikal emri vermiş.
+919	<NPC=PETR><SIDE=1><SCR=CONTINUE>Oraya varmakta fazla gecikirsek, çok yakında bütün donanmasını şehirde toplayacak.
+920	<SCR=CHECK_JOINED|BOY|ENDRACE_SPEECH_5><NPC=PETR><SIDE=1><SCR=CONTINUE|KISHTIM_SPEECH_1>O zaman şehre saldırmak tamamen imkânsız olur.
+921	<NPC=PETR><SIDE=1><MUSIC=Bois><SCR=CONTINUE>Nükleer silahlar...
+922	<NPC=PETR><SIDE=1><SCR=CONTINUE>Bunu yapmak istediğinizden emin misiniz Dük?
+923	<NPC=PETR><SIDE=1>Cin şişeden bir kez çıktı mı, onu geri sokamayız.
+924	<ANS=Bu er ya da geç olacaktı.|NUCLEAR_ESCALATION_YES>
+925	<ANS=Sanırım haklısın General. İptal! Atışı durdur!|EXIT>
+926	<SCR=MISSILE_START><SCR=EXIT>
+927	<NPC=PETR><SIDE=1><SCR=STOP|NUCLEAR_WAR>Yüce Allah ruhlarımıza merhamet etsin...
+928	İMPARATORLUK HAZRETLERİ @10ANLAŞMAZLIKLARIMIZI GİDERMEK ÜZERE ŞAHSEN GÖRÜŞMEMİZİ ARZU EDİYORUM. BASRA VADİSİ'NDE, REFAKATSİZ TEK BİR GEMİYLE BEKLENİYORSUNUZ.@10GENEL SEKRETER@GERAT CUMHURİYETİ
+929	<SCR=CHECK_JOINED|DAUD|MEETING_RADIOGRAM_7><SCR=CHECK_JOINED|PETR|MEETING_RADIOGRAM_7><NPC=DAUD><SIDE=-1><SCR=CONTINUE>Şaka ediyor olmalı! Kim böyle apaçık bir tuzağa girer ki?
+930	<NPC=PETR><SIDE=1><SCR=CONTINUE>Tuzak olamayacak kadar basit.
+931	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Gerçekten müzakere niyeti olsa teminat verirdi.
+932	<NPC=PETR><SIDE=1><SCR=CONTINUE>Bir şey planlıyor... ama ne?
+933	<NPC=DAUD><SIDE=-1>Zaman kazanmak için bir oyalama taktiği olabilir.
+934	<ANS="Basra vadisi" yazıyor. Orası neresi?|MEETING_RADIOGRAM_6>
+935	<NPC=PETR><SIDE=1><SCR=CONTINUE><HANDSHOW_LOCATION=BASRA>Basra vadisi burası Dük.
+936	<NPC=BOY><SIDE=0><SCR=CONTINUE><SCR=CHECK_JOINED|BOY|EXIT>Yüce Allah bize babamın ölümünün bedelini Lord Vali'nin canıyla ödetme yolunu bahşetti!
+937	<NPC=BOY><SIDE=0><SCR=STOP>Unutma Sayadi'nin Oğlu - bana söz verdin.
+938	<NPC=GOVERNOR><SIDE=0>Demek geldiniz Büyük Dük. Aklınızdan ne geçiyordu?
+939	<ANS=Anlaşılan görüşme falan olmayacak.|MEETING_2>
+940	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Elbette olmayacak.
+941	<NPC=GOVERNOR><SIDE=0>Buraya gelmeye neden karar verdiğinizi havsalam almıyor.
+942	<ANS=Amiral Davud beni durdurmaya çalıştı doğrusu.|MEETING_4>
+943	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>Bir sessizlik oluyor. Lord Vali bir karara varmış görünüyor.
+944	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Dinleyin Dük... bu işi bitirmeden önce...
+945	<NPC=GOVERNOR><SIDE=0>İtiraf etmeliyim ki bir sorum var.
+946	<ANS=Pekâlâ. Sorunuzu sorun o hâlde.|MEETING_7>
+947	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Söyleyin Dük... benim elime geçen gibi ömürlük bir fırsat sizin elinize geçseydi...
+948	<NPC=GOVERNOR><SIDE=0>Diyelim ki Hiva'daki plütonyum bir söylenti değil. Korkunç bir silah elde ettiniz. Ne yapardınız?
+949	<ANS=Onu halkın iyiliği için kullanırdım.|MEETING_9>
+950	<ANS=Onu savaşı bitirmek için kullanırdım.|MEETING_9>
+951	<ANS=Onu düşmanlarımı yok etmek için kullanırdım.|MEETING_10>
+952	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Hayır Dük. Kesinlikle öyle yapmazdınız.
+953	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Onu {glossary=Cemaat'i,GLOSS_GATHERING} yok etmek için kullanırdınız.
+954	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Sonra babanızı tahttan indirip yerine geçerdiniz.
+955	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Sonra da savaş üstüne savaşa girişir, imparatorluğunuzun sınırlarını olabildiğince genişletirdiniz...
+956	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>Lord Vali'nin sesi kısılıyor. Dalgın gözleri başka bir yere bakıyor.
+957	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Bana gelince, benim iktidar hırsım yok.
+958	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>İnsanlara çoktandır hak ettikleri bir şeyi vermek istiyorum: hürriyet.
+959	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>İmparatorluğu yıkıp bir cumhuriyet kurduk. Şimdi halkla hürriyeti arasında duran tek şey sizsiniz.
+960	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Bu yüzden akıbetiniz için hiç vicdan azabı duymuyorum.
+961	<NPC=GOVERNOR><SIDE=0><NOSPEAK><FADEAWAY=1><SCR=GOVERNOR_ANSWERS>Lord Vali başını çeviriyor. Anlaşılan bu konuşma bitti.
+962	Gemimde nükleer silah var. Ya anlaşmazlıklarımızı gideririz ya da birlikte ölürüz.|MEETING_NUKE_1
+963	Bu gece... sizi korkutmuyor mu?|MEETING_HIGHT_1
+964	Halk beni peygamber sanıyor.|MEETING_PROPHET_1
+965	(Kılıcını hızla çek ve Lord Vali'yi indir)|MEETING_KILL_1
+966	(Arkanı dön ve gemine yürü)|MEETING_FIGHT
+967	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>Lord Vali durup gemini süzüyor.
+968	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><FADEAWAY=0>Evet. Onu fark ettim.

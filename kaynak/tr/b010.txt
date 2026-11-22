@@ -1,0 +1,204 @@
+1259	<SIDE=0><NPC=HIRE><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT>Adamların zırhlarında ve yüzlerinde fazlasıyla uzun süren bir askerlik hizmetinin izleri var. Yine de altın yıldızları pırıl pırıl parlatılmış, taşıdıkları silahlar ise yıpranmış olsa da taze yağla ışıldıyor.
+1260	Selamlar efendim!|HELLO_INTRODUCE_AIRBORNE|GREETING|FEAR=-1
+1261	{glossary=İşu,GLOSS_ISHU} adına, selam üzerinize olsun!|HELLO_INTRODUCE_AIRBORNE|GREETING|FAITH=1
+1262	{glossary=İmparatorluk,GLOSS_IMPIRE} adına sizi selamlıyorum!|HELLO_INTRODUCE_AIRBORNE|GREETING|ROMANI=1
+1263	{glossary=Gerat,GLOSS_GERAT}'a şan olsun, hoş geldiniz!|HELLO_INTRODUCE_AIRBORNE|GREETING|GERAT=1
+1264	Burada yetkili kim?|HELLO_INTRODUCE_AIRBORNE|GREETING|FEAR=1
+1265	<NPC=AIRBORNE><APPROVE>İmparatorluk Hazretleri, kendimi takdim etmek için izninizi rica ederim! Yemelyan Gulyayev.
+1266	<ANS=Hava İndirme Kuvvetleri albayı mı? Buraya nasıl düştünüz?|HELLO_AIRBORNE_4>
+1267	<ANS=Albay, Hiva'ya saldırıyoruz. Bize katılmak ister misiniz?|HELLO_ROUND|DIPLOMACY_STARTS>
+1268	<NPC=AIRBORNE><NOSPEAK><SCR=CONTINUE>Albayın gözleri kararıyor. Bir an duruyor, sonra konuşmadan önce acı bir kahkaha atıyor.
+1269	<NPC=AIRBORNE><SCR=CONTINUE>Hazretleri - babanız...
+1270	<NPC=AIRBORNE><SCR=CONTINUE>...hepimizi burada terk ettikten sonra...
+1271	<NPC=AIRBORNE><SCR=CONTINUE>...ne benim ne de adamlarımın Hava İndirme Kuvvetleri'yle bir bağı kaldı.
+1272	<NPC=AIRBORNE>Size karşı dürüst olacağım Dük. Ne de olsa ben de bir tarhanım.
+1273	<ANS=Burada terk mi edildiniz?|HELLO_AIRBORNE_9|AIRBORNE=-1>
+1274	<ANS=Anlıyorum... Hiva'ya saldırıyoruz Albay. Bize katılmak ister misiniz?|HELLO_ROUND|DIPLOMACY_STARTS>
+1275	<NPC=AIRBORNE><NOSPEAK><SCR=CONTINUE>Albay başını çeviriyor. Gözlerini göremiyorsun, ama yüzünün irkilip kasıldığını görüyorsun. Sana döndüğünde sesi tamamen sakin.
+1276	<NPC=AIRBORNE><SCR=CONTINUE>Yedi yıl önce Dük. Yedi yıl önce gelmenizi bekliyorduk...
+1277	<NPC=AIRBORNE><NOSPEAK><SCR=CONTINUE>Bakışları yumuşuyor. Dudakları kıpırdıyor, hafif bir gülümseme beliriyor.
+1278	<NPC=AIRBORNE>Yine de... ana dilimi tekrar duymak içimi ısıttı.
+1279	<ANS=Albay, Hiva'ya saldırıyoruz. Bize katılmak ister misiniz?|HELLO_ROUND|DIPLOMACY_STARTS>
+1280	<RECIEVER>
+1281	=<NAME>
+1282	LİMAN REİSİ
+1283	LİMAN İDARESİ
+1284	LİMAN KAPTANI
+1285	<POSITION> MEVKİİNDE
+1286	MEVKİ <POSITION>
+1287	<POSITION> MEVKİİNDEYİZ
+1288	<POSITION> KONUMUNDA
+1289	MVK <POSITION>
+1290	ROTA <COURSE>
+1291	ŞİMDİKİ ROTA <COURSE>
+1292	İSTİKAMET <COURSE>
+1293	<COURSE> YÖNÜNDE UÇUYORUZ
+1294	<COURSE> YÖNÜNDE İLERLİYORUZ
+1295	SÜRAT <SPEED>
+1296	SEYİR SÜRATİ <SPEED>
+1297	<SPEED> İLE GİDİYORUZ
+1298	<SPEED> SÜRATLE GİDİYORUZ
+1299	ORTALAMA SÜRAT <SPEED>
+1300	GÜZERGÂH <ROUTE>
+1301	<ROUTE> GÜZERGÂHINDA
+1302	<ROUTE> GÜZERGÂHINI TAKİP EDİYORUZ
+1303	GÜZERGÂHIM <ROUTE>
+1304	<ROUTE> GÜZERGÂHINDAN İLERLEYİN
+1305	YAKLAŞIK <ROUTE_TIME> İÇİNDE VARIŞ
+1306	<ROUTE_TIME> İÇİNDE VARIYORUZ
+1307	<ROUTE_TIME> İÇİNDE BEKLEYİN
+1308	TAHMİNİ VARIŞ <ROUTE_TIME>
+1309	VARIŞ <ROUTE_TIME> İÇİNDE
+1310	ANA YÜK <CARGO>
+1311	YÜK <CARGO>
+1312	<CARGO> TAŞIYORUZ
+1313	YÜK <CARGO>
+1314	YOLCU YOK
+1315	KRUVAZÖR REFAKATİNDE
+1316	KRUVAZÖR REFAKATİYLE
+1317	KRUVAZÖR KATILDI
+1318	KRUVAZÖR HİMAYESİNDE
+1319	KRUVAZÖR REFAKATİ
+1320	VARIŞTA ONARIM MÜHENDİSİ GÖNDERİLMESİNİ RİCA EDERİZ
+1321	ONARIM İÇİN GEREKLİ YARDIMIN SAĞLANMASINI RİCA EDERİZ
+1322	VARIŞTA ACİL ONARIM GEREKLİ
+1323	ONARIM DOKUNU HAZIRLAYIN
+1324	ONARIM GEREKLİ
+1325	YAKIT HAZIRLAYIN
+1326	YAKIT VERMEYE HAZIR OLUN
+1327	VARIŞTA YAKIT İKMALİ GEREKLİ
+1328	VARIŞTA ERZAK GEREKLİ
+1329	MÜRETTEBAT İÇİN TIBBİ TEDAVİ AYARLANMASINI RİCA EDERİZ
+1330	VARIŞTA ACİLEN GEREKLİ <NEEDS>
+1331	<NEEDS> TEMİN EDİP EDEMEYECEĞİNİZİ BİLDİRİN
+1332	LÜTFEN <NEEDS> TEDARİK EDİN
+1333	VARIŞTA GEREKLİ <NEEDS>
+1334	VARIŞTA GEREKLİ <NEEDS> TEMİN EDİP EDEMEYECEĞİNİZİ BİLDİRİN
+1335	UÇUŞ OLAYSIZ GEÇTİ
+1336	HER ŞEY YOLUNDA
+1337	YAKINDA BEKLEYİN
+1338	SELAMLAR
+1339	GÖRÜŞMEYİ İPLE ÇEKİYORUZ
+1340	TÜM GEMİLERE=
+1341	CQ CQ CQ=
+1342	CİVARDAKİ TÜM GEMİLERE=
+1343	TANIMLANAMAYAN GEMİ
+1344	DİKKAT BİLİNMEYEN TEMAS
+1345	TANIMLANAMAYAN GEMİ TESPİT EDİLDİ
+1346	KERTERİZ <CONTACT_BEARING>
+1347	KERTERİZ <CONTACT_BEARING>
+1348	KERTERİZ <CONTACT_BEARING>
+1349	MENZİL <CONTACT_DISTANCE>
+1350	MENZİL <CONTACT_DISTANCE>
+1351	MENZİL <CONTACT_DISTANCE>
+1352	YÜK YOK
+1353	CEVHER
+1354	URANYUM KONSANTRESİ
+1355	KÖLELER
+1356	ELEKTRİK TEÇHİZATI
+1357	AĞIR MAKİNE
+1358	ASKERÎ TEÇHİZAT
+1359	TAHIL
+1360	SİLAH
+1361	KİMYASAL
+1362	İÇME SUYU
+1363	TÜRBİN YAĞI
+1364	GALVANİZLİ BORU
+1365	PİRİNÇ BORU
+1366	PN30 KABLO
+1367	REAKTÖR SUYU
+1368	HİDROLİK YAĞ
+1369	HALOKARBON
+1370	SIVI OKSİJEN
+1371	SIVI AZOT
+1372	<EVENT>Gerat'ta ilk kez yağmur yağdığını görüyorsun. Resmen bir su duvarı yeryüzüne çarpıyor.<SCR=CONTINUE>
+1373	Sağanağın içinden paçavralar giymiş bir ihtiyar çıkıyor. Konuşmaya başlarken gözleri sanki senin içinden geçiyor. "Dağların titrediğini hissedebilirsin Tarhan. Allah'ın gazabıyla titriyorlar." Ve gerçekten bir şey hissediyorsun - çevrendeki dünya sanki inliyormuşçasına titreşiyor.<SCR=CONTINUE>
+1374	Önündeki şehir harabe hâlinde, bir nükleer patlamayla yok edilmiş. Geriye hiçbir şey kalmamış - yağmurdan korunacak bir çatı bile<SCR=RUINED>.
+1375	<NPC=PETR><SIDE=-1>Tarhan hazretleri... belki de yapmasak. Burada bulabileceğiniz kurtulanlar günler içinde ölecek. Umut kalmadı. Mürettebatınızı tehlikeye atmayın.
+1376	<ANS=Yine de ekibi gönder|RUINED_CITY_3|RUINED_RESCUE|RIGHT=1|CREW=-10>
+1377	<ANS=Emri geri al.|RUINED_CITY_3>
+1378	Arama ekibi kısa sürede bir yakıt deposu buluyor. Kalın beton duvarlar metan tanklarını korumuş - hepsi sapasağlam. <ANS=DEVAM|RUINED_CITY_3|RUINED_FUEL|FUEL=ALL>
+1379	Arama ekibi kısa sürede bir yakıt deposu buluyor, ama enkazın arasından oraya ulaşmaları epey zaman alıyor. Bu sırada birkaç mürettebat ağır şekilde radyasyona maruz kalıyor.<ANS=DEVAM|RUINED_CITY_3|RUINED_FUEL|FUEL=ALL|CREW=-5>
+1380	Birçok binanın bodrumu patlamadan sağ çıkmış ve şimdi yağmurla doluyor. Yine de mürettebatın epeyce değerli eşya bulmayı başarıyor.<ANS=DEVAM|RUINED_CITY_3|RUINED_SCAVENGE|WEALTH=1|GOLD=3000>
+1381	Birçok binanın bodrumu patlamadan sağ çıkmış ve şimdi yağmurla doluyor. Mürettebatın geri getirecek epeyce değerli eşya bulmayı başarıyor, ama koruyucu kıyafetlerine rağmen birkaç adam radyasyonlu suya bulanıyor.<ANS=DEVAM|RUINED_CITY_3|RUINED_SCAVENGE|WEALTH=1|GOLD=3000|CREW=-5>
+1382	Kurtulanları bul ve gemiye getir.|RUINED_CITY_RESCUE
+1383	Yeraltındaki su tankları patlamadan sağ çıkmış olmalı. Onları bulmaları için adam gönder.|RUINED_CITY_FUEL|DICE=50
+1384	Bodrumlarda değerli eşya ara.|RUINED_CITY_SCAVENGE|DICE=50
+1385	Burada oyalanmak hiç akıllıca olmaz. Ayrılmaya hazırlan.|EXIT
+1386	PATLAMA TEHLİKESİ!@PATLAYIP RASTGELE BİR NESNEYİ YOK ETMEDEN ÖNCE SÖNDÜR.
+1387	YANGIN TEHLİKESİ!@ALEVLER DAHA DA YAYILMADAN SÖNDÜR.
+1388	RADYASYON TEHLİKESİ!@BÖLGE RADYOAKTİF VE KURTARMA EKİBİ İÇİN TEHLİKELİ.
+1389	TEHLİKELİ ORTAM!@KORUMASIZ HÂLDE %50 KAZA İHTİMALİ VAR.
+1390	KORKUNÇ MANZARA!@BÖLGE ÖLÜLERLE DOLU. BAZI ŞEYLERİ GÖRMEMEK EN İYİSİDİR.
+1391	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}RADYASYONA MARUZ KALMA@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Kurtarma harekâtı sırasındaki ihmalkâr davranışların yüzünden birkaç mürettebat hayati tehlike arz eden düzeyde tehlikeli radyasyona maruz kaldı.<SCR=STOP|CREW=-10|MORAL=-1>
+1392	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KAZA@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Yanan yalıtım malzemesi tehlikeli miktarda fosgen saldı. Birkaç mürettebat dumandan zehirlendi.<SCR=STOP|CREW=-10|MORAL=-1>
+1393	KURTULANLARI ARA
+1394	Enkaz arasında kurtulan bulma ihtimali %50.
+1395	MÜRETTEBAT KAMARALARINI ARA
+1396	İçeride değerli eşyalar kalmış olabilir.
+1397	KAPTAN KAMARASINI ARA
+1398	Kaptan kamarasında önemli evraklar bulabilirsin.
+1399	YÜK AMBARINI ARA
+1400	Yükün bir kısmı hâlâ sağlam olabilir.
+1401	TELSİZ ODASINI ARA
+1402	Bütün elektronik istihbarat ve gizli belgeler bu odadan geçti. Şansın yaver giderse bir kısmı sağ kalmış olabilir.
+1403	MÜRETTEBAT KORUMASI
+1404	Koruyucu kıyafetleri giydir. Bu fazladan zaman alır, ama adamlarını kurtarır.
+1405	KORUYUCU KIYAFETLER
+1406	Mürettebata koruyucu kıyafetlerini giymelerini emret.
+1407	YANGINI SÖNDÜR
+1408	Mürettebatı alevlerle mücadeleye yönlendir.
+1409	GÖVDEYİ SÖK
+1410	Gövdenin değerli parçalarını toplamaya ancak yetecek kadar zaman olabilir.
+1411	MÜHİMMATI EMNİYETE AL
+1412	Mühimmatın bir kısmını hâlâ yangından kurtarabilirsin.
+1413	YAKIT TANKLARINI EMNİYETE AL
+1414	Tankların bir kısmı hasarsız kalmış ve hâlâ yakıt taşıyor.
+1415	YADİGÂR
+1416	{max=200}Som altından yapılmış bir fil heykeli.
+1417	YADİGÂR
+1418	{max=200}Zengin işlemeli kadim bir hançer.
+1419	YADİGÂR
+1420	{max=200}Som bronzdan dökülmüş eski bir kutsal ikona.
+1421	YADİGÂR
+1422	{max=200}Büyük itibar taşıyan bir Romani nişanı.
+1423	YADİGÂR
+1424	{max=200}Elam'ın son derece süslü kraliyet sancağı.
+1425	ATILABİLİR YAKIT TANKLARI
+1426	PTB-450 atılabilir yakıt tankı x@002
+1427	37mm TOP
+1428	Standart 37mm GŞ-37 otomatik topu.
+1429	57mm TOP
+1430	57mm 4A43 otomatik top kovanı.
+1431	100kg GPB
+1432	FAB-100 genel maksat yüksek patlayıcı bombası x@002
+1433	250kg GPB
+1434	FAB-250 genel maksat yüksek patlayıcı bombası x@001
+1435	250kg LGB
+1436	KAB-250L lazer güdümlü bomba x@001
+1437	57mm ROKET
+1438	S-57 güdümsüz roket x@0016
+1439	122mm ROKET
+1440	S-13 güdümsüz roket x@005
+1441	K-13 AAM
+1442	K-13 havadan havaya güdümlü füze x@002
+1443	H-2 ASM
+1444	H-2 kısa menzilli gemisavar füze x@001
+1445	ATILABİLİR YAKIT TANKLARI
+1446	PTB-450 atılabilir yakıt tankı x@002
+1447	37mm TOP
+1448	Standart 37mm GŞ-37 otomatik topu.
+1449	57mm TOP
+1450	57mm 4A43 otomatik top kovanı.
+1451	100kg GPB
+1452	FAB-100 genel maksat yüksek patlayıcı bombası x@004
+1453	250kg GPB
+1454	FAB-250 genel maksat yüksek patlayıcı bombası x@002
+1455	250kg LGB
+1456	KAB-250L lazer güdümlü bomba x@002
+1457	500kg GPB
+1458	FAB-500 genel maksat yüksek patlayıcı bombası x@001
+1459	500kg LGB
+1460	KAB-500L lazer güdümlü bomba x@001
+1461	57mm ROKET
+1462	S-57 güdümsüz roket x@0032

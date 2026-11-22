@@ -1,0 +1,59 @@
+2059	<NPC=PETR><SIDE=-1>Bu harekâtta galip gelmek istiyorsak bunların hepsi SON DERECE önemli.<SCR=CONTINUE>
+2060	<SCR=TUTORIAL_CORE|14><NPC=PETR><SIDE=-1>Örneğin uçak gemileri 2.000 km uzaktan bile taarruz uçağı gönderebiliyor.<SCR=CONTINUE>
+2061	<NPC=PETR><SIDE=-1>Bunu her zaman aklımızda tutmalıyız.<SCR=CONTINUE>
+2062	<SCR=TUTORIAL_CORE|15><NPC=PETR><SIDE=-1>Ve son olarak, Gerat şehirleri arasında gidip gelen nakliye gemileri de var.<SCR=CONTINUE>
+2063	<NPC=PETR><SIDE=-1>Neredeyse hiç refakatleri yok, bizim için kolay lokma olabilirler.<SCR=CONTINUE>
+2064	<SCR=TUTORIAL_CORE|16><NPC=PETR><SIDE=-1>Ele geçirilen bir nakliye gemisi herhangi bir şehirde hızlıca iyi paraya satılabilir Dük. Fazladan paraya da gerçekten ihtiyacımız var.<SCR=STOP>
+2065	Elektronik İstihbarat Sistemi
+2066	Hedefin kuzeye göre yönü (derece cinsinden)
+2067	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAPMODE_ELINT_PNL>{glossary=ELINT,GLOSS_ELINT} düşman radar sinyali bildiriyor.<SCR=SKIP_TUTORIAL>
+2068	<ANS=Burada tavsiyene ihtiyacım var Pyotr İgnatyeviç.|TUTORIAL_CAMPAIGN_ELINT_2>
+2069	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL><SCR=CLOSE_RADIO>{glossary=ELINT,GLOSS_ELINT} antenleri düşman radar sinyallerini tespit eder ve hedefe yaklaşık {glossary=kerterizi,GLOSS_PELENG} hesaplar.<SCR=CONTINUE>
+2070	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL>Bir radar sinyali, epeyce iyi silahlanmış bir geminin açık alametidir.<SCR=CONTINUE>
+2071	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL>Onların radar sinyalini yakalayacak kadar yakınsak, onlar da bizimkini yakalayacak kadar yakın demektir.<SCR=CONTINUE>
+2072	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL>Şimdilik radarlarımızı susturmayı tercih ederim Dük.<SCR=CONTINUE>
+2073	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_RADAR_CONT><GLOW_GUI=MAPMODE_RADAR_CONT>Bilginiz olsun, bu düğme filonun radar sistemlerini açıp kapatır.<SCR=STOP>
+2074	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAPMODE_RADAR_DISPLAY>Büyük Dük! Temas var - havada bir hedef.<SCR=SKIP_TUTORIAL>
+2075	<ANS=Burada tavsiyene ihtiyacım var Pyotr İgnatyeviç.|TUTORIAL_CAMPAIGN_RLS_2>
+2076	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_RADAR_DISPLAY>Radarımız hedefi kısa, ince bir çizgi olarak gösterir. Hedef o çizginin ortasındadır.<SCR=CONTINUE>
+2077	<NPC=PETR><SIDE=-1><BLUR=0><SCR=TUTORIAL_RLS>Radar ekranındaki çizgi ızgarası, haritada filomuzun çevresinde de aynen bulunur.@10{align=2}{animation=radar_net}<SCR=CONTINUE>
+2078	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_INSTRUMENTS_PENCIL><GLOW_GUI=MAPMODE_INSTRUMENTS_PENCIL><NOBOTTOM>Hedefin radar ekranındaki yerine bakarak, kalemle haritada konumunu işaretle.<SCR=STOP>
+2079	Kızılötesi Arama ve Takip sistemi
+2080	<NPC=PETR><SIDE=-1><SHADOW=1>Kızılötesi temas! {glossary=IRST,GLOSS_IRST} ısı hedefi bildiriyor.<SCR=SKIP_TUTORIAL>
+2081	<ANS=Burada tavsiyene ihtiyacım var Pyotr İgnatyeviç.|TUTORIAL_CAMPAIGN_IRST_2>
+2082	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_IRST_SCOPE><NOBOTTOM><SCR=CLOSE_RADIO>Kızılötesi arama ve takip sistemi bütün ısı kaynaklarını tespit eder ve {glossary=kerterizlerini,GLOSS_PELENG} hesaplar.<SCR=CONTINUE>
+2083	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_IRST_SCOPE><NOBOTTOM>Hem havadaki hem de yerdeki gemileri tespit etmekte üstündür.<SCR=CONTINUE>
+2084	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_IRST_SCOPE><NOBOTTOM>{glossary=IRST,GLOSS_IRST} radar dizimize kıyasla çok daha kısa menzillidir. Ancak {color=4294960128}düşman tarafından tamamen tespit edilemez{color=4294305450}.<SCR=CONTINUE>
+2085	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_IRST_BEARING><GLOW_GUI=MAPMODE_IRST_BEARING><NOBOTTOM>Sinyal yeterince güçlü değilse, sistemi belirli bir yöne odaklamak için bu kumanda düğmesiyle nişanla.<SCR=CONTINUE>
+2086	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_IRST_WATERFALL><NOBOTTOM>Bu sektördeki kızılötesi okumalar bu ekranda daha ayrıntılı gösterilir.<SCR=STOP>
+2087	{align=2}{animation=save_icon} @15{font=dinpro_48_black}OYUN KAYDEDİLDİ@10{font=fixed_20}{align=0}Oyunun kaydedildi. Seferi artık istediğin zaman bu noktadan yükleyebilirsin.<SCR=STOP>
+2088	<NPC=PETR><SIDE=1><HANDSHOW_GUI=MAPMODE_FLEET>Büyük Dük! Şimdi kalkarsak gemileri tam olarak onaramayacağız.
+2089	<ANS=Anlaşıldı. Emri geri al.|EXIT|STOP_LIFTOFF>
+2090	<SCR=STOP>
+2091	<MUSIC=Bois><BLUR=2><BLUR_FOCUS=0.2><BLUR_ZOOM=3.0><SCR=FLAGSHIP_LOST_HIDDEN|0>Filomuzun komutanı Büyük Dük Mark Sayadi öldü.<SCR=CONTINUE|FLAGSHIP_LOST_GAMEOVER>
+2092	<SCR=GAME_OVER><SCR=EXIT>
+2093	<NPC=PETR><SIDE=-1><SHADOW=1>Filonun komutasını onun yerine ben alıyorum.<SCR=CONTINUE>
+2094	<NPC=PETR><SIDE=-1>Sağ kalan bütün gemiler, harekâtı bırakın ve sığınak arayın. Tekrar ediyorum, sığınak arayın. Bu bir emirdir.<SCR=CONTINUE>
+2095	<NPC=PETR><SIDE=-1><SCR=FLAGSHIP_LOST_HIDDEN|1>Haritada birkaç şehir işaretli - yakınlarında gizli bir şehir olmalı. O şehri bulup kalan gemilerimizi oraya götürebilirsek kurtuluruz.<SCR=CONTINUE>
+2096	<NPC=PETR><SIDE=-1><SCR=FLAGSHIP_LOST_HIDDEN|2>Metin olun beyler. Allah yardımcımız olsun!<SCR=STOP>
+2097	GİZLİ ŞEHRİ BUL
+2098	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}MENKIBE@10 {animation=event_story} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Bir sonraki çıkıştan önce gemiyi denetlerken Fazıl'ın adamlarından birinin hevesle maceralarını anlattığını duyuyorsun.
+2099	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}MENKIBE@10 {animation=event_story} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>"Gökler ve Yüce Allah'ın Arşı adına yemin ederim ki doğrudur!" diye arkadaşlarına ilan ettiğini duyuyorsun. "Temur Han'ın noyanlarından biri Hazretlerine - Dükümüze - Elaou'nun uşağı deyince, o noyanı dökme demir bir kazanda diri diri kaynattırdı! Gökler ve Yüce Allah'ın Arşı adına, o noyan domuz gibi ciyakladı!"
+2100	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}MENKIBE@10 {animation=event_story} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Adam birden varlığını fark ediyor. Ayağa fırlayıp sana hürmetle eğiliyor.
+2101	<ANS=Müttefiklerimize böyle bir şeyin asla yaşanmadığını açıkla.|EXIT|KINDNESS=1>
+2102	<ANS=Önemi yok. Bırak neye inanmak isterlerse ona inansınlar.|EXIT|KINDNESS=-1|FEAR=1>
+2103	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}MUHABERE İSTASYONU@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Yakındaki bir dağın tepesinde terk edilmiş bir Cemaat aktarma istasyonu var. Hâlâ sağlam - istasyonun personeli ve muhafızları burayı imha edemeden canlarını kurtarmak için kaçmışlar.<SCR=CONTINUE>
+2104	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}MUHABERE İSTASYONU@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Fazıl'ın nökerleri değerli parçaları için istasyonu sökmeye can atıyor. Telsizcilerin ise düşman muhaberesini dinlemek için onu sağlam bırakmak istiyor.
+2105	<ANS=Telsizcileri gönder.|EVENT_RADIORELAY_INTEL|INTEL=5>
+2106	<ANS=İstasyonu söktür.|EVENT_RADIORELAY_SCAVENGE>
+2107	<ANS=Dağa kendin tırman.|EVENT_RADIORELAY_SELF_1>
+2108	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}MUHABERE İSTASYONU@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Dağın tepesindeki terk edilmiş muhabere istasyonu inanılmaz sessiz, çevrede tek bir kul yok... birden fark ediyorsun ki yakın hafızanda ilk kez nihayet yalnızsın.<SCR=CONTINUE>
+2109	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}MUHABERE İSTASYONU@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Boşluk ve mutlak sessizlik seni tamamen sarıyor. Hiçlikle bu karşılaşma bir armağan gibi geliyor - çok uzun zamandır özlediğin bir şeyin tadı.<SCR=CONTINUE>
+2110	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}MUHABERE İSTASYONU@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Aşağıdaki patikada adamlarının sesini duyuyorsun ve o his geldiği gibi beklenmedik biçimde geçiyor. Karar verme vakti.
+2111	<ANS=Telsizcileri gönder.|EVENT_RADIORELAY_INTEL|INTEL=5>
+2112	<ANS=İstasyonu söktür.|EVENT_RADIORELAY_SCAVENGE>
+2113	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}MUHABERE İSTASYONU@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|WEALTH=-1>Elaimler kararın karşısında gözle görülür şekilde hayal kırıklığına uğruyor. Giderken bazılarının bu seferin onlara ne kadar az kazandırdığından yakındığını duyuyorsun.
+2114	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}MUHABERE İSTASYONU@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|WEALTH=1|REPAIR=10|GOLD=10000>Elaimler emrini sevinç çığlıklarıyla yankılıyor ve hevesle istasyonu sökmeye başlıyor. Ne yaptıklarını gayet iyi biliyor gibiler.
+2115	DİKKAT ASİ TARHAN GÖRÜLDÜ
+2116	RAPORLARA GÖRE BÖLGEDE BİLİNMEYEN GERATLI TARHAN VAR
+2117	YAKALANAN DÜŞMAN MUHABERESİNDE TARHAN GEMİLERİNDEN BAHSEDİLİYOR

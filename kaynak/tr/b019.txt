@@ -1,0 +1,52 @@
+2195	<ANS=Bu dünyanın sonu.|NIGHTFALL_SPEECH_DARKNESS_1|PRECHECK_FAITH=2>
+2196	<ANS=Güneş, bilinmeyen bir gök cismi tarafından örtüldü.|NIGHTFALL_SPEECH_ECLIPSE_1|PRECHECK_GERAT=2>
+2197	<ANS=Güneydeki nükleer savaştan gelen toz ve kül bize ulaştı ve güneşi kararttı.|NIGHTFALL_SPEECH_DUST_1|PRECHECK_ROMANI=2>
+2198	<TRG=SPEECH_DARKNESS|1><AMBIENT=crowd_calm_02>Pyotr İgnatyeviç ağzı açık kalmış hâlde sana bakıyor. Herkes olduğu yerde donuyor, bir açıklama bekliyor.<ANS=Karanlığın dağılmasını beklemeyin. Güneş bir daha asla doğmayacak.|NIGHTFALL_SPEECH_DARKNESS_2>
+2199	<AMBIENT=crowd_calm_01>Kalabalıkta fısıltılar yükseliyor.<ANS=(Sağ elini kalabalığa uzatarak) Romaniler ve Gerat'ın bütün halkları, sözümü dinleyin: güçlü olmalısınız! Bilin ki bütün bunlar takdir edilmiştir. Hesap günü yakındır!|NIGHTFALL_SPEECH_DARKNESS_3>
+2200	Şimdi. Vakit şimdi...<ANS=Şahor-El-Farah!|NIGHTFALL_SPEECH_DARKNESS_RES|CHECK_FAITH=2>
+2201	<AMBIENT=crowd_large_chant_01>Sözlerin kalabalıktaki Elaimlere bir yıldırım gibi çarpıyor. "Şahor-El-Farah... Şahor-El-Farah!" Kalabalık giderek daha yüksek sesle uğulduyor. Deliler gibi son sözlerini tekrar tekrar yineliyorlar.<SCR=MORAL|3>
+2202	<ANS=Arkanı dön ve kürsüden uzaklaş. Hitap sona erdi.|NIGHTFALL_SPEECH_DARKNESS_DAUD_1>
+2203	Mürettebat davranışın karşısında afallıyor. Kimileri kaşlarını çatıyor, kimileri zoraki gülümsüyor.<SCR=MORAL|-3>
+2204	<ANS=Arkanı dön ve kürsüden uzaklaş. Hitap sona erdi.|NIGHTFALL_SPEECH_DARKNESS_DAUD_1>
+2205	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Bu ürkütücü Pyotr. Aklı başında olduğundan emin misin?
+2206	<NPC=DAUD><SIDE=-1><SCR=CONTINUE|NIGHTFALL_SPEECH_DARKNESS_DAUD_3|DAUD=-1>Bir şey desek mi?
+2207	<NPC=PETR><SIDE=1><SCR=CONTINUE>O hanedanın meşru varisi Şerif.
+2208	<NPC=PETR><SIDE=1><SCR=STOP>Ona yemin ettik.
+2209	<AMBIENT=crowd_calm_02>Mürettebat şimdi sessiz, dikkatle dinliyor.<ANS=Aklınızdan geçeni biliyorum kardeşlerim. Bunu bir işaret, bir alamet olarak görüyorsunuz. Ve bu sizi dehşete düşürüyor.|NIGHTFALL_SPEECH_ECLIPSE_2>
+2210	Elaimler başlarını sallıyor.<ANS=Ama bu tutulma bir değişimin habercisi! SİZ neden dehşete düşesiniz? Bunu bir tek biz mi görüyoruz? Hayır, kesinlikle hayır. Hivalılar da görüyor. Asıl ONLAR dehşete düşmeli!!|NIGHTFALL_SPEECH_ECLIPSE_3>
+2211	<AMBIENT=crowd_calm_01>Bu sözler kalabalıkta yankılanıyor. Bir... destek mi seziyorsun? Söylemek için çok erken.<ANS=Bugün bütün Gerat, değişim vaktinin geldiğini anlayacak. Göklerin kendisi böyle söylüyor! Vali'nin iktidarının son saatleri bunlar!|NIGHTFALL_SPEECH_ECLIPSE_RES|CHECK_GERAT=2>
+2212	<SOUND=crowd_large_shout_03><AMBIENT=crowd_calm_02>Elaimler anında tepki veriyor. Destekleri öyle gür ve öyle kendinden emin ki önündeki kalabalığın geri kalanı da belirgin şekilde yatışmış görünüyor.<SCR=MORAL|3><ANS=Hepsi bu kadar. Lütfen görev yerlerinize dönün.|EXIT>
+2213	Bazı Elaimler destek çığlıklarıyla karşılık veriyor, ama kalabalığın çoğu sözlerinden etkilenmiyor.<SCR=MORAL|-3><ANS=Hepsi bu kadar. Lütfen görev yerlerinize dönün.|EXIT>
+2214	Birkaç cephe subayının onaylayarak başını salladığını görüyorsun.<ANS=Şehirlerimizin külleri yükselip Gerat'ın güneşini kapattı. Ve size şunu söylüyorum Romani kardeşlerim...|NIGHTFALL_SPEECH_DUST_2>
+2215	<AMBIENT=crowd_calm_02>Kalabalığın içinde bir yerden tek bir kadın hıçkırığı sessizliği yarıyor.<ANS=Size yemin ederim ki bu filo, düşmandan intikamımızı tam olarak alana dek ilerlemeye devam edecek. Hiva bizim olana dek. Hiva'nın plütonyumunu ele geçireceğiz ve bize ihanet eden şehirleri yeryüzünden silmek için kullanacağız.|NIGHTFALL_SPEECH_DUST_3>
+2216	<AMBIENT=crowd_calm_01>Kalabalık tamamen sessiz.<ANS=Ve sonra İmparatorluğu yeniden inşa edeceğiz! O hainlerin mezarları üzerinde İmparatorluğu yeniden kuracağız. Buna yemin ederim! Şehit kardeşlerimizin şerefi için yeniden ayağa kalkacağız!|NIGHTFALL_SPEECH_DUST_RES|CHECK_ROMANI=2>
+2217	<SOUND=crowd_large_shout_01>Kalabalık coşkuyla kükrüyor, son sözlerini bastırıyor.<SCR=MORAL|3><ANS=Hepsi bu kadar. Lütfen görev yerlerinize dönün.|EXIT>
+2218	Kalabalık sessiz. Adamlar sözlerini tartarken tek bir hurra bile duymuyorsun.<SCR=MORAL|-3><ANS=Hepsi bu kadar. Lütfen görev yerlerinize dönün.|EXIT>
+2219	<SCR=CHECK_JOINED|BOY|EXIT><SCR=CHECK_TRIGGER|SPEECH_DARKNESS|KISHTIM_SPEECH_6><NPC=BOY><MUSIC=Bois><SIDE=0><SCR=CONTINUE>Seninle konuşmama izin ver, Sayadi'nin Oğlu.
+2220	<NPC=BOY>Kendi başıma cevaplayamadığım bir soru içimi kemiriyor efendim. Şahor-El-Farah'ı nereden biliyorsun?<ANS=İtiraf etmeliyim ki hiçbir şey bilmiyorum.|KISHTIM_SPEECH_3>
+2221	<NPC=BOY>Ama sen dedin ki...<ANS=Söylemem gerektiğini bildiğim sözleri söyledim. Ne anlama geldiklerini hiç bilmiyorum.|KISHTIM_SPEECH_4>
+2222	<NPC=BOY><SCR=CONTINUE><NOSPEAK>Alsahir bir an sessiz kalıyor, düşüncelere dalıyor. Sonra altın gözleri hayranlıkla açılarak yeniden sana odaklanıyor...
+2223	<NPC=BOY><SCR=CONTINUE|KISHTIM_SPEECH_6|BOY=1>(soluğu kesilerek) Anlıyorum!
+2224	<NPC=BOY><MUSIC=Bois><SIDE=0><SCR=CONTINUE>Sana söylemem gereken bir şey var, Sayadi'nin Oğlu...
+2225	<NPC=BOY><SCR=CONTINUE>Kadim zamanlardan beri halkım Hiva şehrini başka bir adla bilir.
+2226	<NPC=BOY><SCR=CONTINUE>Ona Kiştim deriz - "Gemi-Şehir".
+2227	<NPC=BOY><SCR=CONTINUE>Bu şehri bir zamanlar bir {glossary=Şahsi,GLOSS_SHAKHSI} dükü yönetirdi. {glossary=Elaoular,GLOSS_ELAOU} Gerat'ı istila ettiklerinde Kiştim'i ele geçirip başkentleri yaptılar.
+2228	<NPC=BOY>Eski efsane der ki, Şahor-El-Farah, yani "Kara Boşluk Günü" adında bir gün gelecek ve o gün dünyanın bütün halkları Kiştim'de toplanmalı.<ANS=Hiva nükleer reaktörünün başka hiçbirine benzemediğini duydum. Öyle mi?|KISHTIM_SPEECH_11>
+2229	<NPC=BOY>İki bin arşından geniş, devasa bir kubbeyle örtülü olduğunu söylerler.<ANS=Böyle bir kubbe binlerce insanın emniyet içinde yaşamasına yeterdi.|EXIT>
+2230	Şahsiler, yani Gizli Halk, Elaoular bu toprakları fethetmeden önce Gerat'ı yönetiyordu. Şahsilerin son temsilcileri sığınak şehirlerde yaşar. Yerleri sıkı korunan bir sırdır. Gerat halkı Şahsileri kutsal hikmetin bekçileri olarak büyük bir hürmetle anar.
+2231	<NPC=PETR><SIDE=-1><SCR=CONTINUE><RAM=1><MUSIC=Bois>Seninle konuşmam gerek Mark.
+2232	<NPC=PETR><SCR=CONTINUE>İnsanlar bu karanlıktan çok korkuyor. Durumun kontrolden çıkması an meselesi.
+2233	<NPC=PETR><SCR=CONTINUE>Hava giderek soğuyor. Bugün sadece 4 dereceydi...
+2234	<NPC=PETR>Herkes bu şartlarda savaşmayı sürdürmenin tam bir delilik olduğunu söylüyor.
+2235	<ANS=Delilik mi diyorlar? Peki ne yapalım o zaman?|NIGHTFEAR_SPEECH_5>
+2236	<NPC=PETR><SCR=CONTINUE>Bazıları {glossary=Cemaat,GLOSS_GATHERING} ile barış görüşmelerine başlamamız gerektiğini düşünüyor.
+2237	<NPC=PETR>Bazıları hiçbir şey söylemiyor. İstedikleri güneye, Ur'a gitmek, sonra da başkente dönmek.
+2238	<ANS=Herkesi topla Pyotr İgnatyeviç. Mürettebata hitap edeceğim.|NIGHTFEAR_SPEECH_7>
+2239	<BACKGROUND=background_crowd_01>Kısa süre sonra kendini bir insan denizinin önünde, üzerine dikilmiş bin bir çift gözün karşısında buluyorsun. Adamların yüzleri korkudan bembeyaz.
+2240	<ANS=Bütün bunların olması gerekiyordu. Takdir edilmişti.|NIGHTFEAR_SPEECH_FAITH_1|PRECHECK_FAITH=3>
+2241	<ANS=Hiva reaktörünü ele geçirmeliyiz. Bu bir hayatta kalma meselesi.|NIGHTFEAR_SPEECH_FORCE_1|PRECHECK_FORCE=3>
+2242	<ANS=Çok yakında Hiva'ya hükmedenler bütün dünyaya hükmedecek.|NIGHTFEAR_SPEECH_WEALTH_1|PRECHECK_WEALTH=3>
+2243	Senden yayılan bir şaşkınlık dalgasının göz denizine yayıldığını neredeyse görebiliyorsun. Kimse hitabına böyle başlamanı beklemiyordu.<SCR=CHECK_TRIGGER|SPEECH_DARKNESS|NIGHTFEAR_SPEECH_FAITH_2><ANS=Artık bana inanıyorsunuz kardeşlerim, çünkü gördüğünüz gibi güneş bir daha asla doğmayacak. Karanlıktan mı korkuyorsunuz? Çöken soğuktan mı korkuyorsunuz? Ben hepsini önceden gördüm.|NIGHTFEAR_SPEECH_FAITH_3|FAITH=1>
+2244	Senden yayılan bir şaşkınlık dalgasının göz denizine yayıldığını neredeyse görebiliyorsun. Kimse hitabına böyle başlamanı beklemiyordu.<ANS=Beni dinleyin kardeşlerim. Karanlıktan mı korkuyorsunuz? Çöken soğuktan mı korkuyorsunuz? Ben hepsini önceden gördüm.|NIGHTFEAR_SPEECH_FAITH_3>
+2245	İnsanlar sessizce dinliyor.<SCR=CHECK_JOINED|BOY|NIGHTFEAR_SPEECH_FAITH_4><ANS=Romani evlatları. Gerat evlatları. Sizi Hiva'ya - Gemi-Şehir Kiştim'e - bu yüzden yönlendirdim. {glossary=Şahsi,GLOSS_SHAKHSI} reaktörü bir sığınaktır; seçilmiş birkaç kişiyi karanlıktan ve soğuktan korumak için yapılmış bir barınak. Size söyleyeceğim şey hakikattir. Çok yakında Gerat'taki her canlı bunu bilecek.|NIGHTFEAR_SPEECH_FAITH_5>
+2246	İnsanlar sessizce dinliyor.<ANS=Romani evlatları. Gerat evlatları. Sizi Hiva'ya bu yüzden yönlendirdim. Şehrin reaktörü bir sığınaktır; seçilmiş birkaç kişiyi karanlıktan ve soğuktan korumak için yapılmış bir barınak. Size söyleyeceğim şey hakikattir. Çok yakında Gerat'taki her canlı bunu bilecek.|NIGHTFEAR_SPEECH_FAITH_5>

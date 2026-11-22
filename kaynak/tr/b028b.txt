@@ -1,0 +1,229 @@
+2677	<NPC=HIRE>Kendimi takdim etmeme izin verin Büyük Dük. Ben Amiral Van. Yakın zamana kadar Cemaat'in 2. Doğu Filosu'nun komutanıydım.
+2678	<ANS=Cemaat subayı mı?>
+2679	<NPC=HIRE><SCR=CONTINUE>Eski bir Cemaat subayı. İki yıl önce görevden alındım; sebebi...
+2680	<NPC=HIRE><SCR=CONTINUE>Yüksek komutanlıkla anlaşmazlıklar.
+2681	<NPC=HIRE><SCR=CONTINUE>Şimdi tabiri caizse benim gibilerden oluşan bir gruba komuta ediyorum.
+2682	<NPC=HIRE>Hepimiz üstleriyle arası açılmış eski Cemaat subayları ve askerleriyiz.
+2683	<ANS=Amiral Van, öyle mi? Tam adınızı söyleyebilir misiniz Amiral?>
+2684	<NPC=HIRE><SCR=CONTINUE>Kusura bakmayın Büyük Dük, ama şimdi sırası değil. Herkes bana Van der. Şimdilik size verebileceğim tek ad bu.
+2685	<SCR=CHECK_JOINED|DAUD|HELLO_VETERAN_11><NPC=DAUD><NOSPEAK><SIDE=-1><SCR=CONTINUE>Amiral Davud seni bir an kenara çekiyor. Alçak sesle konuşuyor...
+2686	<NPC=DAUD><SCR=CONTINUE>Müsaadenizle Dük hazretleri... iç bölgelerden birinin şivesiyle konuşuyor. Ona güvenmek çok tehlikeli olabilir.
+2687	<NPC=HIRE><SIDE=0><NOSPEAK>
+2688	<ANS=Hiva ile savaştayız Amiral. Belki müttefik olabiliriz?|HELLO_ROUND|DIPLOMACY_STARTS>
+2689	<ANS=Kusura bakmayın Amiral, ama adını gizleyen adamlara güvenmemeyi tercih ederim.|HELLO_VETERAN_12>
+2690	<NPC=HIRE><SIDE=0>Öyle olsun. Demek yanılmışım. Yolunuz açık olsun Büyük Dük.
+2691	<ANS=Sizin de Amiral.|EXIT>
+2692	<ANS=Amiral, durun. Hiva ile savaştayız. Belki müttefik olabiliriz?|HELLO_ROUND|DIPLOMACY_STARTS>
+2693	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KAZA@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Yangında taşıyıcı bir yapı parçası yerinden oynayıp adamlarının tam üstüne çöktü; birkaç mürettebat öldü.<SCR=STOP|CREW=-10|MORAL=-1>
+2694	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KAZA@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Adamların yangını söndürürken bir basınçlı hava tüpü patladı. Şarapneller birkaç mürettebatı paramparça etti.<SCR=STOP|CREW=-5|MORAL=-1>
+2695	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KAZA@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Yangın sırasında akülerdeki hidrojen patladı. Birkaç mürettebat ölümcül patlamaya yakalandı.<SCR=STOP|CREW=-10|MORAL=-1>
+2696	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KAZA@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Adamların yangını söndürürken şaşan bir köpük püskürtmesi elektrik yüklü bir kabloya isabet etti. Birkaç mürettebat elektrik çarpmasından öldü.<SCR=STOP|CREW=-2|MORAL=-1>
+2697	Editör ekranından çıkmak istediğine emin misin? Kaydedilmemiş bütün değişiklikler kaybolacak.
+2698	Kaydedilmemiş bütün değişiklikler kaybolacak. Yine de devam edilsin mi?
+2699	Kaydedilmemiş bütün değişiklikler kaybolacak. Yine de devam edilsin mi?
+2700	Bu adda bir gemi projesi zaten var. Üzerine yazılsın mı?
+2701	EDİTÖRE GİT
+2702	Bu gemi adı kullanılamaz. Lütfen başka bir ad gir.
+2703	Sefer sona erdirilecek.
+2819	GİZLİ HALK
+2820	KARGA
+2821	AMETİST
+2822	BERİL
+2823	KRİZOLİT
+2824	YAKUT
+2825	ZÜMRÜT
+2826	TOPAZ
+2827	KEHRİBAR
+2828	LAL
+2829	EBONİT
+2830	YEŞİM TAŞI
+2831	KALSEDON
+2832	SAFİR
+2833	AKİK
+2834	ONİKS
+2835	MALAKİT
+2836	AKUAMARİN
+2837	KUVARS
+2838	TURMALİN
+2839	OPAL
+2840	ZİRKON
+2841	SÜMBÜL
+2842	KARNELYAN
+2843	NEFRİT
+2844	YEŞİM
+2845	SERPANTİN
+2846	OBSİDYEN
+2847	SIRIUS
+2848	CANOPUS
+2849	RIGEL
+2850	PROCYON
+2851	ALTAIR
+2852	ANTARES
+2853	POLLUX
+2854	FOMALHAUT
+2855	DENEB
+2856	REGULUS
+2857	CASTOR
+2858	VEGA
+2859	CAPELLA
+2860	SARGAS
+2861	ALKAID
+2862	POLARIS
+2863	ORION
+2864	URANUS
+2865	ERIDAN
+2866	SERAP
+2867	MUSON
+2868	SULTAN
+2869	SEMUM
+2870	SİROKO
+2871	VEZİR
+2872	EMİR
+2873	BEDEVİ
+2874	RÜZGÂRYÜRÜR
+2875	KEREKEZ
+2876	ATMACA
+2877	BOZDOĞAN
+2878	DELİCE
+2879	BALIKKARTALI
+2880	ŞAHİN
+2881	AKBABA
+2882	BAYKUŞ
+2883	KARGI
+2884	ÇAYLAK
+2885	SOYTARI
+2886	GÖÇEBE
+2887	KURTADAM
+2888	ALBATROS
+2889	SEYYAH
+2890	HAYDUT
+2891	KORSAN
+2892	DÖNEK
+2893	KANUNKAÇAĞI
+2894	KEDR
+2895	ARGON
+2896	AMUR
+2897	BAIKAL
+2898	BURAN
+2899	ZENIT
+2900	RADON
+2901	PHOTON
+2902	VETER
+2903	DERBENT
+2904	OZON
+2905	FREGAT
+2906	İSKİT
+2907	URAGAN
+2908	OLİMPOS
+2909	BURLAK
+2910	PULSAR
+2911	ARZAMAS
+2912	GRANIT
+2913	ANTEY
+2914	ATLANT
+2915	URAL
+2916	DUNAY
+2917	KAVKAZ
+2918	TAYMYR
+2919	PAMİR
+2920	SOYUZ
+2921	TEREK
+2922	DNEPR
+2923	ZAVET
+2924	ELBRUS
+2925	OKYANUS
+2926	VİTYAZ
+2927	DONBASS
+2928	DON
+2929	YENİSEY
+2930	RUSİÇ
+2931	INGUL
+2932	BAZALT
+2933	VOSTOK
+2934	TİTAN
+2935	VARYAG
+2936	KEFEUS
+2937	KAZBEK
+2938	YENİDEN BAŞLAT
+2939	{font=dinpro_20_black}{color=4294900965}{align=2}TOPLAM PUAN:
+2940	Sayadi'nin nasıl iyi bir dost, korkunç bir düşman olduğundan.
+2941	Vali'ye duyduğun derin saygıdan.
+2942	Romani milletinin büyük kaderinden.
+2943	Romani milletinin yaklaşan çöküşünden.
+2944	Gerat'ın bütün halklarını bekleyen muhteşem gelecekten!
+2945	Romanilerden ve Elaimlerin ayakta kalmak için onlara nasıl muhtaç olduğundan.
+2946	Sıkıntılı zamanlarda imanın öneminden.
+2947	İmanın ve beraberinde getirdiği hurafenin tehlikelerinden.
+2948	Gerat'ın her yerinde görülen adaletsizlikten.
+2949	Zayıfların güçlüyü yıpratmak için adalete nasıl sığındığından.
+2950	Cemaat ile savaştan ve neden gerekli olduğundan.
+2951	Savaşı bitirmekten ve bunun neden şart olduğundan.
+2952	Galipleri bekleyen anlatılmaz zenginliklerden.
+2953	Zenginlerin halkı nasıl ezdiğinden ve devrilmeleri gerektiğinden.
+2954	Halkın dertlerinden ve onlara nasıl yardım etmek istediğinden.
+2955	Bunun hayırseverlik zamanı olmadığından.
+2956	GEMİ LİSTESİ
+2957	GEMİ YOK
+2958	{font=flash_large_shadow}{color=4293056435}ŞUNA UYGUN
+2959	Bozuk bir proje kaydedilemez, gemi sökülecek.
+2960	{max=250}{font=dinpro_16_med}{color=4293056435}{align=2}Bu tasarım gemi listesinden kalıcı olarak silinecek. Devam edilsin mi?
+2961	KUZEY
+2962	KUZEY KUZEYDOĞU
+2963	KUZEYDOĞU
+2964	DOĞU KUZEYDOĞU
+2965	DOĞU
+2966	DOĞU GÜNEYDOĞU
+2967	GÜNEYDOĞU
+2968	GÜNEY GÜNEYDOĞU
+2969	GÜNEY
+2970	GÜNEY GÜNEYBATI
+2971	GÜNEYBATI
+2972	BATI GÜNEYBATI
+2973	BATI
+2974	BATI KUZEYBATI
+2975	KUZEYBATI
+2976	KUZEY KUZEYBATI
+2977	BİR SAATTEN AZ
+2978	ÖNCE
+2979	SERT İNİŞ
+2980	ZORUNLU İNİŞ
+2981	TEKRAR DENE
+2982	DEVAM
+3062	{color=4294967295}{align=2}{animation=credits_logo} @99 @99 @99
+3063	{font=pollock_80}KONSTANTIN KOSHUTIN@{font=dinpro_30_reg}TASARIMCI, PROGRAMCI, YAZAR@99
+3064	{font=pollock_80}MAXIM KISELEV@{font=dinpro_30_reg}EŞ YAZAR, PROGRAMCI@99
+3065	 @99
+3066	{font=pollock_80}TIMUR KVASOV@{font=dinpro_30_reg}KARAKTER SANATÇISI@99
+3067	{font=pollock_80}KONSTANTIN SYVOLOCKYI@{font=dinpro_30_reg}SANATÇI@99
+3068	{font=pollock_80}ARTEM SOKOV@{font=dinpro_30_reg}SANATÇI@99
+3069	 @99
+3070	{font=pollock_100}BESTECİLER:@60
+3071	{font=pollock_60}TURJAN AYLAHN@{font=dinpro_18_med}TANC A LELEK | ONIRYA | FOLYO MERFOLD@DLE YAMAN | YESHOUA | MOGOTT | LE VENT EST TOMBE@CC-BY CC-ND@60
+3072	{font=pollock_60}JORO MOREIRA@{font=dinpro_18_med}AFRICA II | ARABESCO | BRUMA@FLOR | MOVIMENTO 1@CC-BY CC-ND@60
+3073	{font=pollock_60}PATRICK SAINTON@{font=dinpro_18_med}BIG BOUZOUK | BOIS | DUDUK 4 EVER@MAY I HAVE | SAHARA TEST@60
+3074	{font=pollock_60}PETER SANDBERG@{font=dinpro_18_med}MELLIFLUOUS@60
+3075	{font=pollock_60}DL Sounds@{font=dinpro_18_med}DRONISH DESCENT@CC-BY CC-ND@60
+3076	 @99
+3077	{font=pollock_100}YERELLEŞTİRME:@60
+3078	{font=pollock_60}IREN KOSHUTINA@{font=dinpro_30_reg}EDİTÖR@60
+3079	{font=pollock_60}Levsha Games Studio@{font=dinpro_30_reg}YERELLEŞTİRME@60
+3080	 @99
+3081	{animation=credits_microprose} @60 @60
+3082	{font=pollock_60}DAVID LAGETTIE@{font=dinpro_30_reg}CEO VE YÖNETİCİ YAPIMCI@60
+3083	{font=pollock_60}SHANE GAVIN@{font=dinpro_30_reg}KIDEMLİ YAPIMCI@60
+3084	{font=pollock_60}DAVIDE PESSACH@{font=dinpro_30_reg}PAZARLAMA@60
+3085	{font=pollock_60}SERGIO COSTA@{font=dinpro_30_reg}TOPLULUK YÖNETİMİ@60
+3086	{font=pollock_60}PHIL GILSON VE TOMAS KUKLIK@{font=dinpro_30_reg}KILAVUZ@60
+3087	{font=pollock_60}BRENT SCHRAFF@{font=dinpro_30_reg}SESLENDİRME@60
+3088	 @99
+3089	{animation=credits_hb} @20{font=dinpro_30_reg}Kısmen Humble Bundle tarafından finanse edilmiştir@99
+3090	 @99
+3091	{animation=credits_box2d} @20{font=dinpro_30_reg}Oyunun fiziği Box2D üzerine kuruludur@99
+3092	 @99
+3093	 @99 @99 @99 @99{font=pollock_80}DEVAM EDECEK...
+3094	<BACKGROUND=empty_night><MUSIC=Bois><SCR=CONTINUE|MEETING_1_OLD>Yaklaşırken Lord Vali'nin devasa kruvazörünün, indiği karanlık vadinin üzerinde heybetle yükseldiğini görüyorsun. Yüz metre öteye inme emrini veriyorsun.
+3095	Anlıyorum Dük. Laf yeter.
+3096	Sizi davama katılmaya davet etmek isterim efendim.
+3097	<NPC=HIRE><APPROVE>Pekâlâ. Size katılacağım Dük.<ANS=O hâlde benimle gelin. Konuşacak çok şeyimiz var.|EXIT|DIPDIALOG_WIN>
+3098	<NPC=HIRE><APPROVE>Hayır. Bu oyununuza dahil olmayacağım.<ANS=Bunu duyduğuma çok üzüldüm.|MEETING_FIGHT>
+3099	<NPC=HIRE><APPROVE>Hayır Dük.<ANS=Bunu duyduğuma çok üzüldüm.|MEETING_FIGHT>

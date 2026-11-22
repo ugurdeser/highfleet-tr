@@ -1,0 +1,48 @@
+2292	<ILLUSTRATION=-1>Odanın ortasında, önümde on metre kadar ötede, beyaz taş bir tabakayla kaplı devasa bir sütun vardı. O taşın üzerinde, bir insan boyunun az yukarısında bir mesaj vardı. Yazı düzgün ve çok netti.<SCR=CONTINUE>
+2293	Ertesi gün Hiva'daydık.
+2294	Birkaç gün sonra Hiva'ya vardık.
+2295	<SCR=ENDWAR_CREDITS><SCR=EXIT>
+2296	HİTAP BAŞARI İHTİMALİ
+2297	SAYADİ'NİN OĞLU ALSAHİR SİZİNLE GÖRÜŞMEK İSTİYOR
+2298	<MUSIC=Duduk_4_ever><SCR=CHECK_JOINED|PETR|EVENT_SILO_SIMPLE><SCR=CHECK_JOINED|DAUD|EVENT_SILO_SIMPLE><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DEMOKLES'İN KILICI@10 {animation=event_silo} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Şehrin yakınında, her birinin tepesinde ağır çelik bir kapak bulunan alçak beton kubbelerle noktalanmış düz, pürüzsüz bir platform bulduk. Birini açmamız epey sürdü. İçinde geniş, derin bir kuyu vardı ve tam ortasında bir füzenin pürüzsüz beyaz burnunu gördük.
+2299	<NPC=PETR><SIDE=1><SCR=CONTINUE>Dük hazretleri! Bunlar {glossary=Cemaat'in,GLOSS_GATHERING} nükleer silahları! Derhal çıkarmalıyız!
+2300	<NPC=DAUD><SIDE=-1>Anlaşılan düşmanımızın nükleer cephaneliği beklediğimizden çok daha büyük (amiral atış silolarına kasvetli bir bakış atıyor).<ANS=Bu füzeleri atış yuvalarından çıkarıp gemilerimize yükle Pyotr İgnatyeviç.|EXIT|MISSILE_SILO>
+2301	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DEMOKLES'İN KILICI@10 {animation=event_silo} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Şehrin yakınında birkaç {glossary=Cemaat,GLOSS_GATHERING} füze silosu var.<ANS=Adamlarına nükleer füzeleri çıkarıp gemilere getirmelerini emret.|EXIT|MISSILE_SILO>
+2302	buranın {color=4294960128}kuzeyinde{color=4294305450}.
+2303	buranın {color=4294960128}kuzeydoğusunda{color=4294305450}.
+2304	buranın {color=4294960128}doğusunda{color=4294305450}.
+2305	buranın {color=4294960128}güneydoğusunda{color=4294305450}.
+2306	buranın {color=4294960128}güneyinde{color=4294305450}.
+2307	buranın {color=4294960128}güneybatısında{color=4294305450}.
+2308	buranın {color=4294960128}batısında{color=4294305450}.
+2309	buranın {color=4294960128}kuzeybatısında{color=4294305450}.
+2310	Epey uzakta.
+2311	Kervancılar sana bir tarhanın şurada yaşadığını söyledi:
+2312	Kervancıların bildiği kadarıyla buralarda hiç tarhan yok.
+2313	Bir çadıra saklanmış hâlde, meraklı gözlerden uzakta, kervan başı sana gizli bir şehri usulca haber veriyor:
+2314	Kervancıların bildiği kadarıyla buralarda hiç tarhan yok.
+2315	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KERVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=INTEL_TARKHANS_CARAVANS>
+2316	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KERVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=INTEL_CONVOYS_CARAVANS>Kervancılar yakındaki konvoylar hakkında bildikleri her şeyi seve seve anlatıyor.
+2317	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KERVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=INTEL_HIDDENS_CARAVANS>
+2318	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KERVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Şehrin kıyısındaki kumda bir düzine rengârenk çadır, çevrelerinde araçlar ve koşuşturan hizmetkârlar - hepsi konaklayan bir kervanın alameti. Onları ziyaret edip son gelişmeleri sormaya karar veriyorsun.
+2319	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KERVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Kervancılar seni sıcak bir şekilde karşılıyor. "Bu günlerde hayat çok zor, çok zor," diyor kervan başı üzüntüyle. "Eskiden emniyette olmak için geceleri hareket ederdik; aşiretlerden ve gemilerinden uzak. Ama artık kervanlarımız gecenin köründe bile ortadan kayboluyor!"
+2320	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KERVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}"Korsanların işi sandık, biz de onlara gidip her zamanki haracı ödedik. Ama aşiretlerin kayıp kervanlarımızdan haberi bile yoktu! Dikkatli olun Büyük Noyan - çölde bir tuhaflık var. Ahir zaman yaklaştı."
+2321	<ANS=Kervancılara tarhanları sor.|EVENT_CARAVAN_TARKHANS>
+2322	<ANS=Kervancılara Hiva konvoylarını sor.|EVENT_CARAVAN_CONVOYS>
+2323	<ANS=Kervancılara gizli şehirleri sor.|EVENT_CARAVAN_HIDDENS>
+2324	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KERVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Şehrin kıyısındaki kumda bir düzine rengârenk çadır, çevrelerinde araçlar ve koşuşturan hizmetkârlar - hepsi konaklayan bir kervanın alameti. Onları ziyaret edip son gelişmeleri sormaya karar veriyorsun.
+2325	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KERVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Kervan başı seni çadırına davet ediyor ve en derin endişelerini seninle paylaşıyor. "Büyük Noyan, bize yol gösteren yıldızlar kayboluyor!"
+2326	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KERVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Devam ederken sesindeki duyguyu işitiyorsun. "Önce inanmayı reddettim, ama Doğu'nun Yıldızı El-Carmi bir aydır gökte yok. Meşhed'de aldığım haritalar, El-Carmi olmayınca artık işe yaramıyor."
+2327	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KERVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}"Ahir zaman bu Büyük Noyan. Ahir zaman." Elaim kederle başını sallıyor.
+2328	<ANS=Kervancılara tarhanları sor.|EVENT_CARAVAN_TARKHANS>
+2329	<ANS=Kervancılara Hiva konvoylarını sor.|EVENT_CARAVAN_CONVOYS>
+2330	<ANS=Kervancılara gizli şehirleri sor.|EVENT_CARAVAN_HIDDENS>
+2331	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KERVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Şehrin kıyısındaki kumda bir düzine rengârenk çadır, çevrelerinde araçlar ve koşuşturan hizmetkârlar - hepsi konaklayan bir kervanın alameti. Onları ziyaret edip son gelişmeleri sormaya karar veriyorsun.
+2332	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KERVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Bir süre kervan ateşinin sıcaklığının ve sıcak kahvenin tadını çıkarıyorsun. "Gerat böyle bir yağmur görmedi!" diyor kervan başı, ağır ağır başını sallayarak.
+2333	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KERVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>"Takvimimizin üçüncü ayı olan Keila'da tarihte ilk kez yağmur yağdı. Hepimiz 'ah, Yüce Allah bu yılı mübarek kıldı!' dedik. Sonra San ayında yine yağdı. Köylüler sevinçten uçtu. 'İkinci ay küçülünce bize gelin,' dediler, 've iki katı adam getirin, çünkü büyük bir hasat olacak!'
+2334	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KERVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}"Ama onları tekrar ziyaret ettiğimde yüzlerinde sevinçten eser kalmamıştı. Biz ayrıldığımızdan beri her hafta yağmur yağmış. Sevçah hiç boy vermemiş, çürümeye başlamış; samıh ise tuhaf bir hastalığa yakalanmış... ahir zaman bu Büyük Noyan."
+2335	<ANS=Kervancılara tarhanları sor.|EVENT_CARAVAN_TARKHANS>
+2336	<ANS=Kervancılara Hiva konvoylarını sor.|EVENT_CARAVAN_CONVOYS>
+2337	<ANS=Kervancılara gizli şehirleri sor.|EVENT_CARAVAN_HIDDENS>
+2338	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KERVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Şehrin kıyısındaki kumda bir düzine rengârenk çadır, çevrelerinde araçlar ve koşuşturan hizmetkârlar - hepsi konaklayan bir kervanın alameti. Onları ziyaret edip son gelişmeleri sormaya karar veriyorsun.
+2339	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KERVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Uzun boylu, sıska bir adam olan kervan başı sana son günlerin kara haberlerini aktarıyor. "Mülteciler Büyük Deniz'den akın akın kaçıyor lütufkâr Noyan! Sayıları hesapsız - fazlasıyla çok. Emniyetli bir yolculuk için altın ve mücevher veriyorlar, ama bitmek bilmeyen bir sefalet getiriyorlar. Çoğu hasta... el vedah!"

@@ -1,0 +1,301 @@
+1463	122mm ROKET
+1464	S-13 güdümsüz roket x@0010
+1465	266mm ROKET
+1466	S-250 güdümsüz roket x@002
+1467	K-13 AAM
+1468	K-13 havadan havaya güdümlü füze x@002
+1469	RN-1 ÖZEL GÜÇLÜ BOMBA
+1470	Nükleer serbest düşüş bombası, 110 kiloton x@001
+1471	GÖVDE PARÇALARI
+1472	ZIRH PARÇALARI
+1473	YAKIT TANKLARI
+1474	MÜHİMMAT PARÇALARI
+1475	ŞASİ PARÇALARI
+1476	MOTORLAR
+1477	TOPLAR
+1478	SENSÖRLER
+1479	SİLAHLANMA
+1480	UÇAKLAR
+1481	SAVUNMA SİSTEMLERİ
+1482	JENERATÖRLER
+1483	MÜRETTEBAT KOĞUŞLARI
+1484	ACİL DURUM SİSTEMLERİ
+1485	GÖVDE PARÇALARI
+1486	ZIRH PARÇALARI
+1487	YAKIT TANKLARI
+1488	MÜHİMMAT
+1489	ŞASİ PARÇALARI
+1490	LA-29
+1491	TAARRUZ UÇAĞI
+1492	Hafif turbojet avcı-bombardıman uçağı.
+1493	T-7
+1494	ÇOK MAKSATLI
+1495	Süpersonik jet avcı/önleyici.
+1496	MB-110
+1497	BOMBARDIMAN
+1498	Turbojet cephe bombardıman uçağı.
+1499	HAZIR OLMAYAN UÇAKLAR
+1500	Uçaklar silah ve yakıt ikmali yapıyor, yeni bir uçuşa hazırlanıyor.
+1501	2A37
+1502	TOP
+1503	37mm altı namlulu yakın savunma silah sistemi.
+1504	AK-725 VYMPEL
+1505	TOP
+1506	57mm çok maksatlı çifte top.
+1507	AK-100
+1508	TOP
+1509	100mm seri atışlı çok maksatlı top.
+1510	D-80 MOLOT
+1511	TOP
+1512	130mm orta çaplı otomatik top.
+1513	TOP
+1514	180mm tek namlulu büyük çaplı top.
+1515	TOP
+1516	180mm büyük çaplı çifte top.
+1517	TOP
+1518	180mm altı namlulu ağır ana bataryası.
+1519	A-220
+1520	ÇNRA
+1521	220mm çok namlulu roketatar.
+1522	SK-2M
+1523	TAHLİYE KAPSÜLÜ
+1524	Bu kapsül acil tahliyede 30 mürettebata kadar alabilir.
+1525	GEMİYİ TERK ETMEK İÇİN {animation=key_t} BAS.
+1526	KÖPRÜÜSTÜ
+1527	Geminin kalbi ve kaptanın bulunduğu yer.
+1528	GÖVDE
+1529	GÖVDE
+1530	GÖVDE
+1531	GÖVDE
+1532	GÖVDE
+1533	GÖVDE
+1534	GÖVDE
+1535	GÖVDE
+1536	GÖVDE
+1537	BÜYÜK GÖVDE
+1538	TAKVİYELİ GÖVDE
+1539	Takviyeli çelik gövde alüminyumdan daha sağlam, ama daha ağırdır.
+1540	TAKVİYELİ GÖVDE
+1541	Takviyeli çelik gövde alüminyumdan daha sağlam, ama daha ağırdır.
+1542	TAKVİYELİ GÖVDE
+1543	Takviyeli çelik gövde alüminyumdan daha sağlam, ama daha ağırdır.
+1544	TAKVİYELİ GÖVDE
+1545	Takviyeli çelik gövde alüminyumdan daha sağlam, ama daha ağırdır.
+1546	TAKVİYELİ GÖVDE
+1547	Takviyeli çelik gövde alüminyumdan daha sağlam, ama daha ağırdır.
+1548	TAKVİYELİ GÖVDE
+1549	Takviyeli çelik gövde alüminyumdan daha sağlam, ama daha ağırdır.
+1550	TAKVİYELİ GÖVDE
+1551	Takviyeli çelik gövde alüminyumdan daha sağlam, ama daha ağırdır.
+1552	TAKVİYELİ GÖVDE
+1553	Takviyeli çelik gövde alüminyumdan daha sağlam, ama daha ağırdır.
+1554	TAKVİYELİ GÖVDE
+1555	Takviyeli çelik gövde alüminyumdan daha sağlam, ama daha ağırdır.
+1556	TAKVİYELİ GÖVDE
+1557	Takviyeli çelik gövde alüminyumdan daha sağlam, ama daha ağırdır.
+1558	UÇUŞ GÜVERTESİ
+1559	Uçak konuşlandırma güvertesi.
+1560	ZIRH
+1561	ZIRH
+1562	ZIRH
+1563	ZIRH
+1564	BÜYÜK ZIRH
+1565	AZ-174
+1566	MÜHİMMAT
+1567	Elektromekanik otomatik doldurma modülü.
+1568	AZ-182
+1569	MÜHİMMAT
+1570	Elektromekanik otomatik doldurma modülü.
+1571	EC11
+1572	FSS
+1573	Hızlı tepkili yangın söndürme sistemi. Yangınları söndürmek için sıvı Halon 2402 püskürtür.
+1574	YANGIN SÖNDÜRMEYİ ÇALIŞTIRMAK İÇİN {animation=key_b} BAS.
+1575	EC13
+1576	FSS
+1577	Hızlı tepkili yangın söndürme sistemi. Yangınları söndürmek için sıvı HALON 2402 püskürtür.
+1578	YANGIN SÖNDÜRMEYİ ÇALIŞTIRMAK İÇİN {animation=key_b} BAS.
+1579	TC-40
+1580	YAKIT TANKI
+1581	Sıvılaştırılmış metan için standart 40m3 yakıt tankı.
+1582	TC-400
+1583	YAKIT TANKI
+1584	Sıvılaştırılmış gaz için 400m3 dökme depolama tankı.
+1585	BÜYÜK KOĞUŞ
+1586	Geminin mürettebatı bu koğuşlarda konaklar.
+1587	KÜÇÜK KOĞUŞ
+1588	Geminin mürettebatı bu koğuşlarda konaklar.
+1589	STA-4
+1590	ANTEN
+1591	Yüksek frekanslı telsiz anteni.
+1592	ASO-75
+1593	YEM FİŞEKLERİ
+1594	Isı güdümlü füzelere karşı kullanılan 75mm yem fişeği atıcısı.
+1595	YEM FİŞEĞİ ATMAK İÇİN {animation=key_f} BAS.
+1596	Palash-1
+1597	AKS
+1598	Gemiyi topçu ateşine karşı savunmak için tasarlanmış aktif koruma sistemi (AKS).
+1599	MGU-61
+1600	JENERATÖR
+1601	Romani Donanması'nın kullandığı standart gemi jeneratörü. Basit ve güvenilir.
+1602	MGU-28
+1603	JENERATÖR
+1604	Daha az yer kaplayan bir gemi jeneratörü. Çoğunlukla yardımcı güç ünitesi olarak kullanılır.
+1605	ŞASİ PARÇASI
+1606	ŞASİ PARÇASI
+1607	ŞASİ PARÇASI
+1608	ŞASİ PARÇASI
+1609	R-5 ZENİT
+1610	FÜZE
+1611	Isı güdümlü gemisavar füze. Çok yönlü ve güvenilir.
+1612	FÜZE ATMAK İÇİN {animation=key_space} BAS.
+1613	R-6 NADİR
+1614	FÜZE
+1615	Ağır tesirli ısı güdümlü gemisavar füze.
+1616	FÜZE ATMAK İÇİN {animation=key_space} BAS.
+1617	R-9 SPRINT
+1618	HS FÜZE
+1619	Her türden yüksek süratli hava hedefini önler ve etkisiz kılar. Yüksek maliyetini yüksek verimiyle dengeler. ÇALIŞMASI İÇİN ATIŞ KONTROL RADARI GEREKİR!
+1620	ÖNLEYİCİ FÜZE ATMAK İÇİN {animation=key_c} BAS.
+1621	FAB-1000
+1622	BOMBA
+1623	Kara hedeflerine karşı kullanılmak üzere tasarlanmış 1.000kg yüksek patlayıcı bomba.
+1624	BOMBA ATMAK İÇİN {animation=WHL} BASILI TUT.
+1625	Kh-15N
+1626	FÜZE
+1627	Nükleer başlıklı, turbojet tahrikli, radar güdümlü seyir füzesi.
+1628	Kh-15PN
+1629	FÜZE
+1630	Düşman radar izlerini takip edip hedeflemek üzere tasarlanmış nükleer başlıklı radar önleyici füze.
+1631	A-100N
+1632	FÜZE
+1633	Nükleer başlıklı, radar güdümlü taktik taarruz füzesi.
+1634	R-3N
+1635	FÜZE
+1636	Nükleer başlıklı harekât alanı balistik füzesi.
+1637	Kh-15
+1638	FÜZE
+1639	Radar güdümlü, turbojet tahrikli seyir füzesi.
+1640	Kh-15P
+1641	FÜZE
+1642	Düşman radar izlerini takip edip hedeflemek üzere tasarlanmış radar önleyici füze.
+1643	A-100
+1644	FÜZE
+1645	Radar güdümlü taktik taarruz füzesi.
+1646	R-3
+1647	FÜZE
+1648	Harekât alanı balistik füzesi.
+1649	MR-700
+1650	RADAR
+1651	Uzun menzilli erken ihbar radar sistemi.
+1652	MR-500
+1653	RADAR
+1654	Uzun menzilli erken ihbar radar sistemi.
+1655	MR-12
+1656	AKR
+1657	Hedefleri tespit edip silahları onlara yöneltmek için tasarlanmış atış kontrol radarı (AKR). Ne var ki menzili arama radarından belirgin şekilde kısadır.
+1658	MR-2M
+1659	AKR
+1660	Hedefleri tespit edip silahları onlara yöneltmek için tasarlanmış atış kontrol radarı (AKR). Ne var ki menzili arama radarından belirgin şekilde kısadır.
+1661	IRS-1 Mars
+1662	IRST
+1663	Kızılötesi arama ve takip (IRST) durumsal farkındalık sistemi. Düşmanları ısı izlerinden pasif olarak izler.
+1664	MP-100 Lagoon
+1665	EHS
+1666	Baraj karıştırma istasyonu düşmanın füze atmasını zorlaştırır. Ancak gemilerini uzak mesafeden görünür kılar.
+1667	MP-404
+1668	ELINT
+1669	Düşman radar sinyallerini uzak mesafeden tespit edebilen elektronik istihbarat sistemi.
+1670	MP-21
+1671	ELINT
+1672	Düşman radar sinyallerini uzak mesafeden tespit edebilen elektronik istihbarat sistemi.
+1673	RD-59
+1674	MOTOR
+1675	Ağır gemiler için yüksek verimli manevra iticisi.
+1676	RD-51
+1677	MOTOR
+1678	Ağır bir gemide ana itki kaynağı olarak tasarlanmış yüksek verimli sabit tahrik motoru.
+1679	D-30
+1680	MOTOR
+1681	Yakıt tasarrufuyla tanınır; bu da onu Gerat'ta en yaygın motor tipi yapmıştır.
+1682	NK-25
+1683	MOTOR
+1684	Mükemmel itkisi sayesinde Romani muharebe gemilerinde yaygın kullanılır. Ne var ki Elaimler ona yakıt canavarı der.
+1685	D-30S
+1686	MOTOR
+1687	Manevra iticilerine kıyasla daha fazla sabit itki üreten bir sabit tahrik motoru.
+1688	06 MOTOR
+1689	L-01 MOTOR
+1690	Gerçekten paha biçilmez bir hediye!
+1691	Harikulade bir hediye. Minnettarım.
+1692	<NOSPEAK>Hediyen kayıtsızlıkla kabul ediliyor.
+1693	<NOSPEAK>Hediyen şaşkınlıkla kabul ediliyor. Bir gücenme sezinliyorsun.
+1694	Bu ne biçim hediye böyle?!
+1695	<NOSPEAK>Sözlerin hiçbir tepki uyandırmıyor.
+1696	Güzel söylediniz Dük!
+1697	Gerçekten de öyle!
+1698	Doğru söylüyorsunuz.
+1699	Evet, çok haklısınız.
+1700	Duyduklarıma inanamıyorum!
+1701	Bu akıl alacak şey değil!
+1702	Yeter!
+1703	<NOSPEAK>Sessiz kalıyorlar, ama havadaki gücenmeyi hissedebiliyorsun.
+1704	<NOSPEAK>Bakışıyorlar. Anlaşılan sözlerin bu insanları senden korkutmuş.
+1705	<NOSPEAK>Korkuyla birbirlerine fısıldadıklarını duyuyorsun. Az önce söylediklerin onları ürkütmüş gibi.
+1706	<NOSPEAK>Sözlerin karşısında biraz telaşlanmış görünüyorlar.
+1707	<NOSPEAK>Sessiz kalıyorlar, ama gözlerindeki korkuyu görebiliyorsun.
+1708	<NOSPEAK>Şimdi çok daha kendinden emin görünüyorlar.
+1709	<NOSPEAK>Sözlerin onlara cesaret vermiş gibi.
+1710	<NOSPEAK>Konuşmandan besbelli keyif alıyorlar.
+1711	<NOSPEAK>Sözlerine bariz bir memnuniyetle karşılık veriyorlar.
+1712	<NOSPEAK>Konuşman onları rahatlatmış gibi.
+1713	<NOSPEAK>Tarhan'ın yüzünde memnun bir gülümseme beliriyor.
+1714	<NOSPEAK>Gözlerinde artık bir gücenme var.
+1715	<NOSPEAK>Sözlerin karşısında öfkelenmiş görünüyorlar.
+1716	<NOSPEAK>Sözlerin hiçbir tepki uyandırmıyor.
+1717	Gerçekten de öyle!
+1718	Bunu duymak beni memnun etti.
+1719	Duyduklarıma inanamıyorum!
+1720	<NOSPEAK>Sessiz kalıyorlar, ama havadaki gücenmeyi hissedebiliyorsun.
+1721	<NOSPEAK>Bakışıyorlar. Anlaşılan sözlerin bu insanları senden korkutmuş.
+1722	<NOSPEAK>Sözlerin karşısında biraz telaşlanmış görünüyorlar.
+1723	<NOSPEAK>Şimdi çok daha kendinden emin görünüyorlar.
+1724	<NOSPEAK>Sözlerin onlara cesaret vermiş gibi.
+1725	<NOSPEAK>Selamlamandan besbelli memnun oldular.
+1726	<NOSPEAK>Sözlerinden memnun oldular.
+1727	<NOSPEAK>Selamlaman kayıtsızlıkla karşılanıyor.
+1728	<NOSPEAK>Seçtiğin selamlama biçiminden öfkelendiklerini sezinliyorsun.
+1729	SORU
+1730	GÖRÜŞMEYİ@BİTİR
+1731	HEDİYE
+1732	ÖVGÜ
+1733	DOSYA
+1734	KONUŞMA
+1735	ŞİİR
+1736	Karşındaki kişi sana bir soru sormak istiyor. Akıllıca cevap verirsen itibarını artırabilir.
+1737	Bu konuşmaya son verme vakti.
+1738	Layık bir hediye konuşmayı uzatır.
+1739	Doğru şeyhe yapılan doğru bir övgü itibarını artırır.
+1740	Konuştuğun kişi hakkında daha çok şey öğrenmenin yolları var.
+1741	Bir konuşma yap. Hoşlarına giderse sohbet daha da canlanır.
+1742	Bunu zaten söyledin. Tekrar deneyebilirsin, ama etkisi daha zayıf olacak.
+1743	Kutsal sözün ağırlığı büyüktür. % şeyinden mi, % şeyinden mi, yoksa % şeyinden mi bahsediyor?
+1744	HAZIR VE NAZIR!
+1745	Gemi muharebeye topları tam dolu girer.
+1746	KIDEMLİ TOPÇU
+1747	Toplar %20 daha hızlı dolar.
+1748	KIDEMLİ PİLOT
+1749	Gemi muharebede %20 daha manevra kabiliyetlidir.
+1750	KIDEMLİ MAKİNİST
+1751	Geminin seyir menzili %30 artar.
+1752	KIDEMLİ SIHHİYECİ
+1753	Geminin kayıpları %30 azalır.
+1754	SEÇKİN MÜRETTEBAT
+1755	Mürettebat muharebenin ateşinde çelikleşmiştir ve zorluklara daha dayanıklıdır.
+1756	SAVAŞ YARALARI
+1757	Muharebe tecrübesi kazanan ekip gemiyi %20 daha hızlı onarır.
+1758	Sayadi'nin nasıl iyi bir dost, korkunç bir düşman olduğundan.
+1759	Tarhan'a duyduğun derin saygıdan.
+1760	Romani İmparatorluğu'nun büyük kaderinden.
+1761	Romani İmparatorluğu'nun yaklaşan çöküşünden.
+1762	Gerat'ın bütün halklarını bekleyen muhteşem gelecekten!
+1763	Romani İmparatorluğu'ndan ve Elaimlerin ayakta kalmak için ona nasıl muhtaç olduğundan.

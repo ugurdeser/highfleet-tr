@@ -1,0 +1,48 @@
+2465	Soruşturma, birkaç subayın köle ticaretine bulaştığını ortaya çıkarıyor. Hepsi ağır cezalar alıyor. Ne var ki bu karara herkes katılmıyor ve filodaki ayrışma derinleşiyor.
+2466	Şaşkınlığına, mürettebatının hatırı sayılır bir kısmı köle ticaretine bulaşmış. Çok sayıda tutuklama filodaki gerginliği artırıyor.
+2467	Soruşturma sarsıcı sonuçlar veriyor: filondaki subayların yaklaşık yarısı bir şekilde köle ticaretine bulaşmış. Çok sayıda tutuklama filodaki gerginliği iyice tırmandırıyor.
+2468	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KÖLE TİCARETİ@10 {animation=event_slaves_02} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=1>Filondaki fazlasıyla çok sayıda subay, köle ticareti söylentilerinin daha fazla soruşturulmayacağını duyunca memnun oluyor.
+2469	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}KÖLE TİCARETİ@10 {animation=event_slaves_02} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|GERAT=1|GOLD=10000>Elaimler kararını neşeyle karşılıyor. Subaylarından biri de hiç değilse iyi gelir getireceğini belirtiyor.
+2470	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}UR'A VARIŞ@10 {animation=event_triumph} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Ur şehrine girdiğimizde kalabalık bir insan topluluğu bizi sevinç çığlıklarıyla, kahramanlar gibi karşıladı.
+2471	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}GİZLİ HALK@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|HIDDEN_CITY_01_2|MORAL=2>Gizli Halk'ın şehri filonu büyük bir heyecanla karşılıyor. Bütün halkı seni karşılamak için sokağa dökülüyor. Çocuklar sevinç çığlıklarıyla koşuşturuyor, erkekler ciddiyetle selam veriyor, kadınlar ellerinde çiçeklerle sana koşuyor.
+2472	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}GİZLİ HALK@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|HIDDEN_CITY_01_3|HIDDEN_BONUS>Şehrin şeyhi filona elinden gelen her yardımı yapmaya söz veriyor. Burada kimse Cemaat'ten korkmuyor ve herkes girişiminin başarılı olmasını diliyor.
+2473	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}GİZLİ HALK@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CHECK_JOINED|PETR|EXIT><SCR=CONTINUE>"Cemaat bu şehrin varlığını bile bilmiyor ve halkından hiçbiri bizi ele vermez," diyor Pyotr İgnatyeviç kendinden emin bir şekilde. "Burada emniyetteyiz. İhtiyacımız olduğu kadar kalabiliriz."
+2474	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}GİZLİ HALK@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>"Burası hiç fena görünmüyor. Ne dersiniz Dük?" Pyotr vadiye göz gezdiriyor. "Belki burada kalıp kendi kolonimizi kursak?" Yarı şaka yollu sırıtıyor Pyotr. Onu en son ne zaman bu kadar keyifli gördüğünü hatırlamıyorsun.
+2475	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}GİZLİ HALK@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>"Neden olmasın," diye beklenmedik bir ciddiyetle cevap veriyor Pyotr İgnatyeviç. "Ben yaşlı bir adamım Şerif. Güz yıllarımı huzur ve sükûnet içinde geçirmek hiç fena olmaz."
+2476	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}GİZLİ HALK@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=2|HIDDEN_BONUS>Şehir seni kucak açarak karşılıyor. Şeyh filona elinden gelen her yardımı yapmaya söz veriyor. Burada kimse Cemaat'ten korkmuyor ve herkes girişiminin başarılı olmasını diliyor.
+2477	<TRG=TUTORIAL_SCAVENGE|0><NPC=DAUD><SIDE=1><SHADOW=1><SCR=CONTINUE>Yüzeyde kurtulanlar olabilir Dük. Onları kurtarmazsak dedikodusu yapılır.
+2478	<NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE>Değerli bir şeyler toplayabiliriz. Bir şehirde satabileceğimiz bir şeyler. Paraya da fena hâlde ihtiyacımız var.
+2479	<NPC=PETR><SCR=CONTINUE>Ama hızlı davranmalıyız. Yangın yayılıyor. Çok geçmeden enkazı yutacak.
+2480	<NPC=PETR><SCR=STOP>Ve... orada dikkatli olun Dük hazretleri. Bulacağınız bazı şeyler fazla tehlikeli olabilir.
+2481	<NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE>Paramız bitti Dük hazretleri. Bunu yükümüzün bir kısmını, hatta gemilerimizden birini satarak çözebiliriz.
+2482	<NPC=PETR><SIDE=-1><SHADOW=1>Ayrıca sanıyorum ki tek kelime etseniz Prens Fazıl size küçük bir servet ödünç verebilir.
+2483	<ANS=Bakalım hangi yükü satabiliyoruz.|TUTORIAL_FUNDS_CARGO>
+2484	<ANS=Gemilerden birini satacağız.|TUTORIAL_FUNDS_SHIP>
+2485	<ANS=Sanırım prensle konuşma vakti geldi.|TUTORIAL_FUNDS_FASIL>
+2486	<SCR=STOP>
+2487	<SCR=TUTORIAL_FUNDS_CARGO>
+2488	<SCR=TUTORIAL_FUNDS_SHIP>
+2489	<SCR=TUTORIAL_FUNDS_FASIL>
+2490	<NPC=PETR><NOBOTTOM><MOUSE_TRACK=1><SIDE=1>Yük paneline inmek için aşağı kaydır.
+2491	<NPC=PETR><SIDE=1><NOBOTTOM><HANDSHOW_POS=1111|968><MOUSE_TRACK=0><SCR=STOP>Bu, filomuzdaki bütün yüklerin listesi. Bir kısmı satılabilir.
+2492	<NPC=PETR><SIDE=1><HANDSHOW_POS=1884|848><GLOW_GUI=ED_SHPWRK_SELL><SCR=STOP>Gemilerinizden birini buradan satabilirsiniz.
+2493	<NPC=PETR><SIDE=1><HANDSHOW_GUI=MAPMODE_INTERCOM><GLOW_GUI=MAPMODE_INTERCOM><SCR=STOP>Prense ulaşıp görüşme ayarlamak için dahilî muhabereyi kullanın.
+2494	<TRG=TUTORIAL_CODES|0><NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE><NOBOTTOM><HANDSHOW_POS=370|990>Artık muhaberelerini şifreliyorlar Büyük Dük.
+2495	<NPC=PETR><SCR=CONTINUE>Bir dahaki sefere inceleyecek enkaz bulduğumuzda telsiz odasını aramalıyız. Belki şifrelerinin anahtarlarını buluruz.
+2496	<NPC=PETR><SCR=STOP><HANDSHOW_GUI=SHIFT_CARD_BUTTON><GLOW_GUI=RADIO_KEY_PANEL>Bulduğumuz bütün şifreleme malzemelerini buraya bırakacağım.
+2497	<TRG=TUTORIAL_ALARM|0><NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=CONTINUE>Düşman varlığımıza dair bir ihbar mesajı gönderdi. Yerel garnizonlar alarma geçip bizi aramaya başlayacak!
+2498	<NPC=PETR><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=CONTINUE>Çok geçmeden taarruz grupları rota değiştirip bu tarafa yönelecek. Ama uçak gemileri varsa muhtemelen önce buraya uçak gönderirler.
+2499	<NPC=PETR><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=CONTINUE>Nakliye gemileri de rota değiştirip tehlikeden uzak durmaya çalışacak.
+2500	<NPC=PETR><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=STOP>Her hâlükârda Büyük Dük, düşman varlığımızdan ne kadar az haberdar olursa o kadar iyi.
+2501	<TRG=TUTORIAL_RELOAD|0>{font=dinpro_48_black}{align=2}MÜHİMMAT TİPİ@10{font=fixed_20}{align=0}Özel mühimmat ile standart yüksek patlayıcı mühimmat arasında geçiş yapmak için {animation=key_r} bas.<SCR=STOP>
+2502	<TRG=TUTORIAL_COMBAT_TAKEOFF|0>{font=dinpro_48_black}{align=2}UÇAKLAR@10{font=fixed_20}{align=0}Gemiden uçak kaldırmak için {animation=key_x} bas.<SCR=STOP>
+2503	<TRG=TUTORIAL_EVAC|0>{font=dinpro_48_black}{align=2}GEMİYİ TERK ETME@10{font=fixed_20}{align=0}Geminin durumu kritikleşirse mürettebatını kurtarmak için hâlâ bir şansın var. Adamlarına gemiyi terk etmelerini emretmek için {animation=key_t} bas.<SCR=STOP>
+2504	<TRG=TUTORIAL_BOMBS|0>{font=dinpro_48_black}{align=2}BOMBALAR@10{font=fixed_20}{align=0}Gemin bomba yükü taşıyor ve yerde birkaç hedef var. Hedeflere yaklaş, sonra bombardıman için {animation=WHL} basılı tut.<SCR=STOP>
+2505	<TRG=TUTORIAL_TRADER|0><NPC=PETR><SIDE=1><SHADOW=1>Mesajın içeriğine bakılırsa bir nakliye gemisinden geliyor. Geminin yükünden ve rotasından bile bahsediyor. O gemiyi ele geçirirsek küçük bir servete satabiliriz.<SCR=STOP>
+2506	<TRG=TUTORIAL_RIOT|0><NPC=PETR><NPC=PETR><SHADOW=1><SIDE=-1><BLUR=0><SCR=STOP>Büyük Dük, gemilerimizden birinin mürettebatı düşmanla çarpışmayı reddediyor.
+2507	<TRG=TUTORIAL_RIOT|0><NPC=PETR><NPC=PETR><SHADOW=1><SIDE=-1><BLUR=0><SCR=STOP>Büyük Dük, birkaç gemimizin mürettebatı düşmanla çarpışmayı reddediyor. Bütün gemilerimiz emirlerinizi reddetmeye başlarsa filo elden gider!
+2508	<TRG=TUTORIAL_PRIZE_1|0><NPC=PETR><SIDE=-1><SHADOW=1><BLUR_POS=0.2|0.8>Düşman gemilerinden biri nakliye gemisi. Diğer bütün gemileri imha edip bunu sağlam bırakabilirsek teslim olacaktır.<SCR=STOP>
+2509	<TRG=TUTORIAL_PRIZE_2|0><NPC=PETR><SIDE=-1><SHADOW=1><BLUR_POS=0.2|0.8>Bu nakliye gemisinin silahlı refakati yok. Çarpışmadan teslim olacaktır.<SCR=STOP>
+2510	<TRG=TUTORIAL_REPAIR_BONUS|0>{font=dinpro_48_black}{align=2}ONARIM BONUSU <REPAIR_BONUS>@10{font=fixed_20}{align=0}İniş sırasında gemilerini iyi konumlandırırsan onarım büyük ölçüde hızlanabilir.<SCR=STOP>
+2511	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=RADIO_BAND3|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_BAND1|RADIO_BAND2|RADIO_BAND3>Önce bandı ayarlamanız gerek Dük hazretleri.<SCR=STOP>
+2512	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=RADIO_SCAN|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_SCAN>Önce sabit bir sinyal yakalamanız gerek.<SCR=STOP>

@@ -1,0 +1,85 @@
+2592	<NPC=AIRBORNE><SCR=CONTINUE>Ah, keşke olduğu sırada burada olsaydınız. Gözlerini kırpmadan davanıza katılırlardı!
+2593	<NPC=AIRBORNE><SCR=CONTINUE>Ama başkentten hiç yardım gelmedi. Kendi başımıza ayakta kalmak zorunda kaldık. Ve doğrusunu isterseniz bu işte epey ustalaştık.
+2594	<NPC=AIRBORNE>Size asla katılmazlar.
+2595	<ANS=SİZ katılmalarını isterseniz katılırlar.>
+2596	<ANS=Başka bir şey demenize gerek yok Albay. Anlıyorum.|EXIT>
+2597	<NPC=AIRBORNE><SCR=CONTINUE>İşte benim İmparatorum! (Yemelyan bu haykırışın ardından kasvetli bir kahkaha atıyor)
+2598	<TRG=INTERCOM_AIRBORNE|1><NPC=AIRBORNE>Sizin için adamlarımla konuşacağım Dük. Ve inanın, size büyük bir iyilik yapıyorum.<SCR=STOP|ASK_REINFORCE|AIRBORNE=-1>
+2599	<NPC=AIRBORNE>Sizin için adamlarımla konuşacağım Dük.<SCR=STOP|ASK_REINFORCE|AIRBORNE=-1>
+2600	<NPC=KNIGHT><SIDE=0><SHADOW=1>Beni çağırmışsınız emir?
+2601	<ANS=Şuca-i Sani, senden yardım istemek zorundayım. Söyle bana, Dustum'un gemileri davamıza katılabilir mi?>
+2602	<ANS=Vaktini boşa harcadığım için özür dilerim Şuca. Bu kadar yeter.|EXIT>
+2603	<TRG=INTERCOM_KNIGHT|1><NPC=KNIGHT><NOSPEAK><SCR=CONTINUE>Şuca tek kelime etmeden sana bakıyor. Sonunda cevap veriyor...
+2604	<NPC=KNIGHT><SCR=CONTINUE>Gemilerimiz sizin olacak emir. Yardımımızı akıllıca kullanın.<SCR=STOP|ASK_REINFORCE|KNIGHT=-1>
+2605	<NPC=KNIGHT>Gemilerimiz sizin olacak emir.<SCR=STOP|ASK_REINFORCE|KNIGHT=-1>
+2606	Harcanmamış bütün istihbarat puanları kaybolacak. Devam etmek istediğine emin misin?
+2607	{animation=hint_small}{font=dinpro_14_med}{color=4294900965}{align=2}{max=300} KURTARILAN MÜRETTEBAT DİĞER GEMİLERE DAĞITILDI
+2608	{font=dinpro_20_reg}{color=4294900965}{align=2}ÖLEN MÜRETTEBAT:
+2609	{font=dinpro_20_reg}{color=4294900965}{align=2}KURTULAN MÜRETTEBAT:
+2610	{animation=hint_small}{font=dinpro_14_med}{color=4294900965}{align=2}{max=400} BU EN İYİ SONUCUN! PUANLAR BİR SONRAKİ SEFERİN BAŞINDA BONUS PARA OLARAK EKLENECEK
+2611	{font=dinpro_20_reg}{color=4294900965}{align=2}ASKERÎ PUAN:
+2612	{font=dinpro_20_reg}{color=4294900965}{align=2}SEFER PUANI:
+2613	<MUSIC=Duduk_4_ever><SCR=CONTINUE>Gemiye yaklaşamadan bir nöbetçinin sana durmanı söyleyen gür sesini duyuyorsun. Kıç güvertedeki silahlı bir adam seni izliyor. Geride durman için işaret ediyor.
+2614	<SCR=CONTINUE><SOUND=gunfire_zz>Bir adım daha atar atmaz gemi ihtar ateşi açıyor. Mermi göklere yükselirken ıslık çalıp cızırdıyor.
+2615	<NPC=PETR><SIDE=-1>Akıllarını mı kaçırdılar? Karşılarında kimin durduğunun farkındalar mı?!
+2616	<ANS=Onlara da birkaç ihtar ateşi açalım Pyotr İgnatyeviç.|HELLO_SCOUT_4|FEAR=1|NO_THEME_REACTION>
+2617	<ANS=Burada durup bekleyeceğiz.|HELLO_SCOUT_INIT_01_1|FEAR=-1|NO_THEME_REACTION>
+2618	<SOUND=gunfire_double>Muhafızlarından biri göğe nişan alıp sağır edici iki büyük çaplı el ateş ediyor. Kulakların çınlıyor, ama gemideki muhafızlar hâlâ olduğun yerde kalman için işaret ediyor.
+2619	<ANS=Pekâlâ, gövdelerinde birkaç delik açalım!|HELLO_SCOUT_5|FEAR=1|NO_THEME_REACTION>
+2620	<ANS=Burada durup bekleyeceğiz.|HELLO_SCOUT_INIT_01_1|FEAR=-1|NO_THEME_REACTION>
+2621	Pyotr gergin bir şekilde sana bakıyor. Muhafız tüfeğini ağır ağır kaldırıp nişan alıyor...
+2622	<ANS=Yere atlayıp siper almaya hazırlan.|HELLO_SCOUT_FALL>
+2623	<ANS=Yerinde dur.|HELLO_SCOUT_6|FEAR=1|NO_THEME_REACTION>
+2624	<SCR=CONTINUE><SOUND=shell_out_small_01>Atışın kavurucu dalgasının yüzünün yanından geçtiğini hissediyorsun...
+2625	<SCR=CONTINUE><AMBIENT=gunfire_firefight>Bir an sonra gemiden gelen karşılık ateşi havayı yarıyor. Adamların karşılık vermeyi sürdürürken sana bakıyor.
+2626	<SCR=CONTINUE><AMBIENT=STOP>Saniyeler sonra önündeki gemideki muhafızlardan eser kalmıyor. Ortalık sessiz.
+2627	<NPC=PETR>Siz delisiniz!
+2628	<ANS=Pyotr'a kayıtsızca gülümse.|HELLO_SCOUT_10|FEAR=1|NO_THEME_REACTION>
+2629	<ANS=Gözünü geminin toplarından ayırma.|HELLO_SCOUT_GUNS>
+2630	<SCR=CONTINUE><SOUND=gunfire_servo>Gözlerin Pyotr'a odaklanmışken geminin topları birden canlanıyor.
+2631	<SCR=CONTINUE><SOUND=explosion_and_post>Bir atış sesi duyuyorsun, sonra bir şok dalgası seni bez bebek gibi savuruyor.
+2632	<SCR=CONTINUE><SCR=NPC_TAKEOFF>Sonunda kendine geldiğinde o tuhaf geminin kalkıp irtifa kazandığını görüyorsun.
+2633	<SCR=CONTINUE|HELLO_SCOUT_14|CREW=-10|MORAL=-1>Adamlarından birkaçı öldü, çok daha fazlası yaralı.
+2634	<SCR=STOP|PETR=-1>Pyotr İgnatyeviç gözlerine bakmıyor, ama yaşlı generalin öfkesini iliklerine kadar hissediyorsun.
+2635	<SCR=CONTINUE|HELLO_SCOUT_FIGHT><AMBIENT=gunfire_firefight>Yere atlıyorsun ve gemideki muhafızların anında karşılık ateşi açtığını duyuyorsun.
+2636	<SOUND=gunfire_servo>Geminin topları birden canlanıyor.
+2637	<ANS=Siper alın!|HELLO_SCOUT_FIGHT>
+2638	Arkana baktığında adamlarının yere yatmış, emir beklediğini görüyorsun.
+2639	<ANS=Lombozları hedef alın! Pyotr, gemilerimizi havalandır!|HELLO_SCOUT_TAKEOFF|FEAR=1|NO_THEME_REACTION>
+2640	<ANS=Ateş kes! Biraz bekleyeceğiz.|HELLO_SCOUT_INIT_02_1>
+2641	<SCR=STOP><SCR=NPC_TAKEOFF>Ama emir ağzından çıkmadan türbinlerin uğultusunu duyuyorsun. O gemi kalkmak üzere.
+2642	<SCR=CONTINUE>Gemiden bir adam inip sana doğru yürüyor. Üniforması ve rütbe işaretleri sana yabancı. Yaklaşırken nezaketle eğilip seni selamlıyor.
+2643	<SIDE=0><NPC=HIRE><APPROVE><RAM=1><SCR=HELLO_INIT|HELLO_INTRODUCE_SCOUT>Huzurunuzla şereflenmeyi hiç beklemiyorduk Büyük Dük! Adamlarım için özür dilemeliyim.
+2644	<AMBIENT=STOP>Gemiden bağırışlar duyuyorsun: "Ateş kes! Ateş etmeyin!"
+2645	<ANS=Pekâlâ. Bütün formaliteler bittiğine göre nihayet huzur içinde konuşabiliriz.>
+2646	<SCR=CONTINUE>Gemiden bir adam inip sana doğru yürüyor. Üniforması ve rütbe işaretleri sana yabancı. Yaklaşırken nezaketle eğilip seni selamlıyor.
+2647	<SIDE=0><NPC=HIRE><APPROVE><RAM=1><SCR=HELLO_INIT|HELLO_INTRODUCE_SCOUT>Affınızı diliyorum Büyük Dük! Bunların hepsi korkunç bir yanlış anlaşılma. Sizi temin ederim, failler en ağır şekilde cezalandırılacak.
+2648	<NPC=SCOUT><APPROVE>Adım Yitzhak-Ra.
+2649	<ANS=Hiva ile savaştayız Tarhan. Belki müttefik olabiliriz?|HELLO_ROUND|DIPLOMACY_STARTS>
+2650	<MUSIC=Duduk_4_ever><SCR=CONTINUE>Aradığın tarhan gemide değil, ama yerliler seni hevesle ona götürüyor.
+2651	<SCR=CONTINUE><AMBIENT=crowd_01>Tarhanı tıklım tıklım bir kahvehanede buluyorsun. Kalabalığın oluşturduğu halkanın ortasında, elinde kılıç, ayaklarının dibinde bir cesetle duruyor.
+2652	<NPC=HIRE><SIDE=0><NOSPEAK><RAM=1><SCR=CONTINUE>Seni görür görmez hazırola geçiyor; omuzlarındaki Romani Donanması'nın yaldızlı apoletlerini besbelli tanıyor.
+2653	<NPC=HIRE>Selam üzerinize olsun Büyük Dük! Ben Şuca-i Sani, Dustum şövalyesi.
+2654	<ANS=Bu adamı sen mi öldürdün? Neden?>
+2655	<NPC=HIRE><SCR=CONTINUE>Bana hakaret etti. Silahlıydı. Adil bir dövüştü.
+2656	<NPC=HIRE><NOSPEAK>Rakibi tozun içinde kollarını iki yana açmış yatıyor. Adamın dediği gibi bir kılıcı var, ama kınında.
+2657	<ANS=Adil dövüş mü dedin? Adamın kılıcını çekmeye bile fırsatı olmamış!>
+2658	<NPC=HIRE><NOSPEAK><SCR=CONTINUE>Şuca sanki seni tartıyormuş gibi başını hafifçe yana eğiyor.
+2659	<NPC=HIRE><SCR=CONTINUE>Bu hiçbir şeyi değiştirmezdi.
+2660	<SCR=CHECK_JOINED|DAUD|HELLO_KNIGHT_10><NPC=DAUD><SIDE=-1><SCR=CONTINUE>Az önce bir adam öldürdü, ama sinek öldürmüş gibi davranıyor. Böyle bir tarhan büyük bir kazanç... ya da büyük bir yük olabilir. Tecrübem ikincisinin daha muhtemel olduğunu söylüyor.
+2661	<NPC=HIRE><SIDE=0><NOSPEAK>
+2662	<ANS=Hiva'ya karşı savaşmak için müttefik arıyorum. Bize katılır mısın Dustum şövalyesi?|HELLO_ROUND|DIPLOMACY_STARTS|RIGHT=-2|NO_THEME_REACTION>
+2663	<ANS=Soruşturmayı bizzat takip edeceğim Şuca.|HELLO_KNIGHT_11|RIGHT=2>
+2664	<NPC=HIRE><NOSPEAK><SCR=STOP><SCR=NPC_TAKEOFF>Şövalye sözlerine kayıtsızca omuz silkmekle yetiniyor.
+2665	<MUSIC=Duduk_4_ever><SCR=CONTINUE>Bir grup kılıç eri seni uzaktan görüyor. Tam teçhizatlı, maskeli ve silahları yanlarında seni selamlıyorlar. Aşiretler misafirlerini geleneksel olarak böyle karşılar.
+2666	<NPC=HIRE><SIDE=0><RAM=1><SCR=HELLO_INIT|HELLO_INTRODUCE_HISSID>Geratlı korsanlar için bu mesleki bir zorunluluk.
+2667	<NPC=HIRE><APPROVE>Adım Nadir Bek, Barrakat Aşireti'nin reisi.
+2668	<ANS=Hiva'ya karşı savaşmak için müttefik arıyorum. Hissidler ilgilenir mi?|HELLO_ROUND|DIPLOMACY_STARTS>
+2669	<MUSIC=Duduk_4_ever><SCR=CONTINUE>Şehirden kalabalık bir topluluk gemine yaklaşıyor.
+2670	<SCR=CONTINUE>Kalabalığın önündekiler diğerlerine hiç benzemiyor. Kürk kenarlı, siyah tulumlar giymişler; ellerinde silahlar, bellerinde yaldızlı kılıçlar var.
+2671	<SCR=CONTINUE>Büyük bir özgüvenle sana doğru yürüyen genç bir kadını çevrelemişler. Kim olduğunu hemen anlıyorsun.
+2672	<NPC=HIRE><SIDE=0><RAM=1><SCR=HELLO_INIT|HELLO_INTRODUCE_GIRL>Ne de olsa kadın aşiret reisi pek yok.
+2673	<NPC=HIRE><APPROVE>Selam hanenizin üzerine olsun Büyük Dük! Ben Ananke, İsi Aşireti'nin Düşesi.
+2674	<ANS=Hiva'ya karşı savaşmak için müttefik arıyorum. Bize katılır mısınız?|HELLO_ROUND|DIPLOMACY_STARTS>
+2675	<MUSIC=Duduk_4_ever><SCR=CONTINUE>Muhafızların bir ziyaretçiyi geminin yemekhanesine getiriyor. İçeri adımını atar atmaz herkes susuyor.
+2676	<NPC=HIRE><SIDE=0><NOSPEAK><SCR=CONTINUE>Cemaat Donanması'nda yüksek bir rütbenin işaretlerini taşıyan özenle dikilmiş üniformasını tanımamak elde değil.

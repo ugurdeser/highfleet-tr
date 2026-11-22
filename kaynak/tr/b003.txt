@@ -1,0 +1,56 @@
+646	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}UR'A VARIŞ@10 {animation=event_triumph} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>İşte o an anladık ki Gerat halkının kalbi bizden yanaydı. Ne güzel bir gündü! Zaferimizi o anın içinde kutladık; önümüzde ne olduğunu hiç umursamadan.
+647	<NPC=PETR><SHADOW=1><SCR=STOP>Silahlı refakat geliyor! Korudukları nakliyeyi ele geçirirsen, onu küçük bir servete satabilirsin!
+648	<NPC=PETR><SHADOW=1><SIDE=-1><SCR=STOP>Yayın yakalandı. Buradan pek uzakta olmayan, silahlı refakatli bir gemi var. Onları yakalarsak küçük bir servet kazanabiliriz.
+649	<NPC=PETR><SHADOW=1><SCR=STOP>Lanet olsun! Düşman taarruz grubu yaklaşıyor!
+650	<NPC=PETR><SHADOW=1><SIDE=-1><SCR=STOP>Şifreli yayın yakalandı. Buradan pek uzakta olmayan bir yerde düşman taarruz grubu hareket hâlinde. Onlardan uzak durmalıyız.
+651	<NPC=PETR><SHADOW=1><SIDE=-1>Tarhan hazretleri, bu uçuş için yeterli yakıtımız yok. Şehre dönüp ikmal yapmamız gerekecek.<ANS=Anlaşıldı General.|EXIT>
+652	<NPC=PETR><SHADOW=1><SIDE=-1><RAM=0>Tarhan hazretleri? Bir taarruz grubu hazırlayalım mı?
+653	<ANS=Evet General.|AUTOSTRIKE_02|SELECT_STRIKE>
+654	<ANS=Hayır, üzerlerine elimizdeki her şeyle gideceğiz.|EXIT>
+655	<NPC=PETR><SHADOW=1><SIDE=1><HANDSHOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_HALFTANK><ACTIVE=MAPMODE_MISSION_FULLTANK><ACTIVE=MAPMODE_FUEL_HANDLE><ACTIVE=MAPMODE_MISSION_SLIDER><BLUR_FOCUS=0.4><BLUR_ZOOM=0.7><NOBOTTOM>Bu gemileri önden göndermek ister misiniz?
+656	<ANS=Evet, onları öne gönder.|EXIT|SEND_STRIKE>
+657	<ANS=Hayır, fikrimi değiştirdim. Üzerlerine elimizdeki her şeyle gideceğiz.|EXIT|DESELECT_STRIKE>
+658	<TRG=TUTORIAL_ROLL|0>{font=dinpro_48_black}{align=2}YATIŞ AÇISI KONTROLÜ@10{font=fixed_20}{align=0}Gemi tehlikeli biçimde bir yana yatıyor. Dengelemek için {animation=key_q} ve {animation=key_e} tuşlarını kullan.<SCR=STOP>
+659	<TRG=TUTORIAL_FIRE|0><SOUND=alarm_small_03>{font=dinpro_48_black}{align=2}YAKIT SİSTEMİ YANIYOR!@10{font=fixed_20}{align=0}Geminin yangın söndürme sistemini (FSS) çalıştırmak için {animation=key_b} bas. Her kullanım bir FSS modülü tüketir, sakın tükenmesin!<SCR=STOP>
+660	<TRG=TUTORIAL_RETREAT|0>{font=dinpro_48_black}{align=2}ÇEKİLME MÜMKÜN@10{font=fixed_20}{align=0}Filon birkaç gemiden oluşuyor. Muharebeden çekilmesi için, o an kullandığın gemiyi çekilme işaretine götürebilirsin. Listendeki bir sonraki gemi otomatik olarak muharebeye girer.<SCR=STOP>
+661	<TRG=TUTORIAL_MISSILES|0>{font=dinpro_48_black}{align=2}FÜZELER@10{font=fixed_20}{align=0}Bu gemi füzelerle donatılmış. Füze atmak için {animation=key_space} bas. Uzaktan atılan iki ya da üç füzelik bir salvo genellikle çok etkilidir.<SCR=STOP>
+662	<TRG=TUTORIAL_COUNTERMEASURES|2><SOUND=alarm_small_05>{font=dinpro_48_black}{align=2}FÜZE YAKLAŞIYOR!@10{font=fixed_20}{align=0}Onu düşürmeyi deneyebilir, kaçabilir ya da yem kullanabilirsin. Füze gemine yaklaştığında yem fişeği atmak için {animation=key_f} bas.<SCR=STOP>
+663	<TRG=TUTORIAL_COUNTERMEASURES|0><SOUND=alarm_small_05>{font=dinpro_48_black}{align=2}HAVADAN HAVAYA FÜZELER (AAM)@10{font=fixed_20}{align=0}Bu füzeler pahalıdır ve yalnızca bir kez kullanılır, ama çevik hava hedeflerine karşı harikalar yaratır. Bir AA füzesi atmak için {animation=key_c} bas.<SCR=STOP>
+664	<TRG=TUTORIAL_SECONDARY|0>{font=dinpro_48_black}{align=2}YARDIMCI TOPÇU@10{font=fixed_20}{align=0}Bu gemide ana topunun yanı sıra bir de yardımcı top sistemi var. Yardımcı silahları yakın mesafedeki hızlı ve çevik hedefleri temizlemek ve havadaki düşman füzelerini imha etmek için kullan. Yardımcı silahını ateşlemek için {animation=RMB} bas.<SCR=STOP>
+665	<NPC=PETR><SHADOW=1><SIDE=-1><BLUR=0><SCR=CONTINUE>Lanet olsun! Düşman hava savunması görüldü!
+666	<NPC=PETR><SCR=CONTINUE>Düşman gemilerine odaklanın. Kara araçlarını muharebe bitince ele geçiririz.
+667	<NPC=PETR><SCR=STOP>Ve füzelere dikkat edin!
+668	<NPC=PETR><SIDE=1><SHADOW=0><RAM=0><HANDSHOW_GUI=HOUSE_SHIPWORKS><GLOW_GUI=HOUSE_SHIPWORKS>Tarhan hazretleri, gemilerimizin füze stokunu tamamlama fırsatımız var. Bunu yapmamızı şiddetle tavsiye ederim.
+669	<ANS=Pekâlâ. Ben icabına bakarım.|EXIT>
+670	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_POS=970|160|1><SCR=CONTINUE>Bu, filonuzdaki bütün gemilerin listesi efendim.
+671	<NPC=PETR><NOBOTTOM><MOUSE_TRACK=1>Ekranda aşağı inip geminin bakım paneline geç.
+672	<NPC=PETR><SIDE=-1><NOBOTTOM><HANDSHOW_POS=60|870|1><ACTIVE=INV_SLOT><MOUSE_TRACK=0>Bir füze satın al.
+673	<NPC=PETR><NOBOTTOM><HANDSHOW_POS=798|556|1><BODY_FOCUSABLE=1>Şimdi onu geminin boş bir istasyonuna tak.
+674	<NPC=PETR><SCR=STOP>Aynı şekilde diğer gemilere de füze takabilirsiniz.
+675	<NPC=PETR><SIDE=1><SHADOW=0><HANDSHOW_GUI=HOUSE_SHIPWORKS><GLOW_GUI=HOUSE_SHIPWORKS><SHADOW=0>Tarhan hazretleri! Bazı gemilerimizin onarıma ihtiyacı var ve bu şehirde tersane var. Onları burada onartsak iyi ederiz.
+676	<ANS=Hemen icabına bakarım.|EXIT>
+677	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=ED_SHPWRK_MINIFIG_REPAIR><BLUR=0><SCR=CONTINUE>Bu geminin onarıma ihtiyacı var.
+678	<NPC=PETR><SIDE=1><HANDSHOW_GUI=ED_SHPWRK_AUTO><GLOW_GUI=ED_SHPWRK_AUTO><SCR=CONTINUE>Tek yapmanız gereken geminin onarılması emrini vermek. Teknik ekip elinden geleni yapacaktır.
+679	<NPC=PETR><SIDE=1>Ne var ki gerekli yedek parçalarımız yoksa onarımı tamamlamak mümkün olmayacak.
+680	<ANS=Anlaşıldı Pyotr.|EXIT>
+681	<NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE>Beyler, son gelişmelerin ışığında bundan sonraki hareketlerimizi görüşmek üzere sizi buraya topladım.
+682	<NPC=PETR><SIDE=-1><SCR=CONTINUE>Benim kanaatim şu: ilerlemeye devam edip {glossary=Hiva,GLOSS_KHIVA}'ya doğru yürümeliyiz.
+683	<NPC=DAUD><SIDE=1><SCR=CONTINUE>Pyotr İgnatyeviç, başkentten gelen haberler bütün bu harekâtı anlamsız kıldı. Derhal anavatana dönmeliyiz - ne kadar erken, o kadar iyi.
+684	<NPC=PETR><SIDE=-1><SCR=CONTINUE>Tam aksine! {glossary=Hiva,GLOSS_KHIVA}'yı almak her zamankinden daha mühim. İzin verirseniz açıklayayım...
+685	<NPC=PETR><SIDE=-1><SCR=CONTINUE>Sevastopol'ün mürettebatıyla uzun uzun konuştum. Bunu söylemek bana acı veriyor ama güneydeki savaşın kaybedildiğine kaniyim. Anavatana dönmek bizim için kesin ölüm demek olur.
+686	<NPC=PETR><SIDE=-1><NOSPEAK><SCR=CONTINUE>Hepimizin benzer şüpheleri vardı. O korkular kelimelere döküldüğünde subayların çoğu gözlerini kaçırdı.
+687	<NPC=DAUD><SIDE=1><SCR=CONTINUE>Peki ne öneriyorsun Pyotr? (Davud'un sesinde bitkinlik vardı.)
+688	<NPC=PETR><SIDE=-1><SCR=CONTINUE>Asi donanma şu anda güneyde şiddetli çarpışmalar içinde. Kuzeyde taarruza geçip {glossary=Hiva,GLOSS_KHIVA}'yı zorla almanın tam sırası.
+689	<NPC=DAUD><SIDE=1><SCR=CONTINUE>Peki sonra ne olacak? Kaçınılmazı geciktirmiş oluruz sadece. Er ya da geç {glossary=Hiva,GLOSS_KHIVA}'ya gelecekler.
+690	<NPC=PETR><SIDE=-1><SCR=CONTINUE>Reaktörle ilgili istihbaratımızın doğru olduğuna inanmak için sebeplerim var. Onu ele geçirebilirsek karşılık vermezler. Reaktörün sağlam kalması için masaya oturmak zorunda kalırlar.
+691	<NPC=PETR><SIDE=-1><SCR=CONTINUE>Belki bir anlaşma yapabiliriz.
+692	<NPC=PETR><SIDE=-1><NOSPEAK><SCR=CONTINUE>Subaylar sözlerini tartarken Pyotr çevresine bakındı.
+693	<NPC=DAUD><SIDE=1><SCR=CONTINUE>Başkentle irtibatı yeniden kurmak için bir gemi göndermemiz gerek. Güneyle sağlam bir hattımız olunca...
+694	<NPC=PETR><SIDE=-1><SCR=CONTINUE>Buna vakit yok {glossary=Şerif Rahmatoviç,GLOSS_DAUD}. {glossary=Hiva,GLOSS_KHIVA}'ya şimdi, burada saldırmazsak çok geç olacak.
+695	<SCR=CONTINUE>Gecenin kalanını ve ertesi günün tamamını Pyotr'un planını tartışarak geçirdik.
+696	<SCR=CONTINUE>Sonunda İmparatorluk'la irtibatı yeniden kurmak için Diana kruvazörünü güneye göndermeye karar verdik. Kuvvetlerimizin geri kalanı alelacele {glossary=Hiva,GLOSS_KHIVA}'ya ulaşıp saldırmak için hazırlığa girişti.
+697	<SCR=CONTINUE>Sevastopol yeni filonun sancak gemisi oldu.
+698	<SCR=CONTINUE>Bir ara subaylardan biri taarruza kimin komuta edeceğini sordu. Pyotr hazır bir planla hemen cevap verdi.
+699	<NPC=PETR><SIDE=0><NOSPEAK><SCR=CONTINUE>Ayağa kalktı ve kendinden emin konuştu. "İmparator'un başına ne geldiğini henüz kimse bilmiyor," dedi. "O hâlde hanedanın tek meşru varisi olan Büyük Dük, {glossary=Romani,GLOSS_ROMANI} Donanması'ndan geriye kalanlara bu taarruzda komuta etmelidir."
+700	<NPC=DAUD><SIDE=0><NOSPEAK><SCR=CONTINUE>Amiral {glossary=Davud,GLOSS_DAUD} bu fikre şiddetle karşı çıktı, ama öfkeli itiraz çığlıkları duyulmadı. Subaylar generalin önerisini hevesle destekledi. Taht varisinin bizzat başa geçmesi düşüncesi morallerine ilaç gibi geldi.
+701	<SCR=CONTINUE>Bana gösterdikleri oybirliğiyle destek elbette yüreklendiriciydi, ama aynı zamanda dehşete kapılmıştım.

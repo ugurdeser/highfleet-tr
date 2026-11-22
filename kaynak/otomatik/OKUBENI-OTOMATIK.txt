@@ -1,0 +1,141 @@
+================================================================
+  GEMINI ILE OTOMATIK TURKCELESTIRME
+  103 sprite, 3 asamali is hatti
+================================================================
+
+n8n mantigi: her sprite bir "is". Isler sirayla yurur, her isin
+durumu durum.json'a yazilir. Program yarida kesilirse ya da
+internet giderse, tekrar calistirdiginda kaldigi yerden devam
+eder. Ayni is iki kez ucretlendirilmez.
+
+
+----------------------------------------------------------------
+1. HAZIRLIK  (bir kere)
+----------------------------------------------------------------
+
+Gemini API anahtari al (ucretsiz katman var):
+
+    https://aistudio.google.com/apikey
+
+Anahtari SU DOSYAYA yapistir (en kolayi):
+
+    otomatik\anahtar.txt
+
+Yani: bu klasorde yeni bir metin belgesi olustur, adini
+anahtar.txt koy, ac, anahtari tek satir olarak yapistir,
+kaydet. Ornek icerik anahtar.ornek.txt dosyasinda.
+Basina # koydugun satirlar yorum sayilir, atlanir.
+
+Alternatif olarak ortam degiskeni de kullanabilirsin:
+
+    set GEMINI_API_KEY=AIza...          (sadece o pencere icin)
+    setx GEMINI_API_KEY "AIza..."       (kalici, yeni pencere ac)
+
+Program once ortam degiskenine, yoksa anahtar.txt'ye bakar.
+
+anahtar.txt kisisel bir dosyadir; yamayi paylasirken ICINE KOYMA.
+
+Python 3 ve Pillow gerekli. Pillow yoksa:  pip install pillow
+
+
+----------------------------------------------------------------
+2. ASAMALAR
+----------------------------------------------------------------
+
+ASAMA 1 - OKU
+    python pipeline.py --oku --klasor Desk1
+
+    gemini-2.5-flash her resmi gorur, uzerindeki Ingilizce yaziyi
+    okur ve Turkce karsiligini uretir. Sonuc ceviri.json'a yazilir.
+    Modele oyunun tonu (1950'ler Sovyet askeri havasi) ve resmin
+    piksel genisligi soylenir, boylece sigmayan karsilik onermez.
+
+    >>> BU ASAMADAN SONRA ceviri.json'u ACIP DUZELTEBILIRSIN. <<<
+    Ne yazarsa resme o cizilir. Cizim asamasindan once
+    gozden gecirmen tavsiye edilir.
+
+ASAMA 2 - CIZ
+    python pipeline.py --ciz --klasor Desk1
+
+    gemini-2.5-flash-image orijinal resmi ve hedef metni alir,
+    yazisi Turkce olan yeni resmi uretir.
+
+    Cikti  ->  cikti\<klasor>\<ad>.png
+    Kontrol->  karsilastirma\<klasor>__<ad>.png
+               (ustte orijinal, altta yeni, damali zemin uzerinde)
+
+    Program her ciktiyi otomatik olarak dogru piksel olcusune
+    zorlar ve orijinal seffaflik maskesini geri koyar.
+
+ASAMA 3 - UYGULA
+    python pipeline.py --uygula --klasor Desk1
+
+    cikti\ icindekiler calisma PNG'lerinin uzerine kopyalanir.
+    Sonra bir ust klasorde:
+
+        python geri_yukle.py          (kontrol, yazmaz)
+        python geri_yukle.py --yaz    (oyunun atlaslarina yazar)
+
+    Begenmedigin bir sprite'i uygulamadan once cikti\ icinden
+    silmen yeterli; o zaman dokunulmaz.
+
+
+----------------------------------------------------------------
+3. KOMUTLAR
+----------------------------------------------------------------
+
+  --oku            okuma + ceviri asamasi
+  --ciz            cizim asamasi
+  --uygula         ciktilari calisma dosyalarina kopyala
+  --durum          kac is hangi asamada, hatalar neler
+  --sifirla AD     o isi bastan yaptir (ornek: --sifirla title_exit)
+
+  --klasor AD      sadece bir atlas (Desk1, Mapmode1, Static3, ...)
+  --dosya AD       tek sprite (--dosya title_exit_eng)
+  --limit N        en fazla N is (once 1-2 tane deneyip bak)
+  --bekle SN       istekler arasi bekleme, varsayilan 4 sn
+                   kota hatasi alirsan buyut: --bekle 12
+
+Ilk denemede mutlaka kucuk basla:
+
+    python pipeline.py --oku --ciz --dosya title_exit_eng
+
+Tek bir sprite islenir, karsilastirma\ klasorunden sonuca bakarsin.
+
+
+----------------------------------------------------------------
+4. BEKLENTIYI DOGRU KUR
+----------------------------------------------------------------
+
+Goruntu modelleri resmi PIKSEL PIKSEL DUZENLEMEZ, yeniden URETIR.
+Yani 210x46'lik bir sprite geri geldiginde:
+
+  - yazi tipi orijinaliyle birebir ayni olmayabilir
+  - kart dokusu, yipranma izleri, golgeler degismis olabilir
+  - kenarlar yumusatilmis (anti-aliased) gelebilir; oyunun
+    yazi tipi keskin bitmap oldugu icin bu goze carpar
+  - model bazen istenen olcuyu vermez (program otomatik duzeltir,
+    ama yeniden boyutlandirma netligi biraz bozar)
+
+Bu yuzden hat, ciktiyi DOGRUDAN OYUNA YAZMAZ. Once cikti\
+klasorune koyar ve karsilastirma sayfasi uretir. Karar senin.
+
+Buyuk ve serbest resimlerde (posterler, ipucu kartlari, kutsal
+metin sayfalari) sonuc genelde iyi olur. Kucuk ve keskin menu
+etiketlerinde (210x46) sonuc tutmayabilir; orada Asama 1'i
+kullanip cizimi elle yapmak daha temiz durabilir.
+
+Her durumda orijinaller _orijinal\ klasorunde duruyor, oyunun
+atlaslarinin da .orig yedegi aliniyor. Geri donusu her zaman var.
+
+
+----------------------------------------------------------------
+5. MALIYET
+----------------------------------------------------------------
+
+103 sprite icin 103 okuma + 103 cizim cagrisi.
+Okuma cagrilari cok ucuz. Cizim cagrilari goruntu uretimi
+oldugu icin daha pahali. Ucretsiz katmanda gunluk istek siniri
+vardir; sinira takilirsan program 429 hatasi alip bekler ve
+tekrar dener, olmazsa o isi "hata" olarak isaretler.
+Ertesi gun ayni komutu calistirinca sadece kalanlari isler.

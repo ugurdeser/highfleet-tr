@@ -1,0 +1,79 @@
+2513	<TRG=TUTORIAL_REPAIR_PARTS|0><NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAPMODE_RP|1><NOBOTTOM>Gemilerimiz için yedek parça aldık. Stokta yedek parça oldukça onarımlar çok daha kısa sürecek.<SCR=STOP>
+2514	<NPC=PETR><SIDE=0><SHADOW=1>Buyurun Büyük Dük.
+2515	<ANS=Onarımlar çok uzun sürüyor Pyotr İgnatyeviç.>
+2516	<NPC=PETR>Mürettebat elinden geleni yapıyor Dük hazretleri. Bunu siz de en az benim kadar biliyorsunuz.
+2517	<ANS=Yetmiyor Pyotr. Bir güvenlik ekibi al ve onları ikna et. Gerekirse sert tedbirlere başvur. O gemilerin derhal onarılması lazım.>
+2518	<ANS=Anlıyorum Pyotr. Bu kadar yeter.|EXIT>
+2519	<NPC=PETR><NOSPEAK><SCR=CONTINUE>Bir an sessizlik oluyor. Sonra Pyotr sana selam veriyor.
+2520	<TRG=INTERCOM_PETR|1><NPC=PETR>Emredersiniz Dük. Gidebilir miyim?<SCR=STOP|ASK_REPAIR|PETR=-1>
+2521	<NPC=PETR>Emredersiniz Büyük Dük.<SCR=STOP|ASK_REPAIR|PETR=-1>
+2522	<NPC=VETERAN><SIDE=0><SHADOW=1>Buyurun Dük.<ANS=Amiral, insanları daha sıkı çalışmaya teşvik etmenin yollarını bildiğinizi duydum. Onarımlar çok uzun sürüyor. Bu işi benim için halledebilir misiniz?>
+2523	<NPC=VETERAN>Dük hazretleri, korkarım adamlarınız bir Cemaat gemisinde âdet olan türden sıkı disipline alışkın değil.
+2524	<ANS=Gemiler daha hızlı onarılmalı Amiral. Ne gerekiyorsa yapın, kimse sizi durdurmayacak. Size söz veriyorum.>
+2525	<ANS=Anlıyorum Amiral. Belki de bu pek iyi bir fikir değildi. Bu kadar yeter.|EXIT>
+2526	<TRG=INTERCOM_VETERAN|1><NPC=VETERAN>Pekâlâ Dük hazretleri. Size yardım edeceğim... ve bütün kirli işlerinizi sizin yerinize yapacağım.<SCR=STOP|ASK_REPAIR|VETERAN=-1>
+2527	<NPC=VETERAN>Pekâlâ Dük hazretleri. Bu konuda size yardım edeceğim.<SCR=STOP|ASK_REPAIR|VETERAN=-1>
+2528	<NPC=DAUD><SIDE=0><SHADOW=1>Buyurun Dük?<ANS=Amiral, seferimizin önemi konusunda mürettebatı ikna etmeme yardım etmenizi rica etmeliyim. Sözünüzün onlar üzerinde büyük ağırlığı var.>
+2529	<NPC=DAUD>Mürettebat savaşmayı boşuna reddetmedi Dük hazretleri. Bunun suçu sizin tedbirsizliklerinizde ve General Şahin'in hezeyanlarında. Daha önce de söyledim, yine söylüyorum: bu sefer en baştan beri pervasız bir girişimdi.
+2530	<ANS=Lütfen subaylarla konuşun Amiral. Yardımınıza ihtiyacım var.>
+2531	<ANS=Anlıyorum Amiral. Bu kadar yeter.|EXIT>
+2532	<TRG=INTERCOM_DAUD|1><NPC=DAUD>Babanıza kutsal bir yemin ettim ve bu şüpheli girişimin içinde hâlâ olmamın tek sebebi bu. Pekâlâ, subaylarla konuşacağım.<SCR=STOP|MORAL=5|DAUD=-1>
+2533	<NPC=DAUD>Subaylarla konuşacağım Dük hazretleri.<SCR=STOP|MORAL=5|DAUD=-1>
+2534	<NPC=OMAR><SIDE=0><SHADOW=1>Beni istemişsiniz efendim?<ANS=Seninle konuşmam gerek Ömer.>
+2535	<NPC=OMAR>Dinliyorum efendim.
+2536	<ANS=Bu savaş bize ağır bir bedel ödetti Ömer. Adamlarım yorgun. Birinin onların ruhunda iman ateşini yeniden tutuşturması lazım. Sen her Elaim için bir kahramansın ve sözünün ağırlığı büyük. Benim adıma adamlarla konuş. Morallerini yükselt! Onları umutsuzluktan kurtar!>
+2537	<NPC=OMAR>Bu savaşın ağır bir bedel ödettiğini söylüyorsunuz efendim. Peki bizi ne bekliyor? Yüce Allah'ın Hiva'yı bize vereceğinden emin misiniz? Ya çölün tam kalbine kadar bir serabın peşinden gidiyorsak?
+2538	<ANS=Adamlarla konuş Ömer. Yardımına ihtiyacım var.>
+2539	<ANS=Sen de mi bütün imanını yitirdin Ömer? Peki, ben bildiğim gibi yaparım. Bu kadar yeter.|EXIT>
+2540	<TRG=INTERCOM_OMAR|1><NPC=OMAR>Onlarla konuşacağım efendim. Ama korkarım benim imanımın bile bir sınırı var.<SCR=STOP|MORAL=5|OMAR=-1>
+2541	<NPC=OMAR>Onlarla konuşacağım efendim.<SCR=STOP|MORAL=5|OMAR=-1>
+2542	<NPC=FASIL><SIDE=0><SHADOW=1>Buyurun Dük?<ANS=Bu seferi finanse etmek için sizden borç istemek isterim Prens.>
+2543	<NPC=FASIL>Savaş masraflı bir iştir, öyle değil mi Dük hazretleri?
+2544	<ANS=Ne yazık ki kesinlikle öyle. Bana el uzatabilir misiniz Prens?>
+2545	<ANS=Fikrimi değiştirdim Prens. Kusura bakmayın. Bu kadar yeter.|EXIT>
+2546	<TRG=INTERCOM_FASIL|1><NPC=FASIL>Pekâlâ. Parayı denkleştiririm.<SCR=STOP|GOLD=10000|FASIL=-1>
+2547	<NPC=FASIL>Pekâlâ. Parayı denkleştiririm.<SCR=STOP|GOLD=10000|FASIL=-1>
+2548	<NPC=GIRL><SIDE=0><SHADOW=1>Benimle konuşmak mı istediniz efendim?<ANS=Size açık konuşacağım Düşes - bu sefer beklediğimizden çok daha pahalıya patlıyor. Anladığım kadarıyla aşiretiniz bütün Gerat'ın en zenginlerinden.>
+2549	<NPC=GIRL>Paranız mı bitti?
+2550	<ANS=Korkarım öyle. Bana el uzatabilir misiniz?>
+2551	<ANS=Kastettiğim bu değildi Düşes. Kusura bakmayın. Bu kadar yeter.|EXIT>
+2552	<TRG=INTERCOM_GIRL|1><NPC=GIRL>Anlıyorum Büyük Dük. Size yardım edeceğim.<SCR=STOP|GOLD=10000|GIRL=-1>
+2553	<NPC=GIRL>Borcu ayarlarım.<SCR=STOP|GOLD=10000|GIRL=-1>
+2554	<NPC=HARISHID><SIDE=0><SHADOW=1>Beni çağırmışsınız efendim?<ANS=İmlan, Vali'nin hizmetinde bir hayli {glossary=Harişid,GLOSS_HARISHIDS} olduğunu duydum. Düşmanın hareketleri hakkında istihbarata ihtiyacımız var. Belki eski dostlarından biri bu konuda bize yardım edebilir.>
+2555	<NPC=HARISHID><SCR=CONTINUE>Doğrudur efendim. Birçok {glossary=Harişid,GLOSS_HARISHIDS} şimdi Vali'ye hizmet ediyor ve hepsi bunu gönüllü yapmıyor.
+2556	<NPC=HARISHID>Ve evet, bizi haberdar edecek birini bulabilirim. Ama bu, o yiğit adamın canına mal olabilir, öyle değil mi?
+2557	<ANS=Savaş savaştır İmlan. Bu istihbarata ihtiyacımız var!>
+2558	<ANS=Anlıyorum. Sanırım bu kötü bir fikirmiş.|EXIT>
+2559	<TRG=INTERCOM_HARISHID|1><NPC=HARISHID>Size bu bilginin kaynağını bulacağım efendim. Ama bilin ki bu bana büyük acı veriyor.<SCR=STOP|ASK_INTEL|HARISHID=-1>
+2560	<NPC=HARISHID>Size bu bilginin kaynağını bulacağım efendim.<SCR=STOP|ASK_INTEL|HARISHID=-1>
+2561	<NPC=SCOUT><SIDE=0><SHADOW=1>Buyurun Dük hazretleri?<ANS=Tarhan, Gerat'ta gözlemci olarak bulunduğunuzu söylemiştiniz. Anlaşılan Cemaat'in hareketlerini gözlemleyen ajanlarınız da var? Mevzileri hakkında istihbarata ihtiyacımız var.>
+2562	<NPC=SCOUT>Bu bilgi elimizde olsa bile Dük hazretleri... böyle bir istihbaratı paylaşma iznim olmadığını elbette anlarsınız.
+2563	<ANS=O hâlde o izni almanın bir yolunu bulun Tarhan - seferimizin başarılı olmasını istiyorsanız.>
+2564	<ANS=Anlıyorum. Pekâlâ. Bu kadar yeter.|EXIT>
+2565	<TRG=INTERCOM_SCOUT|1><NPC=SCOUT><NOSPEAK><ANS=...>
+2566	<NPC=SCOUT>İhtiyacınız olan bilginin size ulaştırılmasını sağlayacağım Dük hazretleri.<SCR=STOP|ASK_INTEL|SCOUT=-1>
+2567	<NPC=SCOUT>Bu bilgiyi size sağlayacağım Dük hazretleri.<SCR=STOP|ASK_INTEL|SCOUT=-1>
+2568	<NPC=BOY><SIDE=0><SHADOW=1>Beni çağırmışsınız efendim?<ANS=Bilmem gereken bir şey var Alsahir. Yakınlarda Gizli Halk'ın bir şehri var mı, söyleyebilir misin?>
+2569	<NPC=BOY><NOSPEAK><SCR=CONTINUE>Çocuk sorun karşısında fena hâlde irkiliyor.
+2570	<NPC=BOY>Sayadi'nin Oğlu, ezelden beri korunan bir sırrı açık etmemi nasıl istersin? Bunu yalnızca halkım bilebilir!
+2571	<ANS=Bu savaşın hâli beni buna mecbur bıraktı. Adamlarımızın dinlenip gemilerimizin onarılabilmesi için Vali'nin noyanlarının bilmediği bir şehir bulmalıyız.>
+2572	<ANS=Anlıyorum. Lütfen beni bağışla. Bu konuyu kapatalım.|EXIT>
+2573	<NPC=BOY><NOSPEAK><SCR=CONTINUE>Çocuk bir an başını çevirip düşünüyor. Sana döndüğünde sesi kararlı.
+2574	<TRG=INTERCOM_BOY|1><NPC=BOY>Babam ahir zamanda yaşayacağımı söylemişti. Bu doğru olmalı, çünkü sana yardım etmeyi kabul ediyorum. Sana şehrimizi göstereceğim, Sayadi'nin oğlu.<SCR=STOP|ASK_HIDDEN|BOY=-1>
+2575	<NPC=BOY>Sana şehrimizi göstereceğim, Sayadi'nin oğlu.<SCR=STOP|ASK_HIDDEN|BOY=-1>
+2576	<NPC=HISSID><SIDE=0><SHADOW=1>Beni çağırmışsınız efendim?<ANS=Geldiğin için teşekkürler Nadir Bek. Lütfen kapıyı kapat. Önemli bir sorum var.>
+2577	<NPC=HISSID><ANS=Yakınlarda Gizli Halk'ın şehirleri var mı, söyleyebilir misin?>
+2578	<NPC=HISSID>(Korsan maskesinin ardından burnundan soluyor ve başını sallıyor) Gerçekten tuhaf bir soru Büyük Dük. Romaniler sırların, asla ifşa edilmedikleri için sır kaldığını elbette anlar, değil mi?
+2579	<ANS=Ama Aşiretler o şehirleri biliyor, öyle değil mi?>
+2580	<NPC=HISSID>Aşiretler her şeyi bilir.
+2581	<ANS=Öyledir.>
+2582	<NPC=HISSID>Peki gizli şehirleri herkes öğrenirse ne olur? Aşiretler gemilerine nerede yakıt alacak? Vali'nin noyanları gelip şeyhlerini de getirirse Aşiretler nerede ticaret yapacak?
+2583	<ANS=Bu savaşın hâli beni buna mecbur bıraktı. Senden, Vali'nin bilmediği bir sığınak istemek zorundayım; yaralarımızı sarıp adamlarımızın dinlenebileceği bir yer.>
+2584	<ANS=Ne demek istediğini anlıyorum. Sorduğumu unut.|EXIT>
+2585	<NPC=HISSID><SCR=CONTINUE>Mecbur mu kaldınız? Rüzgârın Ulu Anası aşkına! Bir Sayadi Büyük Dükü Korsan Aşiretleri'nden yardım istiyorsa, gerçekten gidecek başka yeriniz kalmamış demektir!
+2586	<NPC=HISSID><NOSPEAK><SCR=CONTINUE>Korsan kahkahayla gülüyor.
+2587	<TRG=INTERCOM_HISSID|1><NPC=HISSID>İsi Aşiretleri beni bunun için çarmıha gerse umurumda değil - size Gizli Halk'ın şehrini göstereceğim.<SCR=STOP|ASK_HIDDEN|HISSID=-1>
+2588	<NPC=HISSID>Size Gizli Halk'ın şehrini göstereceğim.<SCR=STOP|ASK_HIDDEN|HISSID=-1>
+2589	<NPC=AIRBORNE><SIDE=0><SHADOW=1>Buyurun Dük hazretleri?<ANS=Sizden bir ricam olacak Albay. Gerat'ta kalan Romani kaptanlarının çoğunun sizin emirlerinize uyduğunu biliyorum. Gemilerine acilen ihtiyacımız var.>
+2590	<NPC=AIRBORNE><NOSPEAK><SCR=CONTINUE>Yemelyan bir süre sözlerini düşünüyor.
+2591	<NPC=AIRBORNE><SCR=CONTINUE>Vali Hiva'da yönetimi ele geçirince, bir kaptanın Gerat'ta kendi gemisini elinde tutması çok tehlikeli oldu.

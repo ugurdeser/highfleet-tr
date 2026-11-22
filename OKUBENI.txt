@@ -1,0 +1,131 @@
+================================================================
+
+   H I G H F L E E T   -   T U R K C E   Y A M A
+   surum 1.1
+   Deus In Nobis (1.16) icin
+
+================================================================
+
+
+NE ICERIYOR
+----------------------------------------------------------------
+
+Bu yama iki ayri parcadan olusur. Ikisi bagimsizdir, birini kurup
+otekini kurmayabilirsin.
+
+  1. METIN YAMASI
+     Oyunun butun diyaloglari, gorevleri, arayuz yazilari, esya ve
+     gemi aciklamalari. 3376 metin parcasi, yaklasik 28 bin kelime.
+     Kurulumu tek tik, hicbir sey gerektirmez.
+
+  2. GORSEL YAMASI                                       (YENI)
+     Oyunun bazi yazilari metin dosyasinda degil, dogrudan resmin
+     icine cizilmistir. Ana menu bunlarin basinda gelir; bu yuzden
+     yalnizca metin yamasi kuruldugunda ana menu Ingilizce kalir.
+     Bu parca 45 sprite'i Turkcelestirir:
+
+       - ana menu (YENI OYUN, SEFER, TERSANE, AYARLAR, CIKIS...)
+       - masadaki ferman, mektuplar ve gemi kartlari
+       - yardim posterleri (manevra, art yakici, salvo atesi...)
+       - harita ekrani panelleri, telsiz, yakit ve muhimmat
+       - ucus paneli ve uyari levhalari
+       - kutsal metin sayfalari
+       - tersane etiketleri
+
+     Python gerektirir (asagida anlatiliyor).
+
+
+KURULUM
+----------------------------------------------------------------
+
+Oyun KAPALI olmali.
+
+  1. kur.bat            -> metin yamasini kurar
+  2. gorsel_kur.bat     -> gorsel yamasini kurar
+
+Ikisi de oyunu surucularinda kendi arar. Bulamazsa klasor yolunu
+sorar; Steam'de HighFleet'e sag tik > Yonet > Yerel dosyalara goz
+at diyerek acilan klasorun yolunu yapistir.
+
+Kurulum oncesi her dosyanin yedegi alinir.
+
+
+GORSEL YAMASI ICIN PYTHON
+----------------------------------------------------------------
+
+Gorsel yamasi, oyunun 4096x4096 boyutundaki texture atlaslarinin
+icine yazar. Hazir atlaslari dagitmak 177 MB tutardi ve oyunun
+dokunulmamis sanat varliklarini gereksizce cogaltirdi. Bunun
+yerine sadece degisen 45 sprite dagitiliyor ve SENIN kendi
+atlaslarinin uzerine isleniyor. Bu islem icin Python gerekiyor.
+
+Python yoksa:  https://www.python.org/downloads/
+Kurulum sirasinda "Add Python to PATH" kutusunu ISARETLE.
+
+gorsel_kur.bat eksik olan Pillow kutuphanesini kendisi kurar.
+
+Python kurmak istemiyorsan metin yamasi tek basina da calisir;
+sadece ana menu ve posterler Ingilizce kalir.
+
+
+KALDIRMA
+----------------------------------------------------------------
+
+  Gorseller icin:   gorsel_geri_al.bat
+  Metin icin:       oyun klasorunde Data\Dialogs\ icindeki
+                    english.seria_enc.orig dosyasini
+                    english.seria_enc olarak yeniden adlandir.
+
+Ya da Steam > HighFleet > Yonet > Oyun dosyalarinin butunlugunu
+dogrula. Bu her ikisini birden geri alir.
+
+
+BILINEN SINIRLAR
+----------------------------------------------------------------
+
+TURKCE KARAKTERLER (metin yamasinda)
+  Oyun HGE bitmap font kullaniyor ve 0x80-0xFF araligi tamamen
+  Kiril alfabesine ayrilmis; Turkce diakritikler icin yer yok.
+  Bu yuzden metinler ASCII'ye indirildi: GECIS IZNI, CIKIS...
+  Gorsel yamasinda boyle bir kisit yok, orada tam Turkce yazi
+  kullaniliyor.
+
+GORSELLER YENIDEN URETILDI
+  Sprite'lar Gemini goruntu modeliyle uretildi. Model resmi
+  piksel piksel duzenlemez, yeniden cizer. Boyut, konum ve
+  saydamlik korunur (her sprite dogrulanir), ama yazi tipi ve
+  doku orijinaliyle birebir ayni olmayabilir. Ozellikle buyuk
+  sahnelerde ince farklar goreceksin.
+
+DOKUNULMAYANLAR
+  - Haritadaki sehir isimleri (harita texture'ina gomulu)
+  - Tersane teknik cizimindeki Kiril basliklar (Ingilizce
+    surumde de Rusca duruyorlar, kasten birakildi)
+  - Madalyalar ve bazi kucuk sprite'lar henuz cevrilmedi
+  - Rusca yazili gorseller kasten oldugu gibi birakildi
+
+
+KLASOR DUZENI
+----------------------------------------------------------------
+
+  kur.bat                    metin yamasi kurulumu
+  gorsel_kur.bat             gorsel yamasi kurulumu
+  gorsel_geri_al.bat         gorselleri geri al
+  Yama\Data\Dialogs\         cevrilmis metin dosyasi
+  Yama\Gorseller\            45 sprite + manifest + yamalayici
+  kaynak\                    ceviriyi yeniden uretmek icin her sey
+  kaynak\otomatik\           gorselleri ureten Gemini is hatti
+
+
+LISANS VE TESEKKUR
+----------------------------------------------------------------
+
+Kaynak kodu (*.py, *.bat)  : MIT
+Ceviri metni ve gorseller  : CC BY-NC-SA 4.0
+
+seria_enc sifrelemesinin cozumu su projeye aittir:
+  stopnoanime/highfleet-dialog
+  https://github.com/stopnoanime/highfleet-dialog
+
+HighFleet'in butun haklari Konstantin Koshutin ve MicroProse'a
+aittir. Bu ucretsiz bir hayran calismasidir, satilamaz.

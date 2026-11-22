@@ -1,0 +1,101 @@
+1050	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DIANA'NIN DÖNÜŞÜ@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|PETR_DAUD_2|JOIN=Nomad,DAUD><SCR=SKIP|PETR_DAUD_21|JOIN=Nomad,DAUD>Bugün imkânsız bir şey oldu: Skobelev ile irtibatı yeniden kurmak üzere gönderilen "Diana" kruvazörümüz geri döndü!
+1051	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DIANA'NIN DÖNÜŞÜ@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Göklerden bir armağan, hem de tam zamanında! Ama mürettebatı bize daha da hayret verici bir şey getirdi: başkentten haberler...
+1052	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DIANA'NIN DÖNÜŞÜ@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Babam sağ ve sıhhatte!
+1053	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DIANA'NIN DÖNÜŞÜ@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Romani Donanması Yüksek Komutanlığı'nın yok edildiğini sanıyorduk, oysa hâlâ hayattalar. Ve başkentteki savaş hiç bitmedi - şu anda bile sürüyor...
+1054	<MUSIC=Bois><SCR=CONTINUE>Pyotr İgnatyeviç ile strateji görüşürken Amiral Davud kamarana dalıyor.
+1055	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Biliyordun!
+1056	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>Kapıda belirir belirmez bu sözleri Pyotr'a haykırıyor.
+1057	<NPC=DAUD><SIDE=-1>Yüksek Komutanlık'tan bir yayın aldın, öyle değil mi?!
+1058	<ANS=Neden bahsediyorsunuz Amiral?|PETR_DAUD_9>
+1059	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>Davud bir an sana bakıyor, sonra gözlerini yine Pyotr'a dikiyor.
+1060	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>O da mı biliyor?
+1061	<NPC=PETR><SIDE=1>Hayır Şerif. Bilmiyor.
+1062	<ANS=Burada neler oluyor? Açıklama istiyorum!|PETR_DAUD_12>
+1063	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Ur'da kaldığımız sırada General Şahin Yüksek Komutanlık'tan bir yayın aldı.
+1064	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Başkente dönmemiz için doğrudan bir emirdi.
+1065	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Ama bu emri bizden gizledi.
+1066	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Onun yerine hepimizi Yüksek Komutanlık'ın yok edildiğine ve güneydeki savaşın kaybedildiğine ikna etti!
+1067	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Biz de ona uyup bu çılgın taarruzu kabul ettik!
+1068	<NPC=PETR><SIDE=1><SCR=CONTINUE>Ki hâlâ başarılı olabilir. Hiva'yı ele geçirme fırsatı, Anavatan'da olup biten her şeyden çok daha mühim.
+1069	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Peki ya ailem Pyotr? Hâlâ başkentte olan karım ve çocuklarım?
+1070	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Ya İmparator? Ya yeminin?!
+1071	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>Davud sana dönüyor.
+1072	<NPC=DAUD><SIDE=-1>Dük, generali derhal tutuklamanızı talep ediyorum!
+1073	<ANS=Lütfen silahını teslim et Pyotr İgnatyeviç.|PETR_DAUD_UNARMED_1>
+1074	<ANS=Pyotr İgnatyeviç, Amiral Davud'u tutuklamanı emrediyorum.|PETR_DAUD_DISARM_FAIL>
+1075	<ANS=Bunu elbette barışçıl yoldan çözebiliriz.|PETR_DAUD_DISARM_FAIL>
+1076	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Pyotr dili tutulmuş hâlde sana bakıyor.
+1077	<NPC=PETR><SIDE=1>Mark, bir izin verseniz de...
+1078	<ANS=Hayır Pyotr İgnatyeviç. Bu kadarı yeter. Doğru olanı yapma vakti.|PETR_DAUD_DISARM|PRECHECK_KINDNESS=3|CHECK_KINDNESS=3>
+1079	<NPC=PETR><SIDE=1><NOSPEAK>Pyotr mahcup bir hâlde tabancasını sana veriyor.
+1080	<ANS=Güneye dönmeyeceğiz Amiral. Filomuzdan derhal ayrılmanızı öneririm.|PETR_DAUD_LEAVE_1>
+1081	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Demek siz de suç ortağısınız Dük...
+1082	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>Davud kaşlarını çatıp başını iki yana sallıyor.
+1083	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Öyle olsun. Hayırlı günler beyler.
+1084	<SCR=DAUD_DEPARTURE><SCR=STOP|LEAVE=DAUD>Kısa süre sonra sana birkaç geminin kalkıp filondan ayrıldığı ve güneye yöneldiği bildiriliyor.
+1085	<SCR=CONTINUE|PETR_DAUD_ARMED_2>Amiral Davud gözlerini sana dikiyor. Pyotr'un tabancasına uzandığını görüyorsun...
+1086	<SCR=CONTINUE><EVENT><SOUND=shoot_01>Sonra, bitişik mesafeden bir el ateş.
+1087	<SCR=CONTINUE|PETR_DAUD_ARMED_4|DEATH=DAUD><SOUND=bodyfall_01>İnanılmaz bir ağırlıkla, Amiral Davud ayaklarının dibine yığılıyor.
+1088	<SCR=CONTINUE>Haykırmak istiyorsun, ama sesin çıkmıyor.
+1089	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Ağır bir iç çekişle Pyotr beceriksizce tabancasını kılıfına sokmaya çalışıyor.
+1090	<NPC=PETR><SIDE=1><SCR=CONTINUE>Başka çare yoktu Dük.
+1091	<NPC=PETR><SIDE=1><SCR=CONTINUE>Onu sağ bıraksaydım subaylarımızın yarısı onun tarafına geçerdi.
+1092	<NPC=PETR><SIDE=1><NOSPEAK>Davud'un başının çevresinde kan birikmeye başlıyor.
+1093	<ANS=Pyotr... aklını kaçırdın Pyotr...|PETR_DAUD_ARMED_9>
+1094	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Ciğerlerinin boğazından çıkarabildiği tek söz bu. Zihnin hâlâ az önce olanı kavramaya çabalıyor.
+1095	<NPC=PETR><SIDE=1><SCR=CONTINUE>İmparator Hazretleri'nin Donanma Amirali...
+1096	<NPC=PETR><SIDE=1><SCR=CONTINUE>...Şerif Rahmatoviç Davud...
+1097	<NPC=PETR><SIDE=1><SCR=CONTINUE>...son derece acil bir vazife için yola çıktı.
+1098	<NPC=PETR><SIDE=1><SCR=CONTINUE>Adamlara böyle söyleyeceğim.
+1099	<NPC=PETR><SIDE=1><SCR=CONTINUE>Ve bu iş bittiğinde divanıharbe çıkacağım.
+1100	<NPC=PETR><SIDE=1><SCR=CONTINUE>Çıksanız iyi olur Dük. Bunu görmek zorunda değilsiniz.
+1101	<SCR=STOP|>Pyotr'u ve cesedi kötü bir rüya gibi arkanda bırakarak kamaradan sendeleyerek çıkıyorsun.
+1102	<NPC=PETR><SIDE=1><SCR=CONTINUE><MUSIC=Duduk_4_ever>Dük? Müsaadenizle...
+1103	<NPC=PETR><SIDE=1><SCR=CONTINUE>Beni üzerime çöken o cinnetten kurtardığınız için teşekkür etmek istedim. Affedilmez bir şey yapmak üzereydim.
+1104	<NPC=PETR><SIDE=1><SCR=STOP|PETR=3>Ne yapacağımı nereden bildiğinizi şu an bile bilmiyorum... ama size büyük bir borcum var.
+1105	<NPC=PETR><SIDE=1><SCR=CONTINUE>Bu da söylemem gerekeni söylemeyi benim için daha da zorlaştırıyor.
+1106	<NPC=PETR><SIDE=1><SCR=CONTINUE>Sizden bir gemi istemeye geldim Dük.
+1107	<NPC=PETR><SIDE=1><SCR=CONTINUE>Bu darboğazın her topu ve her çift eli işe koşmayı gerektirdiğini biliyorum, ama işte karşınızdayım, koca bir gemi istiyorum... ne olur, denememe izin verin!
+1108	<NPC=PETR><SIDE=1><SCR=CONTINUE>Davud'un peşinden gitmek istiyorum. Ona kendimi anlatmak ve umarım onu davanıza destek olmaya ikna etmek istiyorum.
+1109	<NPC=PETR><SIDE=1>O ve ben yıllardır dostuz. Ona söylemem gereken birkaç şey var.
+1110	<ANS=Şu anda güneye gitmek düpedüz delilik Pyotr - Davud seni dinlemeyi kabul etse bile!|PETR_DEPARTURE_9>
+1111	<NPC=PETR><SIDE=1><SCR=PETR_DEPARTURE>Denemem gerek Mark. Ne olur. Yalvarıyorum.
+1112	Pekâlâ. Sana SHIPNAME gemisini vereceğim (başarı ihtimali: XX%)|PETR_DEPARTURE_YES
+1113	Üzgünüm Pyotr İgnatyeviç, ama şu anda gitmene izin veremem.|PETR_DEPARTURE_NO_1
+1114	<NPC=PETR><SIDE=1><SCR=STOP|LEAVE=PETR>Teşekkür ederim Dük.
+1115	<NPC=PETR><SIDE=1><SCR=CONTINUE>Evet, tabii. Anlıyorum.
+1116	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Bunu ağır ağır ve güçlükle söylüyor.
+1117	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Her zamanki gibi selam verip geri dönüyor.
+1118	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Şimdi onda büyük bir fark var: duruşu, iki yanına gevşekçe sarkan kolları...
+1119	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Üzerinde derin, sözsüz bir umutsuzluk var.
+1120	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Birden fark ediyorsun ki Pyotr artık bunun iyi biteceğine inanmıyor.
+1121	<NPC=PETR><SIDE=1><SCR=STOP><NOSPEAK>Ağır bir yürekle yalnız kalıyorsun.
+1122	İMPARATORLUK HAZRETLERİ@10GENERAL ŞAHİN'DEN YENİ İSTİHBARAT ALDIKTAN SONRA HİVA TAARRUZUNDA SİZE DESTEK OLMAYA KARAR VERDİM. EMRİNİZİ BEKLİYORUM.@10AMİRAL DAVUD
+1123	<SCR=CONTINUE><SCR=SKIP|EXIT><MUSIC=Mellifluous>Kamaranda, haritalarınla baş başa oturuyorsun.
+1124	<BACKGROUND=background_ant>Dikkatle yeni bir rota çizerken haritanın üzerinde yürüyen bir karınca fark ediyorsun.
+1125	<ANS=(Karıncayı ez)|ANT_KILL_1>
+1126	<ANS=Bir kraliçe karınca... bu nereden geldi?|ANT_3>
+1127	<ANS=(Karıncayı ez)|ANT_KILL_1>
+1128	<ANS=Pencereden uçarak girmiş olmalı.|ANT_4>
+1129	<ANS=(Karıncayı ez)|ANT_KILL_1>
+1130	<ANS=Harika. Şimdi buraya yumurta bırakacak ve kamaram karınca kaynayacak.|ANT_5>
+1131	<ANS=(Karıncayı ez)|ANT_KILL_1>
+1132	<ANS=...|ANT_6>
+1133	<ANS=(Karıncayı ez)|ANT_KILL_1>
+1134	<ANS=Seni neden öldüremiyorum ki?|ANT_7>
+1135	<ANS=(Karıncayı ez)|ANT_KILL_1>
+1136	<ANS=Akılsız böcek... bir yuvanın pis bir köşesindeki iğrenç bir yumurtadan çıkmış.|ANT_8>
+1137	<ANS=(Karıncayı ez)|ANT_KILL_1>
+1138	<ANS=Ve şimdi doğduğun yer gibi başka bir pis köşe bulmayı düşlüyorsun.|ANT_9>
+1139	<ANS=(Karıncayı ez)|ANT_KILL_1>
+1140	<ANS=Şu anda sana seslendiğimin farkında bile değilsin.|ANT_10>
+1141	<ANS=Herhâlde beni çok büyük bir karınca sanıyorsun.|ANT_11>
+1142	<ANS=(Karıncayı ez)|ANT_KILL_1>
+1143	<ANS=Seni yemek istediğimi sanıyorsun, değil mi?|ANT_12>
+1144	<ANS=(Karıncayı ez)|ANT_KILL_1>
+1145	<ANS=Ve gemime çıktığının farkında bile değilsin.|ANT_13>
+1146	<ANS=(Karıncayı ez)|ANT_KILL_1>
+1147	<ANS=Geminin ne olduğunu bile bilmiyorsun.|ANT_14>
+1148	<ANS=(Karıncayı ez)|ANT_KILL_1>
+1149	<ANS=Bu bilgi sana kapalı. Çok büyük, anlaşılması imkânsız...|ANT_15>
+1150	<ANS=(Karıncayı ez)|ANT_KILL_1>

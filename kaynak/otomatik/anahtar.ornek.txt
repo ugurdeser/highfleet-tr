@@ -1,0 +1,4 @@
+# Gemini API anahtarini asagidaki satira yapistir ve kaydet.
+# Anahtari buradan alabilirsin: https://aistudio.google.com/apikey
+# Satir "AIza" ile baslamali. Bu dosyayi kimseyle paylasma.
+

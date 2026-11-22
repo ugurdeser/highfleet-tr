@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Windows toplu dosyaları CRLF kalmalı: LF ile goto/etiketler bozulabiliyor
+*.bat text eol=crlf
+
+# Oyun dosyası ve görseller ikili, dokunulmasın
+*.seria_enc binary
+*.png binary

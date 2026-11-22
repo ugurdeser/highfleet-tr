@@ -1,0 +1,94 @@
+775	Bu sözleri söyler söylemez {glossary=prens,GLOSS_FASIL} arkasını dönüp kırgın bir hâlde ayrılıyor.<SCR=CONTINUE|ISAIAH_1_RES_1_KN|FASIL=-1>
+776	{glossary=Prens,GLOSS_FASIL} gülümseyerek sözlerini başıyla onaylıyor.<SCR=CONTINUE|ISAIAH_1_RES_2_KN|FASIL=1>
+777	<SCR=CHECK_JOINED|KNIGHT|ISAIAH_1_RES_1_HA><SCR=CONTINUE|ISAIAH_1_RES_1_GL|KNIGHT=-1><NPC=KNIGHT><SIDE=0>Bu nasıl olur?!
+778	<SCR=CHECK_JOINED|HARISHID|ISAIAH_1_RES_1_HI><SCR=CONTINUE|ISAIAH_1_RES_1_GL|HARISHID=-1><NPC=HARISHID><SIDE=0>Bu nasıl olur?!
+779	<SCR=CHECK_JOINED|HISSID|ISAIAH_1_RES_1_GL><SCR=CONTINUE|ISAIAH_1_RES_1_GL|HISSID=-1><NPC=HISSID><SIDE=0>Bu nasıl olur?!
+780	<SCR=CHECK_JOINED|GIRL|ISAIAH_1_RES_1_BO><SCR=STOP|GIRL=1><NPC=GIRL><SIDE=0>Bütün bunları bir düşünmem lazım.
+781	<SCR=CHECK_JOINED|BOY|ISAIAH_1_RES_1_PT><SCR=STOP|BOY=1><NPC=BOY><SIDE=0>Bütün bunları bir düşünmem lazım.
+782	<SCR=CHECK_JOINED|PETR|EXIT><SCR=STOP|PETR=1><NPC=PETR><SIDE=0>Bütün bunları bir düşünmem lazım.
+783	<SCR=CHECK_JOINED|KNIGHT|ISAIAH_1_RES_2_HA><SCR=CONTINUE|ISAIAH_1_RES_2_AR|KNIGHT=1><NPC=KNIGHT><SIDE=0>Bize işte böyle bir önder lazım.
+784	<SCR=CHECK_JOINED|HARISHID|ISAIAH_1_RES_2_HI><SCR=CONTINUE|ISAIAH_1_RES_2_AR|HARISHID=1><NPC=HARISHID><SIDE=0>Bize işte böyle bir önder lazım.
+785	<SCR=CHECK_JOINED|HISSID|ISAIAH_1_RES_2_AR><SCR=CONTINUE|ISAIAH_1_RES_2_AR|HISSID=1><NPC=HISSID><SIDE=0>Bize işte böyle bir önder lazım.
+786	<SCR=CHECK_JOINED|AIRBORNE|ISAIAH_1_RES_2_SC><SCR=STOP|AIRBORNE=-1><NPC=AIRBORNE><SIDE=0>Ne saçmalık!
+787	<SCR=CHECK_JOINED|SCOUT|ISAIAH_1_RES_2_VE><SCR=STOP|SCOUT=-1><NPC=SCOUT><SIDE=0>Ne saçmalık!
+788	<SCR=CHECK_JOINED|VETERAN|EXIT><SCR=STOP|VETERAN=-1><NPC=VETERAN><SIDE=0>Ne saçmalık!
+789	<SCR=CONTINUE><SCR=SKIP|ISAIAH_1_27><MUSIC=Duduk_4_ever>İçeri girdiğini hiç görmedim...
+790	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>Bir an başımı çevirmiştim, ama geri döndüğümde tam karşımda duruyordu.
+791	<NPC=BOY><SIDE=0><SCR=CONTINUE>Ömer bana bir şeyhin ölüm döşeğinde kodasını okuduğunu söyledi.
+792	<NPC=BOY><SIDE=0><SCR=CONTINUE>Daha önce kimse kodaları okuyamamıştı ki... (Derin düşüncelere dalmış hâlde söylüyor.)
+793	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>Tanıdık görünen bir kutu tutarak sana uzanıyor.
+794	<NPC=BOY><SIDE=0><SCR=CONTINUE>Benimkini de oku, ne olur!
+795	<SCR=ISAIAH|2><MUSIC=Yeshoua><ANS="Bütün ıstırabımızı o üstlendi..."|ISAIAH_2_8>
+796	<ANS="...Günahlarımız yüzünden yaralarla kaplandı..."|ISAIAH_2_9>
+797	<ANS="...Ve onun yaraları bizi iyileştirdi."|ISAIAH_2_10>
+798	<NPC=BOY><SIDE=0><SCR=ISAIAH_OFF>Bu ne demek?
+799	<ANS=Cezamızı bizim yerimize o çekecek.|ISAIAH_2_11>
+800	<NPC=BOY><SIDE=0>Cezamızı mı? Ne için?
+801	<ANS=Bütün günahlarımız için.|ISAIAH_2_12>
+802	<NPC=BOY><SIDE=0>Ne günahı? Ben hiç günah işlemedim ki!
+803	<ANS=Elbette işlemedin Alsahir. Beni bağışla.|ISAIAH_2_16|BOY=1>
+804	<ANS=Sıradan bir insanın bunu yapabileceğine inanmak bana zor geliyor.|ISAIAH_2_PARA_1>
+805	<ANS="Ömrümüzün tam ortasında..."|ISAIAH_2_13>
+806	<NPC=BOY><SIDE=0>
+807	<ANS=Bir ihtiyar bir zamanlar bir delikanlıya bir çuval taşı nehir kıyısına taşımasını söylemiş...|ISAIAH_2_PARA_2>
+808	<NPC=BOY><SIDE=0>
+809	<ANS=Sonra ona taşları çuvaldan dökmesini, ardından toplayıp geri koymasını söylemiş. Delikanlı bunu kolayca yapmış.|ISAIAH_2_PARA_3>
+810	<NPC=BOY><SIDE=0>
+811	<ANS=Sonra ihtiyar aynısını bir çuval kumla yapmasını söylemiş.|ISAIAH_2_PARA_4>
+812	<NPC=BOY><SIDE=0>
+813	<ANS=Ama delikanlı döktüğü kumun hepsini toplayamamış.|ISAIAH_2_PARA_5>
+814	<NPC=BOY><SIDE=0>
+815	<ANS=Günahlarımız çoğu zaman o kadar küçüktür ki onları görmez oluruz, oysa kum taneleri kadar çokturlar.|ISAIAH_2_16>
+816	<NPC=GOVERNOR><SIDE=0><FADEAWAY=1><BACKGROUND=empty_night><NOSPEAK><SCR=CONTINUE>"...kendimi karanlık bir ormanda buldum, yolumu şaşırmış..."
+817	<NPC=GOVERNOR><SIDE=0><FADEAWAY=1><NOSPEAK><SCR=CONTINUE>"...doğru yoldan sapmış."
+818	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK><BACKGROUND_OFF>Çocuk sana hiçbir şey anlamamış bir ifadeyle bakıyor.
+819	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>Bir anlık sessizlikten sonra soruyor...
+820	<NPC=BOY><SIDE=0>Babamı öldüren adamların cezasını da o mu çekecek?
+821	<ANS=Herkes bağışlanacak.|ISAIAH_2_MERCI_1|LEVEL_KINDNESS=1>
+822	<ANS=Bağışlanmayı hak eden herkes bağışlanacak.|ISAIAH_2_JUST_1|LEVEL_RIGHT=1>
+823	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>Çocuğun gözlerindeki bakış birden değişiyor.
+824	<NPC=BOY><SIDE=0><SCR=CONTINUE>Asla! O alçaklar hak ettiklerini bulacak! (Bu sözleri suratına haykırıyor.)
+825	<NPC=BOY><SIDE=0><SCR=CONTINUE|ISAIAH_2_RES_1_1|BOY=-1>Az önce okuduğun her şey beyhude. Hiçbir anlamı yok!
+826	<NPC=BOY><SIDE=0><SCR=CONTINUE|ISAIAH_2_RES_2_1|BOY=1>Öyle olsun.
+827	<SCR=CHECK_JOINED|HISSID|ISAIAH_2_RES_1_2><SCR=CONTINUE|ISAIAH_2_RES_1_2|HISSID=1><NPC=HISSID><SIDE=0>Eğer hakikat buysa...
+828	<SCR=CHECK_JOINED|SCOUT|EXIT><SCR=STOP|SCOUT=-1><NPC=SCOUT><SIDE=0>Bu tehlikeli bir fikir Dük.
+829	<SCR=CHECK_JOINED|OMAR|ISAIAH_2_RES_2_2><SCR=CONTINUE|ISAIAH_2_RES_2_2|OMAR=1><NPC=OMAR><SIDE=0>Öyle olsun.
+830	<SCR=CHECK_JOINED|VETERAN|EXIT><SCR=STOP|VETERAN=-1><NPC=VETERAN><SIDE=0>(Elini sallayarak) Umutların beyhude Dük.
+831	<NPC=OMAR><SIDE=-1><SCR=CONTINUE><SCR=SKIP|ISAIAH_3_10><MUSIC=Duduk_4_ever>Sizinle konuşmama izin verin efendim.
+832	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>Ailemin de el üstünde tuttuğu bir kodası var. Bunu sır olarak sakladık.
+833	<NPC=OMAR><SIDE=-1>Kral olarak kraliyet mirasımızın delilidir. Onu açık etmek yasaktır... vakti gelene dek.
+834	<ANS=Yani ailenden birinin Gerat kralı olma ihtimali doğarsa, bu koda onun taht hakkının delili mi sayılacak?|ISAIAH_3_4>
+835	<NPC=OMAR><SIDE=-1>Evet.
+836	<ANS=Ve bana bundan bahsettin, çünkü onu senin için okumamı umuyorsun, öyle mi?|ISAIAH_3_5>
+837	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>Evet efendim.
+838	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>Ailem onu gözü gibi korur, ama ne yazdığını bilmeyiz. Ama siz ihtiyarın kodasını, sonra da Fazıl'ın kodasını okuyunca...
+839	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>...onun da bir kehanet içermesi gerektiğini anladım.
+840	<NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK>Ömer sana küçük bir kutu veriyor.
+841	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>Lütfen bana ne dediğini söyleyin.
+842	<SCR=ISAIAH|3><MUSIC=Yeshoua>
+843	<ANS="O bir kuzu gibidir..."|ISAIAH_3_LAMB_1>
+844	<ANS="O bir aslan gibidir..."|ISAIAH_3_LION_1>
+845	<ANS="Aşağılanmış, sesi kesilmiştir."|ISAIAH_3_LAMB_2>
+846	<ANS="Kurbanlığa götürülen bir kuzu gibi."|ISAIAH_3_WEAKENESS_1|LEVEL_FORCE=-1>
+847	<ANS="Gazabı korkunçtur! Kim ona karşı durabilir?"|ISAIAH_3_LION_2>
+848	<ANS="Kuvveti Allah'ıdır! Kim onun karşısında dikilebilir?"|ISAIAH_3_FORCE_1|LEVEL_FORCE=1>
+849	<SCR=ISAIAH_OFF><NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK>Ömer cevap vermeden önce uzun uzun düşünüyor.
+850	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>"Öteki yanağını dön" - sizin halkınız böyle öğretmiyor mu?
+851	<NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK>Bakışlarına karşılık vermiyor. Yüzünde acı bir gülümseme beliriyor.
+852	<NPC=OMAR><SIDE=-1><SCR=CONTINUE|ISAIAH_3_WEAKENESS_5|OMAR=-1>Üzgünüm efendim. Dünya böyle işlemiyor.
+853	<NPC=OMAR><SIDE=-1><SCR=STOP><NOSPEAK>Kodasını alıp başka bir şey söylemeden gidiyor.
+854	<SCR=ISAIAH_OFF><NPC=OMAR><SIDE=-1><SCR=CONTINUE>Anlıyorum...
+855	<NPC=OMAR><SIDE=-1><SCR=CONTINUE|ISAIAH_3_FORCE_3|OMAR=1><NOSPEAK>Her zamanki gibi Ömer gözlerine bakmıyor. Ama içten içe seni göz ucuyla dikkatle süzdüğünü hissediyorsun.
+856	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>Yüce Allah onu bize bir an önce göndersin.
+857	<NPC=OMAR><SIDE=-1><SCR=STOP>Sözlerinizi halka ileteceğim.
+858	<SCR=CONTINUE><SCR=SKIP|PROPHET_OMAR_END><MUSIC=Duduk_4_ever><RAM=1>Taarruza başlamak üzere {glossary=Hiva,GLOSS_KHIVA}'ya hareket etmemize günler kalmıştı ki altın maskeli o tuhaf {glossary=Elaim,GLOSS_ELAIM} bana yaklaştı.
+859	Hiçbir <SCR=CONTINUE>{glossary=Elaim,GLOSS_ELAIM} açık havaya uzun süre dayanamaz, bu yüzden birçoğu yüzünü gizler. Buna alışmıştım.
+860	<SCR=CONTINUE>Ama bu diğerlerine benzemiyordu. Yanından geçerken insanlar fısıldaşmaya başlıyordu. Diğer {glossary=Elaimler,GLOSS_ELAIM} ona "Alsahir" diyor ve ona ayrı bir hürmet gösteriyorlardı.
+861	<SCR=CONTINUE>{glossary=Davud,GLOSS_DAUD}'un onu sorguladığını biliyorum. Sevastopol'de kendisiyle gelen insanlar hakkında konuşturmaya çalışmış. Ama anlaşılan pek yol alamamış.
+862	<SCR=CONTINUE>Bu Elaim, Sevastopol'ün mürettebatını gemiyi Ur'a götürmeye ikna etmiş; onun hakkında bildiğimiz tek şey bu. Onları neyle ikna ettiğini tahmin bile edemiyorum, ama bunu yaparak ebedi minnetimizi kazandı. Kruvazör bizim tarafımızda olmasa {glossary=Hiva,GLOSS_KHIVA} taarruzu imkânsız olurdu.
+863	<NPC=PROPHET><SIDE=-1><SCR=CONTINUE>Büyük Dük? Sizinle konuşmama izin verin.
+864	<NPC=PROPHET><SIDE=-1><NOSPEAK>Sesini ilk kez o zaman duydum. Maske sesi öyle boğuyordu ki yaşını kestiremedim.<SCR=CONTINUE>
+865	<NPC=PROPHET><SIDE=-1>Gerat {glossary=tarhanlarının,GLOSS_TARKHAN} {glossary=Hiva,GLOSS_KHIVA}'ya karşı sizi desteklemesini umduğunuzu biliyorum. Nam salmış Ömer Han, Ur'un <DIRECTION_TARKHAN=OMAR> tarafında sığınak bulmuş. Size sadık bir müttefik olabileceğine inanıyorum.<SCR=CONTINUE>
+866	<NPC=PROPHET><SIDE=-1><SCR=CONTINUE>Onunla görüşürseniz, ona bunu vermenizi rica ediyorum...
+867	<NPC=PROPHET><SIDE=-1><NOSPEAK>Maskeli Elaim sana küçük, zarif bir kap uzatıyor.<SCR=CONTINUE>
+868	Elaim sana eğilip selam veriyor ve gidiyor.

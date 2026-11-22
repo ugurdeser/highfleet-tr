@@ -1,0 +1,12 @@
+#! satir_no <TAB> tam satir icerigi (anahtar dahil) - Kiril filtresinin atladigi satirlar
+458	#DEATH	KARAKTER ÖLDÜ
+723	#TUTORIAL_RADIO_IN_3	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_SCAN|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_SCAN><ACTIVE=RADIO_SCAN>Şimdi sinyali yakalayana kadar düğmeyi çevirin ( {animation=WHL} veya {animation=HOLD_AND_DRAG} ).
+725	#TUTORIAL_RADIO_IN_5	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_BEARING_SWITCH|1><BLUR_POS=0.2|0.7><GLOW_GUI=RADIO_BEARING_SWITCH><ACTIVE=RADIO_BEARING_SWITCH><SMILE>Harika, sinyali yakaladık! Şimdi {glossary=kerterizlerini,GLOSS_PELENG} tespit etmemiz gerek. Anten düğmesini çevirin ( {animation=WHL} veya {animation=HOLD_AND_DRAG} ).@10Sinyalin en güçlü olduğu yönü bulun.
+1867	#MDL_CANNON_180	MK-1-180
+1871	#MDL_CANNON_180_2	MK-2-180 SARMAT
+1875	#MDL_CANNON_305_2	MK-6-180 SQUALL
+2248	#AIMING_ADAPTIVE	UYARLANIR ARTI
+2357	#ENDWAR_BRIEFING_OBJ3	İSTİHBARAT:@Balistik füzeler, nükleer başlıklı A-100N füzelerine karşı savunmasız olabilir.
+3188	#HIDDEN_CITY_01_5	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}GİZLİ HALK@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CHECK_JOINED|DAUD|EXIT><SCR=CONTINUE>"Ah, gözümde canlandırabiliyorum!" diye söze karışıyor Davud. "İyi bir çiftçi olurdunuz General."
+3527	#PROFILE_RESET2	kazanılan puanlar profil bonusuna eklenecek. Devam edilsin mi?
+4296	Seri atışlar yapmaya çalış. Mühimmat kasetini boşalt ve dolarken manevra yap.
