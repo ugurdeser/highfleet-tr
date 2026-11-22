@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" alt="HighFleet TR" width="600">
+</p>
+
 # HighFleet Türkçe Yama
 
 [HighFleet](https://store.steampowered.com/app/1434950/HighFleet/) için hayran yapımı Türkçe çeviri.
